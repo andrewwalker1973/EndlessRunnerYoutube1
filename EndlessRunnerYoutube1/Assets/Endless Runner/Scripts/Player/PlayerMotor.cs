@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerMotor : MonoBehaviour
 {
     // Private Variables
-    private const float LANE_DISTANCE = 1f;                 //define the lane width
+    private const float LANE_DISTANCE = 2f;                 //define the lane width
     private const float TURN_SPEED = 0.05f;                 // As character moves across less turn a bit in direction of movement   
-    private float jumpForce = 4f;                           // Jump force to be applied to player
+    private float jumpForce = 6f;                           // Jump force to be applied to player
     private float gravity = 12f;                            // Definition of gravity for the game
     private float verticalVelocity;                         // Float to manage the vertical movement of the player when jumping
     // Player Objects
@@ -16,9 +16,10 @@ public class PlayerMotor : MonoBehaviour
     public GameObject Player;                               // Reference to the player object
     private int desiredLane = 1;                             // Which Lane to start in 0=left 1=middle 2=right 
     private bool isRunning = false;                         // Character is not yet running so set to false
+    private bool isSliding = false;                         // determine if we are sliding or not
     // speed Modifier variables
-    private float originalSpeed = 9.0f;                     // Speed at beginning of game
-    private float speed = 9.0f;                             // Float to manage current speed
+    private float originalSpeed = 9.0f;                     // Speed at beginning of game  // was 9
+    private float speed =9.0f;                             // Float to manage current speed // was 9 
     private float speedIncreaseLastTick;                    // Speed increase float
     private float speedIncreaseTime = 2.5f;                 // how often to increase the speed
     private float speedIncreaseAmount = 0.1f;               // How much to increase speed by
@@ -35,10 +36,16 @@ public class PlayerMotor : MonoBehaviour
     private void Update()
     {
 
-        //    if (!isRunning)                                       // if is running false then game not started so return from function
-        //     {
-        //        return;                                           // if game is not started, dont run below code
-        //    }
+        //TEMPcode to start running
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            StartRunning();
+        }
+
+        if (!isRunning)                                       // if is running false then game not started so return from function
+        {
+            return;                                           // if game is not started, dont run below code
+        }
 
 
         // Section to manage speed increase over time
@@ -53,19 +60,15 @@ public class PlayerMotor : MonoBehaviour
 
         // }
 
-        //TEMPcode to start running
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-           anim.SetTrigger("StartRunning");
-        }
+
 
         // gather the inputs on which lane we should be in
 
-        if ((MobileInput.Instance.SwipeLeft) || (Input.GetKeyDown(KeyCode.LeftArrow)))         // if Mobile or keyboard input swipe left or left arrow
+        if ((MobileInput.Instance.SwipeLeft) || (Input.GetKeyDown(KeyCode.LeftArrow)))         // if Mobile or keyboard input swipe left or left arrow sp long a we are not sliding
         {
             MoveLane(false);                                                                    // Run move lane function passing in False variable
         }
-        if ((MobileInput.Instance.SwipeRight) || (Input.GetKeyDown(KeyCode.RightArrow)))        // if Mobile input swipe right
+        if ((MobileInput.Instance.SwipeRight) || (Input.GetKeyDown(KeyCode.RightArrow)))        // if Mobile input swipe right so long a we are not sliding
         {
             MoveLane(true);                                                                     // Run move lane function passing in False variable
         }
@@ -85,7 +88,6 @@ public class PlayerMotor : MonoBehaviour
         // Calcuate move vector
         Vector3 moveVector = Vector3.zero;                                                      // Create and set movevector to be zero
         moveVector.x = (targetPosition - transform.position).x * speed;                         // move on x is target position - current position.x * speed moving
-        Debug.Log("ISGrounded " + controller.isGrounded);
         // Calc Y movement
 
         if (controller.isGrounded)                                                              //if charcter controller is grounded
@@ -96,9 +98,13 @@ public class PlayerMotor : MonoBehaviour
             if (MobileInput.Instance.SwipeUp || Input.GetKeyDown(KeyCode.UpArrow))              // if swipe up or up arrow then we are Jumping
             {
                 //Jumping section
+                if (isSliding)                                                                  //if we are sliding and jump
+                {
+                    anim.SetBool("Sliding", false);                                                         // Stop the animation for sliding
+                    isSliding = false;                                                                       // we have stopped sliding
+                }
                 anim.SetTrigger("Jump");                                                        // Run the Jump Animtion
                 verticalVelocity = jumpForce;                                                   // Apply jump force to vertical velocity
-                Debug.Log("Jumping");
             }
             else if (MobileInput.Instance.SwipeDown || Input.GetKeyDown(KeyCode.DownArrow))     // if swipe down or down arrow then slide player
             {
@@ -130,7 +136,7 @@ public class PlayerMotor : MonoBehaviour
             transform.forward = Vector3.Lerp(transform.forward, dir, TURN_SPEED);               // rotate the player in direction of the lane change turn
 
         }
-       // verticalVelocity = -0.1f;                                                           // give a little downward force to give move solid look
+       
     }
 
     private void MoveLane(bool goingRight)                                                      // Function to MoveLane
@@ -151,6 +157,7 @@ public class PlayerMotor : MonoBehaviour
     private void StartSliding()                                                                 // Function to manage the slide 
     {
         anim.SetBool("Sliding", true);                                                          // Set the sliding animation to be true
+        isSliding = true;                                                                       // we are currently sliding
         controller.height /= 2;                                                                 // Half the defined controller height to go under obstacles
         controller.center = new Vector3(controller.center.x, controller.center.y / 2, controller.center.z); // reset the center of the controler to allow player to fit under obstacles
         Invoke("StopSliding", 1.0f);                                                            // Invoke the stopSliding function after 1 second
@@ -159,6 +166,7 @@ public class PlayerMotor : MonoBehaviour
     private void StopSliding()                                                                  // Function to stop Sliding
     {
         anim.SetBool("Sliding", false);                                                         // Stop the animation for sliding
+        isSliding = false;                                                                       // we have stopped sliding
         controller.height *= 2;                                                                 // Restet controler height to normal
         controller.center = new Vector3(controller.center.x, controller.center.y * 2, controller.center.z); // reset the controller center back to normal
 
