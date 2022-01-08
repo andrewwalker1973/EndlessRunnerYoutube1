@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class PlayerMotor : MonoBehaviour
 {
@@ -24,13 +25,17 @@ public class PlayerMotor : MonoBehaviour
     private float speedIncreaseTime = 2.5f;                 // how often to increase the speed
     private float speedIncreaseAmount = 0.1f;               // How much to increase speed by
 
-
+    private CameraSwitcher theCameraSwitcher;
+    [SerializeField] private CinemachineVirtualCamera StandingCamera;
+    [SerializeField] private CinemachineVirtualCamera FollowCamera;
 
     private void Start()
     {
         speed = originalSpeed;                              // Set current speed to be original starting speed
         controller = GetComponent<CharacterController>();   // reference attached character controller on player object
         anim = GetComponent<Animator>();                    // Reference Animator on player object
+        StandingCamera.Priority = 1;
+        FollowCamera.Priority = 0;
     }
 
     private void Update()
@@ -39,6 +44,7 @@ public class PlayerMotor : MonoBehaviour
         //TEMPcode to start running
         if (Input.GetKeyDown(KeyCode.S))
         {
+           // theCameraSwitcher.FollowCamerA();
             StartRunning();
         }
 
@@ -136,7 +142,7 @@ public class PlayerMotor : MonoBehaviour
             transform.forward = Vector3.Lerp(transform.forward, dir, TURN_SPEED);               // rotate the player in direction of the lane change turn
 
         }
-       
+      
     }
 
     private void MoveLane(bool goingRight)                                                      // Function to MoveLane
@@ -150,6 +156,9 @@ public class PlayerMotor : MonoBehaviour
 
     public void StartRunning()                                                                  // Function to let game know to start the player running
     {
+        Debug.Log("camera " + StandingCamera);
+        SwitchPriority();
+
         isRunning = true;                                                                       // Set isruning to be true
         anim.SetTrigger("StartRunning");                                                        // Start the Animation for running
     }
@@ -172,5 +181,19 @@ public class PlayerMotor : MonoBehaviour
 
     }
 
-  
+    public void SwitchPriority()
+    {
+        Debug.Log("IN function");
+        if (StandingCamera)
+        {
+            FollowCamera.Priority = 1;
+            StandingCamera.Priority = 0;
+        }
+        else
+        {
+            FollowCamera.Priority = 0;
+            StandingCamera.Priority = 1;
+        }
+
+    }
 }

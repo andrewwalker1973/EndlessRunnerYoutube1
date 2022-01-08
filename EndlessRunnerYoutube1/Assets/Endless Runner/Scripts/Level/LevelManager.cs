@@ -13,7 +13,7 @@ public class LevelManager : MonoBehaviour
     private const int INITIAL_TRANSITION_SEGMENTS = 2;  // how many trasition segmests to inital create
     public int TranspooledAmount = 6;                   // how many transition pool pieces to create
     public int TrackPieceCount = 0;                     // Define inital count of Track pieces
-    private float trackLength = 15.2f;                     // how long is the track piece
+    private float trackLength = 30.4f;                     // how long is the track piece
 
 
     public GameObject[] LevelSegments;                          // Create array of level pieces defined in inspector for pool to pick from
