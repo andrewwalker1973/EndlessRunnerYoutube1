@@ -1,34 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
+
+// This script allows for the camera to be posioned facing the side of the player
+// and then chnage to follow when the game starts
 public class CameraSwitcher : MonoBehaviour
 {
 
-    [SerializeField] private CinemachineVirtualCamera StandingCamera;
-    [SerializeField] private CinemachineVirtualCamera FollowCamera;
+    [SerializeField] private CinemachineVirtualCamera StandingCamera;   // The Side camera
+    [SerializeField] private CinemachineVirtualCamera FollowCamera;     // The follow camera
 
-    public void SwitchPriority()
+    public void SwitchPriority()                    // Function to change the priprit of the camera, higher is active camera
     {
-        Debug.Log("IN function");
-        if (StandingCamera)
+        if (StandingCamera)                         // is we are standing camera, switch to follow
         {
-            FollowCamera.Priority = 1;
-            StandingCamera.Priority = 0;
+            FollowCamera.Priority = 1;              // Set follow as higher priproty
+            StandingCamera.Priority = 0;            // Lower standing camera protiry
         }
-        else
-        {
-            FollowCamera.Priority = 0;
-            StandingCamera.Priority = 1;
-        }
-
+        
     }
 
-    public void FollowCamerA()
-    {
-        Debug.Log("Hellol");
-        FollowCamera.Priority = 0;
-        StandingCamera.Priority = 1;
-    }
 }
