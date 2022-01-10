@@ -39,12 +39,7 @@ public class PlayerMotor : MonoBehaviour
     private void Update()
     {
 
-        //TEMPcode to start running
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            theCameraSwitcher.SwitchPriority();               // Change the camera from standing side view to follow view
-            StartRunning();                                     // run the StartRunning fucntion below
-        }
+       
 
         if (!isRunning)                                       // if is running false then game not started so return from function
         {
@@ -154,6 +149,7 @@ public class PlayerMotor : MonoBehaviour
 
     public void StartRunning()                                                                  // Function to let game know to start the player running
     {
+        theCameraSwitcher.SwitchPriority();               // Change the camera from standing side view to follow view
         isRunning = true;                                                                       // Set isruning to be true
         anim.SetTrigger("StartRunning");                                                        // Start the Animation for running
     }
