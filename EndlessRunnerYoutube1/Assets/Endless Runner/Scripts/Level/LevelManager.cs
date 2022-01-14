@@ -8,8 +8,8 @@ public class LevelManager : MonoBehaviour
     private int prevRandomInt;                      // check for last trackpiece selected
     private int randomIntTrans;                     // Used for Random generation of transition pieces
     private int prevRandomIntTrans;                     // Used for Random generation of transition pieces
-    private const int INITIAL_SEGMENTS = 20;        // How many Initial segmets to create
-    public int trackpooledAmount = 25;                   // How many objects to add to pool
+    private const int INITIAL_SEGMENTS = 10;        // How many Initial segmets to create
+    public int trackpooledAmount = 5;                   // How many objects to add to pool
     private const int INITIAL_TRANSITION_SEGMENTS = 2;  // how many trasition segmests to inital create
     public int TranspooledAmount = 6;                   // how many transition pool pieces to create
     public int TrackPieceCount = 0;                     // Define inital count of Track pieces
@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour
 
 
 
-    void Start()
+    void Awake()
     {
        // Initilize the random values for the track pieces
         randomInt = 0;                                               // set inital values for random track selction

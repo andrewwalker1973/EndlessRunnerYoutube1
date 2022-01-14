@@ -15,6 +15,7 @@ public class ObjectDestroy : MonoBehaviour
 
     private void OnTriggerExit(Collider other)                      // if the player tag returnToPoolTag touches collider, mark it as no longer needed and deactivate
     {
+       
         ReturnToPoolTag returnToPoolTag = other.GetComponent<ReturnToPoolTag>();    // Does the collided object have a return to pool script
         if (returnToPoolTag != null)                                                // If the script exists
         {
