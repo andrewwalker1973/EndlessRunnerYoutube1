@@ -156,6 +156,7 @@ public class PlayerMotor : MonoBehaviour
 
     private void StartSliding()                                                                 // Function to manage the slide 
     {
+        theCameraSwitcher.IntoSlideCamera();
         anim.SetBool("Sliding", true);                                                          // Set the sliding animation to be true
         isSliding = true;                                                                       // we are currently sliding
         controller.height /= 2;                                                                 // Half the defined controller height to go under obstacles
@@ -165,6 +166,7 @@ public class PlayerMotor : MonoBehaviour
 
     private void StopSliding()                                                                  // Function to stop Sliding
     {
+        theCameraSwitcher.ExitSlideCamera();
         anim.SetBool("Sliding", false);                                                         // Stop the animation for sliding
         isSliding = false;                                                                       // we have stopped sliding
         controller.height *= 2;                                                                 // Restet controler height to normal

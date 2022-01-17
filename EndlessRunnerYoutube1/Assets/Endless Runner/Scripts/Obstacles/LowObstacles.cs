@@ -6,7 +6,9 @@ public class LowObstacles : MonoBehaviour
 {
 
     private GameObject LowObstacle;             // Variable for game object to be created
-  
+
+
+
     void OnEnable()                             // Perform the actions as soon as the script is brought online
     {
 
