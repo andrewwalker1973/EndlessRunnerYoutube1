@@ -474,10 +474,20 @@ MonoBehaviour:
   - {fileID: 7236607360436506163, guid: dc671585bdb0de94aaf0178e8b4028ca, type: 3}
   - {fileID: 594632458178509891, guid: db24e729eae50f04c983c3e4b505856f, type: 3}
   - {fileID: 8268535940542209824, guid: d45282f9922a7d34599c7156da6c29a1, type: 3}
+  Level1LowFullLaneObstacle:
+  - {fileID: 1629853188941647171, guid: cc65c6b8a07d2b345a6bbaf59baad5ce, type: 3}
+  - {fileID: 339070934464051339, guid: bc98f59f28475434bbd09145a0f0f9cf, type: 3}
+  Level1HighFullLaneObstacle:
+  - {fileID: 2219457635623408180, guid: 997c8498927225a4f986dead1ae78e08, type: 3}
+  - {fileID: 362654378755714257, guid: fec61c3cf509b3f4cb8f2ff22f431e08, type: 3}
   Level1LowObstaclePieces: []
   Level1HighObstaclePieces: []
+  Level1LowFullLaneObstaclePieces: []
+  Level1HighFullLaneObstaclePieces: []
   Level1LowLevelBlocks: 20
   Level1HighLevelBlocks: 20
+  Level1LowFullLaneBlocks: 10
+  Level1HighFullLaneBlocks: 10
 --- !u!1 &241094673
 GameObject:
   m_ObjectHideFlags: 3
@@ -881,6 +891,7 @@ MonoBehaviour:
   LevelSegments:
   - {fileID: 2960723135516579135, guid: e464de0dfd275ff4aa4241a2f5ac4f12, type: 3}
   - {fileID: 2387899162934941603, guid: 1604c9a92735bcd48b06c263ea0f9c7e, type: 3}
+  - {fileID: 2325607612128148816, guid: 8f042b3f28d775140a611340a5c46be8, type: 3}
   TransSegments:
   - {fileID: 1399521447539401378, guid: 27c56bc4ae6a0164da8c17a5935be8d5, type: 3}
   - {fileID: 4851551073741865411, guid: ec202f041e499924fb5a9313c9116876, type: 3}
@@ -1125,7 +1136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385073629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5034026e-10, y: 2, z: 29.7}
+  m_LocalPosition: {x: -3.5040681e-10, y: 2, z: 29.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1226892375}
@@ -1403,7 +1414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773880794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.503388e-10, y: 1.1, z: 29.7}
+  m_LocalPosition: {x: -3.5040593e-10, y: 1.1, z: 29.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 659985799}
