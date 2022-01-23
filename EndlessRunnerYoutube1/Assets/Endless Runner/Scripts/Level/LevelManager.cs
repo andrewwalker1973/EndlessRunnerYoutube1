@@ -44,7 +44,7 @@ public class LevelManager : MonoBehaviour
 
     void Awake()
     {
-       // Initilize the random values for the track pieces
+        // Initilize the random values for the track pieces
         randomInt = 0;                                               // set inital values for random track selction
         prevRandomInt = 1;                                           // set inital values for random track selction previous selection 
         randomIntTrans = 0;                                         // Define initail random number for transitions track pieces
@@ -79,7 +79,7 @@ public class LevelManager : MonoBehaviour
             transitionPieces.Add(transObj);                                                     // add obj to the list of pooled objects for transitionPieces
         }
 
-
+ 
         // Create the inital track pieces and place them in the world
         for (int i = 0; i < INITIAL_SEGMENTS; i++)                                                  // for number of Inital segemts create track pieces and transition pieces in world
         {
@@ -141,4 +141,6 @@ public class LevelManager : MonoBehaviour
             CreateSegment();                                // if we are not at TrackPieceCount, then create a new segment
         }
     }
+
+
 }
