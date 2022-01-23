@@ -8,8 +8,8 @@ public class PlayerMotor : MonoBehaviour
     // Private Variables
     private const float LANE_DISTANCE = 2f;                 //define the lane width
     private const float TURN_SPEED = 0.05f;                 // As character moves across less turn a bit in direction of movement   
-    private float jumpForce = 6f;                           // Jump force to be applied to player
-    private float gravity = 12f;                            // Definition of gravity for the game
+    private float jumpForce = 8f;                          // Jump force to be applied to player
+    private float gravity = 20f; // was12                           // Definition of gravity for the game
     private float verticalVelocity;                         // Float to manage the vertical movement of the player when jumping
     // Player Objects
     private Animator anim;                                  // Reference the Animator controller on the player object

@@ -379,13 +379,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.8
+  m_Height: 1.76
   m_Radius: 0.3
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.78, z: 0}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!114 &130755817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,8 +468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Level1LowObstacle:
   - {fileID: 7448201318148598203, guid: f27f198e07825144e82dc654f5086eb8, type: 3}
-  - {fileID: 7818749812066288766, guid: 21affd7572b195f4f89705e80906f86f, type: 3}
-  - {fileID: 6869005420944495228, guid: 64590c9a4b8a16f438b539e8254249ae, type: 3}
+  - {fileID: 7448201318148598203, guid: f27f198e07825144e82dc654f5086eb8, type: 3}
+  - {fileID: 7448201318148598203, guid: f27f198e07825144e82dc654f5086eb8, type: 3}
   Level1HighObstacle:
   - {fileID: 7236607360436506163, guid: dc671585bdb0de94aaf0178e8b4028ca, type: 3}
   - {fileID: 594632458178509891, guid: db24e729eae50f04c983c3e4b505856f, type: 3}
@@ -1136,7 +1136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385073629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5040681e-10, y: 2, z: 29.7}
+  m_LocalPosition: {x: -3.5078046e-10, y: 2, z: 29.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1226892375}
@@ -1414,7 +1414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773880794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5040593e-10, y: 1.1, z: 29.7}
+  m_LocalPosition: {x: -3.507846e-10, y: 1.1, z: 29.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 659985799}
@@ -1486,6 +1486,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2066403663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2066403665}
+  - component: {fileID: 2066403664}
+  m_Layer: 0
+  m_Name: CollectableManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2066403664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066403663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e36b22fe95445141b33c9e3fcf969c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StraightLineCoins:
+  - {fileID: 3399460529623067870, guid: d41fc7ff93523e34a8518e29c5ca86bc, type: 3}
+  JumpCoins:
+  - {fileID: 5002188833536280844, guid: ea16e40aa017fda4dbc319f2fcdc84fc, type: 3}
+  StraightLineCoinsPieces: []
+  JumpCoinsPieces: []
+  StraightLineCoinsCount: 10
+  JumpCoinsPiecesCount: 10
+--- !u!4 &2066403665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066403663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5547636041344637
 GameObject:

@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 957
-  m_MinSize: {x: 579, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 5686
+  controlID: 95
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
+  - {fileID: 16}
   - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
@@ -223,10 +224,10 @@ MonoBehaviour:
     y: 0
     width: 1466
     height: 957
-  m_MinSize: {x: 303, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 5687
+  controlID: 96
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,10 +249,10 @@ MonoBehaviour:
     y: 0
     width: 1466
     height: 567
-  m_MinSize: {x: 303, y: 221}
+  m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 5688
+  controlID: 97
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,7 +263,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -271,15 +272,14 @@ MonoBehaviour:
     y: 0
     width: 1125
     height: 567
-  m_MinSize: {x: 102, y: 121}
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
-  - {fileID: 16}
   - {fileID: 12}
-  m_Selected: 2
-  m_LastSelected: 1
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,22 +379,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Endless Runner/Animations
+    - Assets/Endless Runner/Prefabs/Collectables/Coins
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Endless Runner/Animations
+  - Assets/Endless Runner/Prefabs/Collectables/Coins
   m_LastFoldersGridSize: 16
   m_LastProjectPath: G:\UnityProjects\GitHub\EndlessRunnerYoutube1\EndlessRunnerYoutube1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 02500000
-    m_LastClickedID: 20482
-    m_ExpandedIDs: 00000000c84f0000ca4f0000cc4f0000ce4f0000d04f0000d24f0000d44f0000d64f0000d84f00001650000000ca9a3b
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: c6520000
+    m_LastClickedID: 21190
+    m_ExpandedIDs: 00000000125200001452000016520000185200001a5200001c5200001e5200002052000022520000245200009e520000a452000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -422,7 +422,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c84f0000ca4f0000cc4f0000ce4f0000d04f0000d24f0000d44f0000d64f0000d84f0000
+    m_ExpandedIDs: 00000000125200001452000016520000185200001a5200001c5200001e520000205200002252000024520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -453,18 +453,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c623000058960000926300000000000070490000a05d000084690000b06e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: L1HighFullLane1
-      m_OriginalName: L1HighFullLane1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 24670
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 02540000
+      m_SelectedIDs: fe4d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 6efbffffd84a0000
+      m_ExpandedIDs: 400afdff760afdffb20afdff6e12fdffa01ffdff7820fdffae20fdff5e22fdffe83efdff7e56fdfff45cfdffce5efdffda5ffdffc476fdfff876fdff0694fdff9e94fdff22f1feff0ef2feff4018ffff2c19ffff322bffff1e2cffffda41ffffc642ffff2654ffff1255ffff6efbffffe44a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -589,10 +589,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 341
-    y: 73
-    width: 1123
-    height: 546
+    x: 0
+    y: 640
+    width: 1465
+    height: 369
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -605,9 +605,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -41.549084, y: 4.7275176, z: 717.37634}
+    m_Target: {x: 12.73951, y: 7.9321194, z: 966.15686}
     speed: 2
-    m_Value: {x: -41.549084, y: 4.7275176, z: 717.37634}
+    m_Value: {x: -2, y: 0.4, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -654,17 +654,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03218865, y: -0.7585423, z: 0.037578512, w: 0.6497448}
+    m_Target: {x: 0.1308321, y: -0.30602714, z: 0.04250188, w: 0.942036}
     speed: 2
-    m_Value: {x: 0.032188606, y: -0.7585412, z: 0.03757846, w: 0.64974385}
+    m_Value: {x: 0.26257586, y: 0.3500658, z: -0.102901965, w: 0.8932631}
   m_Size:
-    m_Target: 54.11217
+    m_Target: 2.7242274
     speed: 2
-    m_Value: 54.11217
+    m_Value: 4.8112717
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -743,7 +743,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
