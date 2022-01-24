@@ -14,10 +14,6 @@ public class CoinsSpawn : MonoBehaviour
 
   
 
-    //  [TextArea]
-    //  [Tooltip("Doesn't do anything. Just comments shown in inspector")]
-    //  public string Notes1 = "This component shouldn't be removed, it does important stuff.";
-
     void OnEnable()                             // Perform the actions as soon as the script is brought online
     {
 
