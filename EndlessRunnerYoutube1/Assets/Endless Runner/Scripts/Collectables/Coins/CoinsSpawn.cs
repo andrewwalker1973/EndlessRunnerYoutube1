@@ -12,7 +12,8 @@ public class CoinsSpawn : MonoBehaviour
     [SerializeField] bool straightLine;
     [SerializeField] bool jumpLine;
 
-  
+    
+
 
     void OnEnable()                             // Perform the actions as soon as the script is brought online
     {
@@ -32,7 +33,18 @@ public class CoinsSpawn : MonoBehaviour
         if (straightLine)
        {
             CoinLine = CollectablePooler.Instance.GetStraightLineCoinsPooledObject();            // Call GetLowObstaclePooledObject from Level1Obstacle script and retun a gameobject
+       CoinLine.transform.localPosition = Vector3.zero;
+
+           CoinLine.transform.GetChild(0).gameObject.transform.localPosition = Vector3.zero;
+            CoinLine.transform.GetChild(1).gameObject.transform.localPosition = Vector3.zero;
+         CoinLine.transform.GetChild(2).gameObject.transform.localPosition = Vector3.zero;
+
             CoinLine.transform.localPosition = this.transform.position;                  // Set Gameobject position to be position of this gameobject
+
+                  CoinLine.transform.GetChild(0).gameObject.transform.position = this.transform.position + new Vector3(0f, 0f, 0f);
+            CoinLine.transform.GetChild(1).gameObject.transform.position = this.transform.position + new Vector3(0f, 0f, -2f);
+            CoinLine.transform.GetChild(2).gameObject.transform.position = this.transform.position + new Vector3(0f, 0f, -4f);
+
             CoinLine.SetActive(true);                                                    // Show the gameobject in the game world
             CoinLine.transform.GetChild(0).gameObject.SetActive(true);
             CoinLine.transform.GetChild(1).gameObject.SetActive(true);
@@ -42,7 +54,20 @@ public class CoinsSpawn : MonoBehaviour
         if (jumpLine)
         {
             CoinLine = CollectablePooler.Instance.GetJumpLineCoinsPooledObject();            // Call GetLowObstaclePooledObject from Level1Obstacle script and retun a gameobject
+            CoinLine.transform.localPosition = Vector3.zero;
+           CoinLine.transform.GetChild(0).gameObject.transform.localPosition = Vector3.zero;
+            CoinLine.transform.GetChild(1).gameObject.transform.localPosition = Vector3.zero;
+            CoinLine.transform.GetChild(2).gameObject.transform.localPosition = Vector3.zero;
+           CoinLine.transform.GetChild(3).gameObject.transform.localPosition = Vector3.zero;
+            CoinLine.transform.GetChild(4).gameObject.transform.localPosition = Vector3.zero;
             CoinLine.transform.localPosition = this.transform.position;                  // Set Gameobject position to be position of this gameobject
+                                                                                         
+
+            CoinLine.transform.GetChild(0).gameObject.transform.position = this.transform.position + new Vector3(0f, 0f, 0f);
+            CoinLine.transform.GetChild(1).gameObject.transform.position = this.transform.position + new Vector3(0f, 0f, -2f);
+            CoinLine.transform.GetChild(2).gameObject.transform.position = this.transform.position + new Vector3(0f, 0f, -4f);
+            CoinLine.transform.GetChild(3).gameObject.transform.position = this.transform.position + new Vector3(0f, 0f, -6f);
+            CoinLine.transform.GetChild(4).gameObject.transform.position = this.transform.position + new Vector3(0f, 0f, -8f);
             CoinLine.SetActive(true);                                                    // Show the gameobject in the game world
             CoinLine.transform.GetChild(0).gameObject.SetActive(true);
             CoinLine.transform.GetChild(1).gameObject.SetActive(true);

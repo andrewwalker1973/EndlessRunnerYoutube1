@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4218022090246803562}
   - component: {fileID: 1357414938174586145}
   - component: {fileID: 1854700500522578578}
+  - component: {fileID: 2806555053691155759}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -111,6 +112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbde1e7d44b9ed9448f184874e6afc5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
+  moveSpeed: 17
 --- !u!54 &4218022090246803562
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -123,7 +126,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -164,3 +167,15 @@ MonoBehaviour:
   endScale: {x: 0, y: 0, z: 0}
   scaleSpeed: 0
   scaleRate: 0
+--- !u!114 &2806555053691155759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4256658054349843230}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daff149e74d896b45a581811cfeb99ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
