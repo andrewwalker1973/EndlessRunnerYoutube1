@@ -16,11 +16,11 @@ public class PlayerMotor : MonoBehaviour
     private CharacterController controller;                 // Reference the Character controller on the player object
     public GameObject Player;                               // Reference to the player object
     private int desiredLane = 1;                             // Which Lane to start in 0=left 1=middle 2=right 
-    private bool isRunning = false;                         // Character is not yet running so set to false
+    public bool isRunning = false;                         // Character is not yet running so set to false
     private bool isSliding = false;                         // determine if we are sliding or not
     // speed Modifier variables
     private float originalSpeed = 9.0f;                     // Speed at beginning of game  // was 9
-    private float speed =9.0f;                             // Float to manage current speed // was 9 
+    [SerializeField] float speed =9.0f;                             // Float to manage current speed // was 9 
     private float speedIncreaseLastTick;                    // Speed increase float
     private float speedIncreaseTime = 2.5f;                 // how often to increase the speed
     private float speedIncreaseAmount = 0.1f;               // How much to increase speed by
@@ -48,16 +48,15 @@ public class PlayerMotor : MonoBehaviour
 
 
         // Section to manage speed increase over time
-        //    if (Time.time - speedIncreaseLastTick > speedIncreaseTime)            // if current time minus lat tick float greter than time to increase speed
-        //     {
-        //         speedIncreaseLastTick = Time.time;                                // Reset last increase of time state to current time
-        //         speed += speedIncreaseAmount;                                     // increase the current speed by the speed increase amount
-
+            if (Time.time - speedIncreaseLastTick > speedIncreaseTime)            // if current time minus lat tick float greter than time to increase speed
+             {
+                 speedIncreaseLastTick = Time.time;                                // Reset last increase of time state to current time
+                speed += speedIncreaseAmount;                                     // increase the current speed by the speed increase amount
         // change modifer text display                                      
         //      GameManager.Instance.UpdateModifer(speed - originalSpeed);        // Update the GameManager instance with new speed to be displayed on HUD
 
 
-        // }
+        }
 
 
 
@@ -151,12 +150,13 @@ public class PlayerMotor : MonoBehaviour
     {
         theCameraSwitcher.SwitchPriority();               // Change the camera from standing side view to follow view
         isRunning = true;                                                                       // Set isruning to be true
+        ScoreManager.Instance.scoreIncreasing = true;
         anim.SetTrigger("StartRunning");                                                        // Start the Animation for running
     }
 
     private void StartSliding()                                                                 // Function to manage the slide 
     {
-        theCameraSwitcher.IntoSlideCamera();
+       // theCameraSwitcher.IntoSlideCamera();
         anim.SetBool("Sliding", true);                                                          // Set the sliding animation to be true
         isSliding = true;                                                                       // we are currently sliding
         controller.height /= 2;                                                                 // Half the defined controller height to go under obstacles
@@ -166,7 +166,7 @@ public class PlayerMotor : MonoBehaviour
 
     private void StopSliding()                                                                  // Function to stop Sliding
     {
-        theCameraSwitcher.ExitSlideCamera();
+       // theCameraSwitcher.ExitSlideCamera();
         anim.SetBool("Sliding", false);                                                         // Stop the animation for sliding
         isSliding = false;                                                                       // we have stopped sliding
         controller.height *= 2;                                                                 // Restet controler height to normal

@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class CoinPickup : MonoBehaviour
 {
+  // private ScoreManager theScoreManager;       // reference the score manager
 
     public Transform playerTransform;
     public float moveSpeed = 17f;
+    private int coinScore = 1;
 
     CoinMove coinMoveScript;
 
@@ -20,8 +22,7 @@ public class CoinPickup : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))       // if hit the player
         {
-            Debug.Log("Coin Pickup Successful");
-
+            ScoreManager.Instance.AddCoins(coinScore);
             gameObject.SetActive(false);                    // set game object disable
 
         }

@@ -1143,6 +1143,14 @@ PrefabInstance:
       propertyPath: Notes
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1837556630474597270, guid: 9e0c28936c4ee674ab229a465c8e9722, type: 3}
+      propertyPath: slideLine
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837556630474597270, guid: 9e0c28936c4ee674ab229a465c8e9722, type: 3}
+      propertyPath: straightLine
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3776389523256245341, guid: 9e0c28936c4ee674ab229a465c8e9722, type: 3}
       propertyPath: m_Name
       value: CoinSpawnLine

@@ -14,13 +14,15 @@ public class CollectableCollector : MonoBehaviour
 
     // Find Coin detector object
       public GameObject coinDetectorObj;
+   // private GameObject playerBubble;
 
-    // Start is called before the first frame update
     void Start()
     {
         // find the game object that will detect coins
           coinDetectorObj = GameObject.FindGameObjectWithTag("CoinDetector");
-          coinDetectorObj.SetActive(false);
+      //  playerBubble = GameObject.FindGameObjectWithTag("PlayerBubble");
+        coinDetectorObj.SetActive(false);
+       // playerBubble.SetActive(false);
     }
 
   public void CollectMagnet()
@@ -34,8 +36,10 @@ public class CollectableCollector : MonoBehaviour
     {
         Debug.Log("CoinDetector activated");
         coinDetectorObj.SetActive(true);
+       // playerBubble.SetActive(true);
         yield return new WaitForSeconds(6f);
         coinDetectorObj.SetActive(false);
+      //  playerBubble.SetActive(false);
 
 
     }
