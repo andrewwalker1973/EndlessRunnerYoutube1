@@ -48,14 +48,15 @@ public class PlayerMotor : MonoBehaviour
 
 
         // Section to manage speed increase over time
+        if (speed < 15f)
+        {
             if (Time.time - speedIncreaseLastTick > speedIncreaseTime)            // if current time minus lat tick float greter than time to increase speed
-             {
-                 speedIncreaseLastTick = Time.time;                                // Reset last increase of time state to current time
+            {
+                speedIncreaseLastTick = Time.time;                                // Reset last increase of time state to current time
                 speed += speedIncreaseAmount;                                     // increase the current speed by the speed increase amount
-        // change modifer text display                                      
-        //      GameManager.Instance.UpdateModifer(speed - originalSpeed);        // Update the GameManager instance with new speed to be displayed on HUD
-
-
+                                                                                  // change modifer text display                                      
+                                                                                  //      GameManager.Instance.UpdateModifer(speed - originalSpeed);        // Update the GameManager instance with new speed to be displayed on HUD
+            }
         }
 
 

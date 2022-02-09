@@ -51,7 +51,7 @@ public class ScoreManager : MonoBehaviour
 
         coinScore += coinsToAdd;      // Add coins 
         totalCoinScore += coinsToAdd;    // Add to total coin score to be used for achievemnt matching
-        coinScoreText.text = "" + Mathf.Round(coinScore);           // set the coin count on screen rount to solid number
+        coinScoreText.text = "" + Mathf.Round(totalCoinScore);           // set the coin count on screen rount to solid number
     }
 
 

@@ -9,8 +9,8 @@ public class MagnetPickup : MonoBehaviour
 
         if (other.gameObject.CompareTag("Player"))       // if hit the player
         {
-           CollectableCollector.Instance.CollectMagnet();   // Run the fucntion in CollectableCollector to pickup and manage the magent pickup
-           gameObject.SetActive(false);                    // set game object disable
+           //CollectableCollector.Instance.CollectMagnet();   // Run the fucntion in CollectableCollector to pickup and manage the magent pickup
+          // gameObject.SetActive(false);                    // set game object disable
 
         }
     }

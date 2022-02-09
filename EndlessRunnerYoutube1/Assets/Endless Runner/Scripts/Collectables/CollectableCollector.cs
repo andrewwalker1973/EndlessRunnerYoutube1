@@ -11,10 +11,12 @@ public class CollectableCollector : MonoBehaviour
     {
         Instance = this;
     }
-
+/*
     // Find Coin detector object
       public GameObject coinDetectorObj;
-   // private GameObject playerBubble;
+    // private GameObject playerBubble;
+
+    private float magnetDuration;
 
     void Start()
     {
@@ -25,22 +27,24 @@ public class CollectableCollector : MonoBehaviour
        // playerBubble.SetActive(false);
     }
 
-  public void CollectMagnet()
+  public void CollectMagnet(float time)
     {
         Debug.Log("Magnet Pickup Successful CollectMagnet");
-        StartCoroutine(ActivateCoin());
+        magnetDuration = time;
+        StartCoroutine(ActivateCoin(magnetDuration));
 
     }
 
-    IEnumerator ActivateCoin()
+    IEnumerator ActivateCoin(float time)
     {
-        Debug.Log("CoinDetector activated");
+        Debug.Log("CoinDetector activated" + time);
         coinDetectorObj.SetActive(true);
        // playerBubble.SetActive(true);
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(time);
         coinDetectorObj.SetActive(false);
       //  playerBubble.SetActive(false);
 
 
     }
+*/
 }
