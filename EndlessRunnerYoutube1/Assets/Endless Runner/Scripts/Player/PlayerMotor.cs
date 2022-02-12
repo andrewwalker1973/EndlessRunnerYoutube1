@@ -26,6 +26,7 @@ public class PlayerMotor : MonoBehaviour
     private float speedIncreaseAmount = 0.1f;               // How much to increase speed by
 
     private CameraSwitcher theCameraSwitcher;               // To reference the CameraSwitter script
+    private GameContinueManager theGameContinueManager;               // To reference the CameraSwitter script
 
 
     private void Start()
@@ -34,6 +35,7 @@ public class PlayerMotor : MonoBehaviour
         controller = GetComponent<CharacterController>();   // reference attached character controller on player object
         anim = GetComponent<Animator>();                    // Reference Animator on player object
         theCameraSwitcher = FindObjectOfType<CameraSwitcher>(); // Find the Camera Switcher script in the world and call it theCameraSwitcher
+        theGameContinueManager = FindObjectOfType<GameContinueManager>(); // Find the Camera Switcher script in the world and call it theCameraSwitcher
     }
 
     private void Update()
@@ -155,6 +157,13 @@ public class PlayerMotor : MonoBehaviour
         anim.SetTrigger("StartRunning");                                                        // Start the Animation for running
     }
 
+    public void StopRunning()                                                                  // Function to let game know to start the player running
+    {
+        theCameraSwitcher.SwitchPriority();               // Change the camera from standing side view to follow view
+        isRunning = false;                                                                       // Set isruning to be true
+        ScoreManager.Instance.scoreIncreasing = false;
+        
+    }
     private void StartSliding()                                                                 // Function to manage the slide 
     {
        // theCameraSwitcher.IntoSlideCamera();
@@ -175,5 +184,21 @@ public class PlayerMotor : MonoBehaviour
 
     }
 
- 
+ public void PlayerDeath()
+    {
+        Debug.Log("You died");
+        //isRunning = false;
+        StopRunning();
+        anim.SetTrigger("Death");
+        StartCoroutine(WaitforDeathAnim(3));
+
+
+    }
+
+    IEnumerator WaitforDeathAnim(float time)
+    {
+        yield return new WaitForSeconds(time);
+        theGameContinueManager.PlayerDiedContinueOption();
+    }
+    
 }
