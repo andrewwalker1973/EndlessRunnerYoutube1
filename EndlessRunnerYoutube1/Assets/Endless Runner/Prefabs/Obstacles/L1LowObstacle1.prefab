@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 7429738379913836809}
   - component: {fileID: 5520741891087607794}
   - component: {fileID: 2670755663592461038}
-  - component: {fileID: 9157266863002898306}
   - component: {fileID: 2090211754520918847}
   - component: {fileID: 5705796019788235792}
   - component: {fileID: 1620410477598329135}
+  - component: {fileID: 6318534478408322785}
   m_Layer: 0
   m_Name: L1LowObstacle1
   m_TagString: Untagged
@@ -85,19 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9157266863002898306
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7448201318148598203}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &2090211754520918847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -136,3 +123,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79920830456901429722eb7e5d15d7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &6318534478408322785
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7448201318148598203}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1

@@ -20,13 +20,15 @@ public class PlayerMotor : MonoBehaviour
     private bool isSliding = false;                         // determine if we are sliding or not
     // speed Modifier variables
     private float originalSpeed = 9.0f;                     // Speed at beginning of game  // was 9
-    [SerializeField] float speed =9.0f;                             // Float to manage current speed // was 9 
+    [SerializeField] float speed = 9.0f;                             // Float to manage current speed // was 9 
     private float speedIncreaseLastTick;                    // Speed increase float
     private float speedIncreaseTime = 2.5f;                 // how often to increase the speed
     private float speedIncreaseAmount = 0.1f;               // How much to increase speed by
 
     private CameraSwitcher theCameraSwitcher;               // To reference the CameraSwitter script
     private GameContinueManager theGameContinueManager;               // To reference the CameraSwitter script
+
+    
 
 
     private void Start()
@@ -151,7 +153,9 @@ public class PlayerMotor : MonoBehaviour
 
     public void StartRunning()                                                                  // Function to let game know to start the player running
     {
+        
         theCameraSwitcher.SwitchPriority();               // Change the camera from standing side view to follow view
+        //anim.SetBool("Death", false);
         isRunning = true;                                                                       // Set isruning to be true
         ScoreManager.Instance.scoreIncreasing = true;
         anim.SetTrigger("StartRunning");                                                        // Start the Animation for running
@@ -187,9 +191,10 @@ public class PlayerMotor : MonoBehaviour
  public void PlayerDeath()
     {
         Debug.Log("You died");
+        transform.position = transform.position - new Vector3(0,0, 1);
         //isRunning = false;
         StopRunning();
-        anim.SetTrigger("Death");
+        anim.SetBool("Death",true);
         StartCoroutine(WaitforDeathAnim(3));
 
 
@@ -201,4 +206,9 @@ public class PlayerMotor : MonoBehaviour
         theGameContinueManager.PlayerDiedContinueOption();
     }
     
+    public void PlayerIdle()
+    {
+        anim.SetBool("Death", false);
+        anim.Play("Idle");
+    }
 }

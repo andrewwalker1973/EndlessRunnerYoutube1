@@ -44,6 +44,7 @@ public class LevelManager : MonoBehaviour
 
     void Awake()
     {
+
         // Initilize the random values for the track pieces
         randomInt = 0;                                               // set inital values for random track selction
         prevRandomInt = 1;                                           // set inital values for random track selction previous selection 

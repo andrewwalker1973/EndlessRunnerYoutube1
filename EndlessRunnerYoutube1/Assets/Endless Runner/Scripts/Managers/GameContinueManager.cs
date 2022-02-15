@@ -15,9 +15,11 @@ public class GameContinueManager : MonoBehaviour
     [SerializeField] int TotalcountDownTime;                  // How long to wait for countdown to main menu
     private int countDownTime;                      // Int for contdown
     private int giftSelector;
+    private float ReturnToMainScreenDuration_temp;
     [SerializeField] float ReturnToMainScreenDuration;            // How long before we return to main screen
     [SerializeField] GameObject SafeModeImage;
     [SerializeField] GameObject GameContinueScreen;                // refernec the death screen
+    [SerializeField] GameObject ObstacleRemover;
 
     [SerializeField] TextMeshProUGUI CrystaltoContinueText;           // Crystals to spend display Text  
     [SerializeField] TextMeshProUGUI CrystalTotalText;           // Crystals to spend display Text
@@ -48,6 +50,7 @@ public class GameContinueManager : MonoBehaviour
     void Start()
     {
         thePlayerMotor = FindObjectOfType<PlayerMotor>(); // Find the Camera Switcher script in the world and call it theCameraSwitcher
+        ObstacleRemover.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -68,7 +71,8 @@ public class GameContinueManager : MonoBehaviour
 
         // check how many Crystals we need to continue
         CrystalsToContinue();
-        StartCoroutine(ReturnToMainScreenTimer(ReturnToMainScreenDuration));    // Set the duration of the timer
+        ReturnToMainScreenDuration_temp = ReturnToMainScreenDuration;       // Reset duration back to beginning
+        StartCoroutine(ReturnToMainScreenTimer(ReturnToMainScreenDuration_temp));    // Set the duration of the timer
         // determine if we have enogh crystals
         if (CrystaltoContinue > ScoreManager.Instance.totalCrystalScore)
         {
@@ -122,7 +126,7 @@ public class GameContinueManager : MonoBehaviour
         if (continueCounter > 2)
         {
             // Set crystals by 4
-            CrystaltoContinue = CrystaltoContinue + 4;
+            CrystaltoContinue = CrystaltoContinue + 2;
             CrystaltoContinueText.text = CrystaltoContinue.ToString();
 
         }
@@ -132,6 +136,7 @@ public class GameContinueManager : MonoBehaviour
     public IEnumerator ReturnToMainScreenTimer(float ReturnToMainScreenDuration)        // Return to main screen timer
     {
         Debug.Log("Radial should start");
+        ReturnToMainScreenfillImage.gameObject.SetActive(true);
         float startTime = Time.time;                // what si the time
         float time = ReturnToMainScreenDuration;        // how long to wait before opening main screen
         float value = 0;                                // set value to 0
@@ -141,6 +146,7 @@ public class GameContinueManager : MonoBehaviour
             time -= Time.deltaTime;                                     // decrease time
             value = time / ReturnToMainScreenDuration;
             ReturnToMainScreenfillImage.fillAmount = value;             // Update fill amount
+            Debug.Log("Fill amount " + value);
             yield return null;                                          // break out of while loop
 
         }
@@ -148,10 +154,11 @@ public class GameContinueManager : MonoBehaviour
         if (!continueSelected)              // if continue not selected
         {
             // TODO ADD THIS IN
-            //theScoreManager.SaveCrystalCount();
-           // theScoreManager.SaveTotalCoinCount();
-           // theScoreManager.SaveHighScore();
-           // theScoreManager.SaveRunningTime(theScoreManager.runningTime);
+            ScoreManager.Instance.SaveCrystalCount();
+            ScoreManager.Instance.SaveTotalCoinCount();
+            ScoreManager.Instance.SaveHighScore();
+            ScoreManager.Instance.SaveRunningTime(ScoreManager.Instance.runningTime);
+
             // Check for HiScore
          //   if (theScoreManager.highScoreAchieved)
           //  {
@@ -186,6 +193,8 @@ public class GameContinueManager : MonoBehaviour
 
     IEnumerator CountDownToStart()
     {
+        ObstacleRemover.gameObject.SetActive(true);
+        thePlayerMotor.PlayerIdle();
         countDownTime = TotalcountDownTime;         // Set the countdown timer
         countDownDisplay.gameObject.SetActive(true);    // Display the  countdown timer
        // thePlayer.SetPlayerIdle();
@@ -208,6 +217,7 @@ public class GameContinueManager : MonoBehaviour
                                                                                 //    safeslider.value = safeModeTime;
 
         thePlayerMotor.gameObject.SetActive(true);                     // enable the player/
+        ObstacleRemover.gameObject.SetActive(false);
         //thePlayerMotor.StartRunning();
 
         if (giftSelector == 1)
@@ -256,10 +266,12 @@ public class GameContinueManager : MonoBehaviour
 
         // Slow the speed down a bit 
         // AW code her to play vids
-       // theScoreManager.SaveCrystalCount();
-      //  theScoreManager.SaveTotalCoinCount();
-       // theScoreManager.SaveHighScore();                      // AW save high score but dont open screen until back at main menu
-       // theScoreManager.SaveRunningTime(theScoreManager.runningTime);
+
+        ScoreManager.Instance.SaveCrystalCount();
+        ScoreManager.Instance.SaveTotalCoinCount();
+        ScoreManager.Instance.SaveHighScore();                          // AW save high score but dont open screen until back at main menu
+        ScoreManager.Instance.SaveRunningTime(ScoreManager.Instance.runningTime);
+
         continueSelected = true;                                // Selected continue, so stop return to main menu
         GameContinueScreen.gameObject.SetActive(false);          // stop  the contunue Menu screen
         OnContinueTimer.gameObject.SetActive(false);            // disable the countdown timer
