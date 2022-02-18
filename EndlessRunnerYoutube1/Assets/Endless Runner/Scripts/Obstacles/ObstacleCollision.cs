@@ -15,16 +15,22 @@ public class ObstacleCollision : MonoBehaviour
     {
 
 
-        Debug.Log("Obstaclce col " + other);
+    //    Debug.Log("Obstaclce col " + other);
         if (other.gameObject.tag == "Player")                  // if obstacle hit player
         {
-            Debug.LogError("You Died");
-            thePlayerMotor.PlayerDeath();
-            //gameObject.SetActive(false);                        // Disable the object.
+            if (PowerUpManager.Instance.ShieldModeActive == true)
+            {
+                PowerUpManager.Instance.ShieldHit();
+                gameObject.SetActive(false);
+                return;
+            }
+            else
+            {
+                thePlayerMotor.PlayerDeath();
+            }
         }
         if (other.gameObject.tag == "ObstacleRemover")
         {
-            Debug.Log("Obstacle remover");
             gameObject.SetActive(false);
         }
 

@@ -9,14 +9,17 @@ public class CollectablePooler : MonoBehaviour
     public GameObject JumpLineCoins;
     [SerializeField] GameObject Magnet;
     [SerializeField] GameObject Crystal;
+    [SerializeField] GameObject Shield;
     public List<GameObject> StraightLineCoinsPieces;    // Define the List of Level1 Low obstacle pieces
     public List<GameObject> JumpCoinsPieces;
     [SerializeField] List<GameObject> CrystalPieces;
     [SerializeField] List<GameObject> MagnetPieces;
+    [SerializeField] List<GameObject> ShieldPieces;
     public int StraightLineCoinsCount = 10;               // How many Low single lane obstacles to create
     public int JumpCoinsPiecesCount = 10;
     [SerializeField] int CrystalPiecesCount = 5;
     [SerializeField] int MagnetPiecesCount = 5;
+    [SerializeField] int ShieldPiecesCount = 3;
 
 
     void Awake()
@@ -67,6 +70,17 @@ public class CollectablePooler : MonoBehaviour
             GameObject obj = Instantiate(Magnet) as GameObject;  // instatiate it into the pool
             obj.SetActive(false);                                                   // disable the game object 
             MagnetPieces.Add(obj);                                                   // add obj to the list of pooled objects for Level1LowObstaclePieces
+        }
+        #endregion
+
+        #region Shield
+        ShieldPieces = new List<GameObject>();           // Define the List as a list of Game objects
+
+        for (int i = 0; i < ShieldPiecesCount; i++)              // for all the Level1LowLevelBlocks generate a pooled piece at start
+        {
+            GameObject obj = Instantiate(Shield) as GameObject;  // instatiate it into the pool
+            obj.SetActive(false);                                                   // disable the game object 
+            ShieldPieces.Add(obj);                                                   // add obj to the list of pooled objects for Level1LowObstaclePieces
         }
         #endregion
     }
@@ -151,6 +165,25 @@ public class CollectablePooler : MonoBehaviour
         GameObject obj = Instantiate(Magnet) as GameObject;    // create obj of Obstaclees 
         obj.SetActive(false);                                       // turn off by default;
         MagnetPieces.Add(obj);                                     // Add gameobject to pooledObjects List
+        return obj;                                                 // Return the new game object to the List and it can be used going forward in the list
+    }
+    #endregion
+
+    #region GetShieldPooledObject
+    // Get Shield object
+    public GameObject GetShieldPooledObject()
+    {
+        for (int i = 0; i < ShieldPieces.Count; i++)                   // check each pooled object in list
+        {
+            if (!ShieldPieces[i].activeInHierarchy)                    // Check if NOT active in list
+            {
+                return ShieldPieces[i];                                // Send back to game if not active
+            }
+        }
+        // If not Shield available in List Create a new one
+        GameObject obj = Instantiate(Shield) as GameObject;    // create obj of Obstaclees 
+        obj.SetActive(false);                                       // turn off by default;
+        ShieldPieces.Add(obj);                                     // Add gameobject to pooledObjects List
         return obj;                                                 // Return the new game object to the List and it can be used going forward in the list
     }
     #endregion

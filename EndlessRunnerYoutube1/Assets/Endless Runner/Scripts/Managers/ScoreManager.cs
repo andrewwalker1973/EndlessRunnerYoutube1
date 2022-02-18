@@ -103,7 +103,10 @@ public class ScoreManager : MonoBehaviour
 
     public void AddCoins(int coinsToAdd)
     {
-
+        if (PowerUpManager.Instance.doubleCoinsActive)
+        {
+            coinsToAdd = coinsToAdd * 2;  // double the points
+        }
         coinScore += coinsToAdd;      // Add coins 
         totalCoinScore += coinsToAdd;    // Add to total coin score to be used for achievemnt matching
         coinScoreText.text = "" + Mathf.Round(totalCoinScore);           // set the coin count on screen rount to solid number

@@ -163,7 +163,7 @@ public class PlayerMotor : MonoBehaviour
 
     public void StopRunning()                                                                  // Function to let game know to start the player running
     {
-        theCameraSwitcher.SwitchPriority();               // Change the camera from standing side view to follow view
+       // theCameraSwitcher.SwitchPriority();               // Change the camera from standing side view to follow view
         isRunning = false;                                                                       // Set isruning to be true
         ScoreManager.Instance.scoreIncreasing = false;
         
@@ -192,10 +192,11 @@ public class PlayerMotor : MonoBehaviour
     {
         Debug.Log("You died");
         transform.position = transform.position - new Vector3(0,0, 1);
+        //  transform.position = new Vector3(transform.position.x, 0, transform.position.z);  /works but looks kak to center player on ground
         //isRunning = false;
         StopRunning();
         anim.SetBool("Death",true);
-        StartCoroutine(WaitforDeathAnim(3));
+        StartCoroutine(WaitforDeathAnim(2));
 
 
     }

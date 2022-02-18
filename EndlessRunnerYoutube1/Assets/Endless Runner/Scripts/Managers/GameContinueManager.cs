@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class GameContinueManager : MonoBehaviour
 {
 
-    private int safeModeTime = 5;
+    [SerializeField] int safeModeTime = 5;
+    private int safeModeTime_temp;
     private int continueCounter = 0;                    // How many times are we restarting
     private int CrystaltoContinue = 0;               // How many crystals to continue
     private bool continueSelected = false;          // Has the continue button been pressed
@@ -61,8 +62,9 @@ public class GameContinueManager : MonoBehaviour
 
     public void PlayerDiedContinueOption()
     {
-        safeModeTime = 5;                                   // Safe modetime for when we go back into game
-        PowerUpManager.Instance.SetMaxSafePower(safeModeTime);         // Set Safe Mode time on Safe power up
+        PowerUpContinueGift.gameObject.SetActive(false);
+        safeModeTime_temp = safeModeTime ;                                   // Safe modetime for when we go back into game
+        PowerUpManager.Instance.SetMaxSafePower(safeModeTime_temp);         // Set Safe Mode time on Safe power up
         PowerUpManager.Instance.clearAllPowerUpDurations();       // Restarting from death, so clear any powerup on player
 
         // bring up the gamecontinue screen
@@ -85,7 +87,8 @@ public class GameContinueManager : MonoBehaviour
             PowerUpContinueGift.gameObject.SetActive(false);
 
         }
-        if (continueCounter > 1)
+        Debug.Log("Contuinue " + continueCounter);
+        if (continueCounter > 2)
         {
             // Display gift powerup
             PowerUpContinueGift.gameObject.SetActive(true);
@@ -135,7 +138,6 @@ public class GameContinueManager : MonoBehaviour
 
     public IEnumerator ReturnToMainScreenTimer(float ReturnToMainScreenDuration)        // Return to main screen timer
     {
-        Debug.Log("Radial should start");
         ReturnToMainScreenfillImage.gameObject.SetActive(true);
         float startTime = Time.time;                // what si the time
         float time = ReturnToMainScreenDuration;        // how long to wait before opening main screen
@@ -146,7 +148,6 @@ public class GameContinueManager : MonoBehaviour
             time -= Time.deltaTime;                                     // decrease time
             value = time / ReturnToMainScreenDuration;
             ReturnToMainScreenfillImage.fillAmount = value;             // Update fill amount
-            Debug.Log("Fill amount " + value);
             yield return null;                                          // break out of while loop
 
         }
@@ -211,26 +212,26 @@ public class GameContinueManager : MonoBehaviour
         thePlayerMotor.StartRunning();
         SafeModeImage.SetActive(true);
         //thePlayer.IsSafe();                                     // Set safe mode for player
-        PowerUpManager.Instance.ActivatePowerUp(false, false, false, false, true, safeModeTime);       // send all details to powerup manger
+      //PowerUpManager.Instance.ActivatePowerUp(false, false, false, false, true, safeModeTime);       // send all details to powerup manger
         //thePlayerMotor.isRunning = true;                                        // Start runnig
                                                                                 //    safeslider.maxValue = safeModeTime;
                                                                                 //    safeslider.value = safeModeTime;
 
         thePlayerMotor.gameObject.SetActive(true);                     // enable the player/
-        ObstacleRemover.gameObject.SetActive(false);
+        
         //thePlayerMotor.StartRunning();
 
         if (giftSelector == 1)
         {
             //Magent as powerup
-            // thepowerUpManager.ActivatePowerUp(doublePoints, shieldMode, magnet, fasterMode, Safemode, powerupLength);
-            PowerUpManager.Instance.ActivatePowerUp(false, false, true, false, false, 12f);
+            // thepowerUpManager.ActivatePowerUp(bool points, bool shield, bool mag, bool fasterM, float time);
+            PowerUpManager.Instance.ActivatePowerUp(false, false, true, false, 6f);
         }
         if (giftSelector == 2)
         {
             //Double as powerup
-            PowerUpContinueGift.GetComponent<Image>().sprite = doublegift;   // Why this here TODO
-            PowerUpManager.Instance.ActivatePowerUp(true, false, false, false, false, 12f);
+           // PowerUpContinueGift.GetComponent<Image>().sprite = doublegift;   // Why this here TODO
+            PowerUpManager.Instance.ActivatePowerUp(true, false, false, false, 6f);
         }
 
 
@@ -244,16 +245,16 @@ public class GameContinueManager : MonoBehaviour
     {
         // AW would be nice to have a visual refernce for this
         // yield return new WaitForSeconds(5f);            // Wait 5 seconds
-        while (safeModeTime > 0)
+        while (safeModeTime_temp > 0)
         {
 
             // countDownDisplay.text = countDownTime.ToString();       // dispaly text and convert to string
-            PowerUpManager.Instance.SetSafePower(safeModeTime);         // Display progress bar and convert float to int
-            Debug.Log("Safe time " + safeModeTime);
+            PowerUpManager.Instance.SetSafePower(safeModeTime_temp);         // Display progress bar and convert float to int
+           // Debug.Log("Safe time " + safeModeTime);
             yield return new WaitForSeconds(1f);                    // Wait for 1 sec
-            safeModeTime--;                                        // decrease by 1 sec
+            safeModeTime_temp--;                                        // decrease by 1 sec
         }
-
+        ObstacleRemover.gameObject.SetActive(false);
         SafeModeImage.SetActive(false);
        // thePlayer.IsNotSafe();                          // Turn safe mode off   TODO HOW to handle this - turn off safe mode in obstabcle area ??
         continueSelected = false;                       // rest continue back to false so that next check will be false
@@ -275,18 +276,18 @@ public class GameContinueManager : MonoBehaviour
         continueSelected = true;                                // Selected continue, so stop return to main menu
         GameContinueScreen.gameObject.SetActive(false);          // stop  the contunue Menu screen
         OnContinueTimer.gameObject.SetActive(false);            // disable the countdown timer
-        /*   if (giftSelector == 1)
+     /*      if (giftSelector == 1)
            {
-               //Magent as powerup
-               // thepowerUpManager.ActivatePowerUp(doublePoints, shieldMode, magnet, fasterMode, slowerMode, powerupLength);
-               thepowerUpManager.ActivatePowerUp(false, false, true, false, false, 12f);
-           }
+            //Magent as powerup
+            // thepowerUpManager.ActivatePowerUp(doublePoints, shieldMode, magnet, fasterMode, slowerMode, powerupLength);
+            PowerUpManager.Instance.ActivatePowerUp(false, false, true, false, 6f);
+        }
            if (giftSelector == 2)
            {
                //Double as powerup
-               PowerUpContinueGift.GetComponent<Image>().sprite = doublegift;
-               thepowerUpManager.ActivatePowerUp(true, false, false, false, false, 12f);
-           }
+            //   PowerUpContinueGift.GetComponent<Image>().sprite = doublegift;
+            PowerUpManager.Instance.ActivatePowerUp(true, false, false, false, 6f);
+        }
         */
         StartCoroutine(CountDownToStart());         // show countd down on screen     
     }
