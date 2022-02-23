@@ -25,6 +25,7 @@ public class LevelManager : MonoBehaviour
     public Vector3 spawnOrigin;                          // Vector3 of origin point for platform pieces
     private Vector3 spawnPosition;                          // Vector3 of where to spawn track pieces
 
+    private float trackCurrentZ;
 
     void OnEnable()                                
     {
@@ -107,7 +108,11 @@ public class LevelManager : MonoBehaviour
         {
             if (!trackPiecesLevel1EASY[i].activeInHierarchy)                                        // If the track piece is not active in the game world
             {
-                spawnOrigin = spawnOrigin + new Vector3(0, 0, trackLength);                                 // calcuate the spawn point for the track peice  plus track length
+                
+                trackCurrentZ = trackPiecesLevel1EASY[i].GetComponent<Track>().zSize;
+                          
+                spawnOrigin = spawnOrigin + new Vector3(0, 0, trackCurrentZ); // calcuate the spawn point for the track peice  plus track length
+
                 trackPiecesLevel1EASY[i].transform.position = spawnPosition + spawnOrigin;                  // set track position to be at spawn position plus the spawn origion
                 trackPiecesLevel1EASY[i].SetActive(true);                                                   // Set the piece to be active in the world
                 break;                                                                                      // we found a piece, no need to contrinue so break out
@@ -122,7 +127,8 @@ public class LevelManager : MonoBehaviour
         {
             if (!transitionPieces[i].activeInHierarchy)                                                 // If the trnsition piece is not active in the game world
             {
-                spawnOrigin = spawnOrigin + new Vector3(0, 0, trackLength);                                 // calcuate the spawn point for the transition peice plus track length
+                trackCurrentZ = transitionPieces[i].GetComponent<Track>().zSize;
+                spawnOrigin = spawnOrigin + new Vector3(0, 0, trackCurrentZ);                                 // calcuate the spawn point for the transition peice plus track length
                 transitionPieces[i].transform.position = spawnPosition + spawnOrigin;                       // set track position to be at spawn position plus the spawn origion
                 transitionPieces[i].SetActive(true);                                                         // Set the piece to be active in the world
                 break;                                                                                      // we found a piece, no need to contrinue so break out

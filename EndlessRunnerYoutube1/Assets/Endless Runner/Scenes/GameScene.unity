@@ -2302,7 +2302,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 242.61859, y: -15.779877}
+  m_AnchoredPosition: {x: 242.61859, y: -15.779846}
   m_SizeDelta: {x: 81.99, y: 18.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &546371263
@@ -4025,11 +4025,11 @@ MonoBehaviour:
   trackLength: 24.5
   LevelSegments:
   - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
-  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
-  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
+  - {fileID: 6312817498778450412, guid: f56b826c855417f4c9d90d8b050330b7, type: 3}
+  - {fileID: 6312817498778450412, guid: f56b826c855417f4c9d90d8b050330b7, type: 3}
   TransSegments:
-  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
-  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
+  - {fileID: 4101025773052979651, guid: 8799207559fb0614eb6cd36bbb7de863, type: 3}
+  - {fileID: 4101025773052979651, guid: 8799207559fb0614eb6cd36bbb7de863, type: 3}
   spawnOrigin: {x: 0, y: 0, z: 0}
 --- !u!4 &1154547142
 Transform:
@@ -6087,7 +6087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 61.929993, y: -17.110016}
+  m_AnchoredPosition: {x: 61.929993, y: -17.110046}
   m_SizeDelta: {x: 81.99, y: 18.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746343408

@@ -5,30 +5,25 @@ ScriptsOnlyBuild:
     - CameraSwitcher
     - CoinMove
     - CoinPickup
-    - CoinsSpawn
-    - CollectableCollector
     - CollectablePooler
     - CrystalPickup
-    - CrystalSpawn
-    - HighFullLaneObstacle
-    - HighObstacles
+    - GameContinueManager
     - Level1Obstacles
     - LevelManager
-    - LowFullLaneObstacle
-    - LowObstacles
-    - MagnetPickup
-    - MagnetSpawner
     - MobileInput
     - ObjectDestroy
     - ObjectDestroyer
     - ObstacleCollision
     - PlayerMotor
+    - PowerUpManager
+    - PowerUps
     - ReturnToPoolTag
     - ScoreManager
+    - Track
     Cinemachine.dll:
     - Cinemachine.CinemachineBlenderSettings
     - Cinemachine.CinemachineBrain
-    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachineHardLookAt
     - Cinemachine.CinemachinePipeline
     - Cinemachine.CinemachineTransposer
     - Cinemachine.CinemachineVirtualCamera
@@ -99,6 +94,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
@@ -157,149 +154,143 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 2106}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2146}
+      Script: {instanceID: 2110}
     - Class: 114
-      Script: {instanceID: 2282}
+      Script: {instanceID: 2150}
     - Class: 114
-      Script: {instanceID: 2288}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 2362}
+      Script: {instanceID: 2298}
     - Class: 114
-      Script: {instanceID: 2376}
+      Script: {instanceID: 2374}
     - Class: 114
-      Script: {instanceID: 2516}
+      Script: {instanceID: 2388}
     - Class: 114
-      Script: {instanceID: 2584}
+      Script: {instanceID: 2530}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2598}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 2712}
     - Class: 114
-      Script: {instanceID: 3020}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3042}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 3060}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3104}
     - Class: 114
       Script: {instanceID: 3158}
     - Class: 114
-      Script: {instanceID: 3206}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3310}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3320}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3454}
     - Class: 114
-      Script: {instanceID: 3432}
+      Script: {instanceID: 3624}
     - Class: 114
-      Script: {instanceID: 3600}
+      Script: {instanceID: 3654}
     - Class: 114
-      Script: {instanceID: 3630}
-    - Class: 114
-      Script: {instanceID: 3714}
+      Script: {instanceID: 3738}
     - Class: 114
       Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 3834}
     - Class: 114
-      Script: {instanceID: 3862}
+      Script: {instanceID: 3854}
     - Class: 114
-      Script: {instanceID: 3924}
+      Script: {instanceID: 3888}
     - Class: 114
-      Script: {instanceID: 4082}
+      Script: {instanceID: 3950}
     - Class: 114
-      Script: {instanceID: 4166}
+      Script: {instanceID: 4084}
     - Class: 114
-      Script: {instanceID: 4346}
+      Script: {instanceID: 4112}
     - Class: 114
-      Script: {instanceID: 4414}
+      Script: {instanceID: 4196}
     - Class: 114
-      Script: {instanceID: 4500}
+      Script: {instanceID: 4384}
     - Class: 114
-      Script: {instanceID: 4596}
+      Script: {instanceID: 4636}
     - Class: 114
-      Script: {instanceID: 4806}
+      Script: {instanceID: 4840}
     - Class: 114
-      Script: {instanceID: 4822}
+      Script: {instanceID: 4848}
     - Class: 114
-      Script: {instanceID: 4828}
+      Script: {instanceID: 4864}
     - Class: 114
-      Script: {instanceID: 4870}
+      Script: {instanceID: 4912}
     - Class: 114
-      Script: {instanceID: 4876}
+      Script: {instanceID: 4918}
     - Class: 114
-      Script: {instanceID: 4922}
+      Script: {instanceID: 4966}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 5094}
     - Class: 114
-      Script: {instanceID: 5050}
+      Script: {instanceID: 5096}
     - Class: 114
-      Script: {instanceID: 5052}
+      Script: {instanceID: 5116}
     - Class: 114
-      Script: {instanceID: 5072}
+      Script: {instanceID: 5178}
     - Class: 114
-      Script: {instanceID: 5134}
+      Script: {instanceID: 5346}
     - Class: 114
-      Script: {instanceID: 5302}
+      Script: {instanceID: 5428}
     - Class: 114
-      Script: {instanceID: 5382}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 5418}
+      Script: {instanceID: 5530}
     - Class: 114
-      Script: {instanceID: 5482}
+      Script: {instanceID: 5584}
     - Class: 114
-      Script: {instanceID: 5534}
+      Script: {instanceID: 5594}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 5554}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 5670}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5754}
     - Class: 114
-      Script: {instanceID: 5696}
+      Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 5828}
     - Class: 114
-      Script: {instanceID: 5770}
+      Script: {instanceID: 5894}
     - Class: 114
-      Script: {instanceID: 5780}
+      Script: {instanceID: 5896}
     - Class: 114
-      Script: {instanceID: 5836}
+      Script: {instanceID: 5906}
     - Class: 114
-      Script: {instanceID: 5846}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 5950}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 6066}
+      Script: {instanceID: 6232}
     - Class: 114
-      Script: {instanceID: 6168}
+      Script: {instanceID: 6272}
     - Class: 114
-      Script: {instanceID: 6208}
+      Script: {instanceID: 6492}
     - Class: 114
-      Script: {instanceID: 6428}
+      Script: {instanceID: 6806}
     - Class: 114
-      Script: {instanceID: 6742}
+      Script: {instanceID: 6960}
     - Class: 114
-      Script: {instanceID: 6894}
+      Script: {instanceID: 7094}
     - Class: 114
-      Script: {instanceID: 6934}
+      Script: {instanceID: 7328}
     - Class: 114
-      Script: {instanceID: 7028}
+      Script: {instanceID: 7406}
     - Class: 114
-      Script: {instanceID: 7256}
-    - Class: 114
-      Script: {instanceID: 7332}
-    - Class: 114
-      Script: {instanceID: 29812}
+      Script: {instanceID: 21404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -601,7 +592,7 @@ ScriptsOnlyBuild:
     className: CinemachineHardLookAt
   - hash:
       serializedVersion: 2
-      Hash: 3eca7dc031dd417c2c46e72314d29e7d
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CollectableCollector
@@ -617,6 +608,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 288ddc263aaff3db324f6f2ebc0acfff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameContinueManager
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -877,6 +874,12 @@ ScriptsOnlyBuild:
     className: CinemachineGroupComposer
   - hash:
       serializedVersion: 2
+      Hash: ae9b09b51f5cad765eb21da4c606997f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PowerUpManager
+  - hash:
+      serializedVersion: 2
       Hash: 9ac327467393cb6c8045a2fd90ff67e2
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -983,6 +986,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 7a4aed9bed5bff183a5774d6f019ef27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PowerUps
   - hash:
       serializedVersion: 2
       Hash: 91c66736e3507bbd3c15a9b02abea21b
@@ -1153,10 +1162,16 @@ ScriptsOnlyBuild:
     className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
-      Hash: 4ebb04e3e414888f35323d00eed745be
+      Hash: f47e19958acca772b990fd0f2edd5080
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelManager
+  - hash:
+      serializedVersion: 2
+      Hash: decbfa073b92ff70916b42214ccef026
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShieldSpawn
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -1309,7 +1324,7 @@ ScriptsOnlyBuild:
     className: ColorCurves
   - hash:
       serializedVersion: 2
-      Hash: 26fe8d64d18a6adb64611d959c11fe05
+      Hash: e2ba8b1d5db73461d002f1d179df7a44
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMotor
@@ -1417,7 +1432,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 1135a93a3f96da7524dd5800daf3ed49
+      Hash: ac4ee67db07ed0d8c73824f3d8444da5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CollectablePooler
@@ -1493,6 +1508,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HighFullLaneObstacle
+  - hash:
+      serializedVersion: 2
+      Hash: 6e2ad464642ca802ab9392aa54f116f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreManager
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -1915,11 +1936,11 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 46b88f845cee18405623c413741dcf03
+      Hash: ffe5faa216e17b9aa7b01ddc91fc90fa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ScoreManager
+    className: Track
   platform: 13
   scenePathNames:
   - Assets/Endless Runner/Scenes/GameScene.unity
-  playerPath: G:/UnityProjects/GitHub/EndlessRunnerYoutube1/EndlessRunnerYoutube1/Build/test1.apk
+  playerPath: G:/UnityProjects/GitHub/EndlessRunnerYoutube1/EndlessRunnerYoutube1/Build/test11.apk
