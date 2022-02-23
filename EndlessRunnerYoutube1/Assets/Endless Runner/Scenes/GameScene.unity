@@ -4022,13 +4022,14 @@ MonoBehaviour:
   trackpooledAmount: 10
   TranspooledAmount: 6
   TrackPieceCount: 0
+  trackLength: 24.5
   LevelSegments:
-  - {fileID: 2960723135516579135, guid: e464de0dfd275ff4aa4241a2f5ac4f12, type: 3}
-  - {fileID: 2387899162934941603, guid: 1604c9a92735bcd48b06c263ea0f9c7e, type: 3}
-  - {fileID: 2325607612128148816, guid: 8f042b3f28d775140a611340a5c46be8, type: 3}
+  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
+  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
+  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
   TransSegments:
-  - {fileID: 1399521447539401378, guid: 27c56bc4ae6a0164da8c17a5935be8d5, type: 3}
-  - {fileID: 4851551073741865411, guid: ec202f041e499924fb5a9313c9116876, type: 3}
+  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
+  - {fileID: 254311993913981059, guid: 0fd830e87d035804e91949577d4c6345, type: 3}
   spawnOrigin: {x: 0, y: 0, z: 0}
 --- !u!4 &1154547142
 Transform:

@@ -1,0 +1,3009 @@
+fileFormatVersion: 2
+guid: 1fcbbdabb512df1409a5ba5981aad5b8
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 5555319479474901646
+    second: track100|bigBridge|bigBridge|bigBridge|Base Stack|DefaultLayer|bigBridge
+  - first:
+      74: -6547781602890818458
+    second: track100|bigBridge|bigBridge|campFire|Base Stack|DefaultLayer|bigBridge|
+  - first:
+      74: 3039996808792011056
+    second: track100|bigBridge|bigBridge|cliff0|Base Stack|DefaultLayer|bigBridge|cl
+  - first:
+      74: -6695944241462818200
+    second: track100|bigBridge|bigBridge|cliff1|Base Stack|DefaultLayer|bigBridge|cl
+  - first:
+      74: 5562120484850676253
+    second: track100|bigBridge|bigBridge|cliff2|Base Stack|DefaultLayer|bigBridge|cl
+  - first:
+      74: -7208228160462716294
+    second: track100|bigBridge|bigBridge|cliff3|Base Stack|DefaultLayer|bigBridge|cl
+  - first:
+      74: -1789357878636404130
+    second: track100|bigBridge|bigBridge|hangBridge|Base Stack|DefaultLayer|bigBridg
+  - first:
+      74: -6186850655382573915
+    second: track100|bigBridge|bigBridge|house|Base Stack|DefaultLayer|bigBridge|hou
+  - first:
+      74: 4806261241924489175
+    second: track100|bigBridge|bigBridge|mountTunnel|Base Stack|DefaultLayer|bigBrid
+  - first:
+      74: 3315301332712231007
+    second: track100|bigBridge|bigBridge|normTree1|Base Stack|DefaultLayer|bigBridge
+  - first:
+      74: 3906740575139368651
+    second: track100|bigBridge|bigBridge|normTree2|Base Stack|DefaultLayer|bigBridge
+  - first:
+      74: -1967363937780759900
+    second: track100|bigBridge|bigBridge|normTree3|Base Stack|DefaultLayer|bigBridge
+  - first:
+      74: -5968662502309293076
+    second: track100|bigBridge|bigBridge|pineTree1|Base Stack|DefaultLayer|bigBridge
+  - first:
+      74: -416933359765801595
+    second: track100|bigBridge|bigBridge|pineTree2|Base Stack|DefaultLayer|bigBridge
+  - first:
+      74: -8501667190994257380
+    second: track100|bigBridge|bigBridge|torch|Base Stack|DefaultLayer|bigBridge|tor
+  - first:
+      74: 9041159270360446841
+    second: track100|bigBridge|bigBridge|track100|Base Stack|DefaultLayer|bigBridge|
+  - first:
+      74: -7330194372950713452
+    second: track100|bigBridge|bigBridge|track150|Base Stack|DefaultLayer|bigBridge|
+  - first:
+      74: -438675528616451739
+    second: track100|bigBridge|bigBridge|track50|Base Stack|DefaultLayer|bigBridge|t
+  - first:
+      74: 2312864261998063051
+    second: track100|bigBridge|bigBridge|trackHangBridge|Base Stack|DefaultLayer|big
+  - first:
+      74: -4620448848353368114
+    second: track100|bigBridge|bigBridge|trackOpen|Base Stack|DefaultLayer|bigBridge
+  - first:
+      74: -1071137218384985246
+    second: track100|bigBridge|bigBridge|trackTree|Base Stack|DefaultLayer|bigBridge
+  - first:
+      74: -32191143852683363
+    second: track100|bigBridge|bigBridge|trackTunnel|Base Stack|DefaultLayer|bigBrid
+  - first:
+      74: 3227676462443875293
+    second: track100|bigBridge|bigBridge|tree1|Base Stack|DefaultLayer|bigBridge|tre
+  - first:
+      74: -4087538985964703279
+    second: track100|bigBridge|bigBridge|tunnel2Path|Base Stack|DefaultLayer|bigBrid
+  - first:
+      74: 5251394068890720106
+    second: track100|bigBridge|bigBridge|tunnelCenter|Base Stack|DefaultLayer|bigBri
+  - first:
+      74: -5361755204660806687
+    second: track100|bigBridge|bigBridge|tunnelCliff|Base Stack|DefaultLayer|bigBrid
+  - first:
+      74: -3389226271826796094
+    second: track100|bigBridge|bigBridge|tunnelHolder|Base Stack|DefaultLayer|bigBri
+  - first:
+      74: -1235005105488098679
+    second: track100|bigBridge|bigBridge|tunnelLeft|Base Stack|DefaultLayer|bigBridg
+  - first:
+      74: -3698051882316085403
+    second: track100|bigBridge|bigBridge|tunnelPath|Base Stack|DefaultLayer|bigBridg
+  - first:
+      74: 7805365008963513167
+    second: track100|bigBridge|bigBridge|tunnelRight|Base Stack|DefaultLayer|bigBrid
+  - first:
+      74: 712436676094721268
+    second: track100|bigBridge|bigBridge|woodPile|Base Stack|DefaultLayer|bigBridge|
+  - first:
+      74: 7773581978608429736
+    second: track100|campFire|campFire|bigBridge|Base Stack|DefaultLayer|campFire|bi
+  - first:
+      74: -2127516680239577027
+    second: track100|campFire|campFire|campFire|Base Stack|DefaultLayer|campFire|cam
+  - first:
+      74: 549157503509731135
+    second: track100|campFire|campFire|cliff0|Base Stack|DefaultLayer|campFire|cliff
+  - first:
+      74: 5817839448196611408
+    second: track100|campFire|campFire|cliff1|Base Stack|DefaultLayer|campFire|cliff
+  - first:
+      74: 4519551022361785148
+    second: track100|campFire|campFire|cliff2|Base Stack|DefaultLayer|campFire|cliff
+  - first:
+      74: -4084136500028113426
+    second: track100|campFire|campFire|cliff3|Base Stack|DefaultLayer|campFire|cliff
+  - first:
+      74: -3190068543122493744
+    second: track100|campFire|campFire|hangBridge|Base Stack|DefaultLayer|campFire|h
+  - first:
+      74: -4408167283858446019
+    second: track100|campFire|campFire|house|Base Stack|DefaultLayer|campFire|house|
+  - first:
+      74: -461364598519290257
+    second: track100|campFire|campFire|mountTunnel|Base Stack|DefaultLayer|campFire|
+  - first:
+      74: -3454249224252306544
+    second: track100|campFire|campFire|normTree1|Base Stack|DefaultLayer|campFire|no
+  - first:
+      74: 1444515681194401443
+    second: track100|campFire|campFire|normTree2|Base Stack|DefaultLayer|campFire|no
+  - first:
+      74: 2768381475848780738
+    second: track100|campFire|campFire|normTree3|Base Stack|DefaultLayer|campFire|no
+  - first:
+      74: 3122994631162248441
+    second: track100|campFire|campFire|pineTree1|Base Stack|DefaultLayer|campFire|pi
+  - first:
+      74: 5866463717830187051
+    second: track100|campFire|campFire|pineTree2|Base Stack|DefaultLayer|campFire|pi
+  - first:
+      74: 61100309389924267
+    second: track100|campFire|campFire|torch|Base Stack|DefaultLayer|campFire|torch|
+  - first:
+      74: 6249207786545483373
+    second: track100|campFire|campFire|track100|Base Stack|DefaultLayer|campFire|tra
+  - first:
+      74: -6158296635646332949
+    second: track100|campFire|campFire|track150|Base Stack|DefaultLayer|campFire|tra
+  - first:
+      74: -5495515662830254863
+    second: track100|campFire|campFire|track50|Base Stack|DefaultLayer|campFire|trac
+  - first:
+      74: 1946490484604783868
+    second: track100|campFire|campFire|trackHangBridge|Base Stack|DefaultLayer|campF
+  - first:
+      74: 5846475193488631229
+    second: track100|campFire|campFire|trackOpen|Base Stack|DefaultLayer|campFire|tr
+  - first:
+      74: 3453257031852054987
+    second: track100|campFire|campFire|trackTree|Base Stack|DefaultLayer|campFire|tr
+  - first:
+      74: -2185151370264978791
+    second: track100|campFire|campFire|trackTunnel|Base Stack|DefaultLayer|campFire|
+  - first:
+      74: 5873638970734143397
+    second: track100|campFire|campFire|tree1|Base Stack|DefaultLayer|campFire|tree1|
+  - first:
+      74: 8955121680287430444
+    second: track100|campFire|campFire|tunnel2Path|Base Stack|DefaultLayer|campFire|
+  - first:
+      74: -7358562371657416925
+    second: track100|campFire|campFire|tunnelCenter|Base Stack|DefaultLayer|campFire
+  - first:
+      74: 1486195554434993486
+    second: track100|campFire|campFire|tunnelCliff|Base Stack|DefaultLayer|campFire|
+  - first:
+      74: -8884371664823581124
+    second: track100|campFire|campFire|tunnelHolder|Base Stack|DefaultLayer|campFire
+  - first:
+      74: -6970077622468642196
+    second: track100|campFire|campFire|tunnelLeft|Base Stack|DefaultLayer|campFire|t
+  - first:
+      74: -2853538008999390729
+    second: track100|campFire|campFire|tunnelPath|Base Stack|DefaultLayer|campFire|t
+  - first:
+      74: 759131606285032274
+    second: track100|campFire|campFire|tunnelRight|Base Stack|DefaultLayer|campFire|
+  - first:
+      74: 6011547851176781988
+    second: track100|campFire|campFire|woodPile|Base Stack|DefaultLayer|campFire|woo
+  - first:
+      74: 2814416998698579574
+    second: track100|cliff0|cliff0|bigBridge|Base Stack|DefaultLayer|cliff0|bigBridg
+  - first:
+      74: 4943396077859692473
+    second: track100|cliff0|cliff0|campFire|Base Stack|DefaultLayer|cliff0|campFire|
+  - first:
+      74: 5528230567362545063
+    second: track100|cliff0|cliff0|cliff0|Base Stack|DefaultLayer|cliff0|cliff0|Base
+  - first:
+      74: 2249881648795829753
+    second: track100|cliff0|cliff0|cliff1|Base Stack|DefaultLayer|cliff0|cliff1|Base
+  - first:
+      74: 1753424599604768892
+    second: track100|cliff0|cliff0|cliff2|Base Stack|DefaultLayer|cliff0|cliff2|Base
+  - first:
+      74: -5694263716637911366
+    second: track100|cliff0|cliff0|cliff3|Base Stack|DefaultLayer|cliff0|cliff3|Base
+  - first:
+      74: 7497247115120898511
+    second: track100|cliff0|cliff0|hangBridge|Base Stack|DefaultLayer|cliff0|hangBri
+  - first:
+      74: 8063457293223500749
+    second: track100|cliff0|cliff0|house|Base Stack|DefaultLayer|cliff0|house|Base
+      S
+  - first:
+      74: -5332451266782996287
+    second: track100|cliff0|cliff0|mountTunnel|Base Stack|DefaultLayer|cliff0|mountT
+  - first:
+      74: 3680321931467133329
+    second: track100|cliff0|cliff0|normTree1|Base Stack|DefaultLayer|cliff0|normTree
+  - first:
+      74: 3743410932192537599
+    second: track100|cliff0|cliff0|normTree2|Base Stack|DefaultLayer|cliff0|normTree
+  - first:
+      74: 3349184096733874786
+    second: track100|cliff0|cliff0|normTree3|Base Stack|DefaultLayer|cliff0|normTree
+  - first:
+      74: 559832774238569733
+    second: track100|cliff0|cliff0|pineTree1|Base Stack|DefaultLayer|cliff0|pineTree
+  - first:
+      74: -5534271122296638204
+    second: track100|cliff0|cliff0|pineTree2|Base Stack|DefaultLayer|cliff0|pineTree
+  - first:
+      74: -4172117786680988644
+    second: track100|cliff0|cliff0|torch|Base Stack|DefaultLayer|cliff0|torch|Base
+      S
+  - first:
+      74: -7255572067050533446
+    second: track100|cliff0|cliff0|track100|Base Stack|DefaultLayer|cliff0|track100|
+  - first:
+      74: -1374091611212487216
+    second: track100|cliff0|cliff0|track150|Base Stack|DefaultLayer|cliff0|track150|
+  - first:
+      74: -5748515037554824716
+    second: track100|cliff0|cliff0|track50|Base Stack|DefaultLayer|cliff0|track50|Ba
+  - first:
+      74: -1564812385200717973
+    second: track100|cliff0|cliff0|trackHangBridge|Base Stack|DefaultLayer|cliff0|tr
+  - first:
+      74: 6845830411709287175
+    second: track100|cliff0|cliff0|trackOpen|Base Stack|DefaultLayer|cliff0|trackOpe
+  - first:
+      74: 3210026336452558781
+    second: track100|cliff0|cliff0|trackTree|Base Stack|DefaultLayer|cliff0|trackTre
+  - first:
+      74: -692488189719440005
+    second: track100|cliff0|cliff0|trackTunnel|Base Stack|DefaultLayer|cliff0|trackT
+  - first:
+      74: -3497656244361460752
+    second: track100|cliff0|cliff0|tree1|Base Stack|DefaultLayer|cliff0|tree1|Base
+      S
+  - first:
+      74: -5451483376469341888
+    second: track100|cliff0|cliff0|tunnel2Path|Base Stack|DefaultLayer|cliff0|tunnel
+  - first:
+      74: -6433861616729039659
+    second: track100|cliff0|cliff0|tunnelCenter|Base Stack|DefaultLayer|cliff0|tunne
+  - first:
+      74: -3323086938017865496
+    second: track100|cliff0|cliff0|tunnelCliff|Base Stack|DefaultLayer|cliff0|tunnel
+  - first:
+      74: 4511596854847926346
+    second: track100|cliff0|cliff0|tunnelHolder|Base Stack|DefaultLayer|cliff0|tunne
+  - first:
+      74: 5623990698382982490
+    second: track100|cliff0|cliff0|tunnelLeft|Base Stack|DefaultLayer|cliff0|tunnelL
+  - first:
+      74: -4413184647656327053
+    second: track100|cliff0|cliff0|tunnelPath|Base Stack|DefaultLayer|cliff0|tunnelP
+  - first:
+      74: -209245028900308545
+    second: track100|cliff0|cliff0|tunnelRight|Base Stack|DefaultLayer|cliff0|tunnel
+  - first:
+      74: -5287335695844404209
+    second: track100|cliff0|cliff0|woodPile|Base Stack|DefaultLayer|cliff0|woodPile|
+  - first:
+      74: -1327557598984585824
+    second: track100|cliff1|cliff1|bigBridge|Base Stack|DefaultLayer|cliff1|bigBridg
+  - first:
+      74: 8776140880019084288
+    second: track100|cliff1|cliff1|campFire|Base Stack|DefaultLayer|cliff1|campFire|
+  - first:
+      74: -2928218277915298486
+    second: track100|cliff1|cliff1|cliff0|Base Stack|DefaultLayer|cliff1|cliff0|Base
+  - first:
+      74: -1580545084067356433
+    second: track100|cliff1|cliff1|cliff1|Base Stack|DefaultLayer|cliff1|cliff1|Base
+  - first:
+      74: -2010989617692497943
+    second: track100|cliff1|cliff1|cliff2|Base Stack|DefaultLayer|cliff1|cliff2|Base
+  - first:
+      74: 7263566246044536095
+    second: track100|cliff1|cliff1|cliff3|Base Stack|DefaultLayer|cliff1|cliff3|Base
+  - first:
+      74: 6874728506394556031
+    second: track100|cliff1|cliff1|hangBridge|Base Stack|DefaultLayer|cliff1|hangBri
+  - first:
+      74: -1406656477475262377
+    second: track100|cliff1|cliff1|house|Base Stack|DefaultLayer|cliff1|house|Base
+      S
+  - first:
+      74: -5456350802720697399
+    second: track100|cliff1|cliff1|mountTunnel|Base Stack|DefaultLayer|cliff1|mountT
+  - first:
+      74: 7685950262639586492
+    second: track100|cliff1|cliff1|normTree1|Base Stack|DefaultLayer|cliff1|normTree
+  - first:
+      74: 7468310691747702163
+    second: track100|cliff1|cliff1|normTree2|Base Stack|DefaultLayer|cliff1|normTree
+  - first:
+      74: 4179818048738634024
+    second: track100|cliff1|cliff1|normTree3|Base Stack|DefaultLayer|cliff1|normTree
+  - first:
+      74: -6090411910547373934
+    second: track100|cliff1|cliff1|pineTree1|Base Stack|DefaultLayer|cliff1|pineTree
+  - first:
+      74: 8613038696225232901
+    second: track100|cliff1|cliff1|pineTree2|Base Stack|DefaultLayer|cliff1|pineTree
+  - first:
+      74: 7781438604792588419
+    second: track100|cliff1|cliff1|torch|Base Stack|DefaultLayer|cliff1|torch|Base
+      S
+  - first:
+      74: 1403628197928500252
+    second: track100|cliff1|cliff1|track100|Base Stack|DefaultLayer|cliff1|track100|
+  - first:
+      74: 717301286369805358
+    second: track100|cliff1|cliff1|track150|Base Stack|DefaultLayer|cliff1|track150|
+  - first:
+      74: 7102166438719637356
+    second: track100|cliff1|cliff1|track50|Base Stack|DefaultLayer|cliff1|track50|Ba
+  - first:
+      74: -1922251614618468576
+    second: track100|cliff1|cliff1|trackHangBridge|Base Stack|DefaultLayer|cliff1|tr
+  - first:
+      74: 8642829005990100116
+    second: track100|cliff1|cliff1|trackOpen|Base Stack|DefaultLayer|cliff1|trackOpe
+  - first:
+      74: -2909212645067452086
+    second: track100|cliff1|cliff1|trackTree|Base Stack|DefaultLayer|cliff1|trackTre
+  - first:
+      74: 1095039898913503789
+    second: track100|cliff1|cliff1|trackTunnel|Base Stack|DefaultLayer|cliff1|trackT
+  - first:
+      74: 5357833229667473030
+    second: track100|cliff1|cliff1|tree1|Base Stack|DefaultLayer|cliff1|tree1|Base
+      S
+  - first:
+      74: 571144520333134152
+    second: track100|cliff1|cliff1|tunnel2Path|Base Stack|DefaultLayer|cliff1|tunnel
+  - first:
+      74: 616191586324957858
+    second: track100|cliff1|cliff1|tunnelCenter|Base Stack|DefaultLayer|cliff1|tunne
+  - first:
+      74: 4935343750651694161
+    second: track100|cliff1|cliff1|tunnelCliff|Base Stack|DefaultLayer|cliff1|tunnel
+  - first:
+      74: -3274010293059661061
+    second: track100|cliff1|cliff1|tunnelHolder|Base Stack|DefaultLayer|cliff1|tunne
+  - first:
+      74: -6017322027153394307
+    second: track100|cliff1|cliff1|tunnelLeft|Base Stack|DefaultLayer|cliff1|tunnelL
+  - first:
+      74: -3842883343581228198
+    second: track100|cliff1|cliff1|tunnelPath|Base Stack|DefaultLayer|cliff1|tunnelP
+  - first:
+      74: -6663412264225811851
+    second: track100|cliff1|cliff1|tunnelRight|Base Stack|DefaultLayer|cliff1|tunnel
+  - first:
+      74: -7458878297287447705
+    second: track100|cliff1|cliff1|woodPile|Base Stack|DefaultLayer|cliff1|woodPile|
+  - first:
+      74: 3051263876192198768
+    second: track100|cliff2|cliff2|bigBridge|Base Stack|DefaultLayer|cliff2|bigBridg
+  - first:
+      74: 6585992736626375252
+    second: track100|cliff2|cliff2|campFire|Base Stack|DefaultLayer|cliff2|campFire|
+  - first:
+      74: -5658067074453716628
+    second: track100|cliff2|cliff2|cliff0|Base Stack|DefaultLayer|cliff2|cliff0|Base
+  - first:
+      74: 3225781948599022795
+    second: track100|cliff2|cliff2|cliff1|Base Stack|DefaultLayer|cliff2|cliff1|Base
+  - first:
+      74: 8662513061274014180
+    second: track100|cliff2|cliff2|cliff2|Base Stack|DefaultLayer|cliff2|cliff2|Base
+  - first:
+      74: -212927177750172673
+    second: track100|cliff2|cliff2|cliff3|Base Stack|DefaultLayer|cliff2|cliff3|Base
+  - first:
+      74: 73759637709981857
+    second: track100|cliff2|cliff2|hangBridge|Base Stack|DefaultLayer|cliff2|hangBri
+  - first:
+      74: -5631814135226078865
+    second: track100|cliff2|cliff2|house|Base Stack|DefaultLayer|cliff2|house|Base
+      S
+  - first:
+      74: 1103290744007898675
+    second: track100|cliff2|cliff2|mountTunnel|Base Stack|DefaultLayer|cliff2|mountT
+  - first:
+      74: -9119538060695301403
+    second: track100|cliff2|cliff2|normTree1|Base Stack|DefaultLayer|cliff2|normTree
+  - first:
+      74: 34593305035159483
+    second: track100|cliff2|cliff2|normTree2|Base Stack|DefaultLayer|cliff2|normTree
+  - first:
+      74: 3935672788003800773
+    second: track100|cliff2|cliff2|normTree3|Base Stack|DefaultLayer|cliff2|normTree
+  - first:
+      74: -1694125421450778600
+    second: track100|cliff2|cliff2|pineTree1|Base Stack|DefaultLayer|cliff2|pineTree
+  - first:
+      74: -3862986357541559146
+    second: track100|cliff2|cliff2|pineTree2|Base Stack|DefaultLayer|cliff2|pineTree
+  - first:
+      74: -8037034855955253658
+    second: track100|cliff2|cliff2|torch|Base Stack|DefaultLayer|cliff2|torch|Base
+      S
+  - first:
+      74: -839584569267107505
+    second: track100|cliff2|cliff2|track100|Base Stack|DefaultLayer|cliff2|track100|
+  - first:
+      74: -1461903798705946994
+    second: track100|cliff2|cliff2|track150|Base Stack|DefaultLayer|cliff2|track150|
+  - first:
+      74: 8689619822910222332
+    second: track100|cliff2|cliff2|track50|Base Stack|DefaultLayer|cliff2|track50|Ba
+  - first:
+      74: -1658707230042446394
+    second: track100|cliff2|cliff2|trackHangBridge|Base Stack|DefaultLayer|cliff2|tr
+  - first:
+      74: 2288320614471974750
+    second: track100|cliff2|cliff2|trackOpen|Base Stack|DefaultLayer|cliff2|trackOpe
+  - first:
+      74: -5594998169742456033
+    second: track100|cliff2|cliff2|trackTree|Base Stack|DefaultLayer|cliff2|trackTre
+  - first:
+      74: 2762300138325412867
+    second: track100|cliff2|cliff2|trackTunnel|Base Stack|DefaultLayer|cliff2|trackT
+  - first:
+      74: -1400911085730175708
+    second: track100|cliff2|cliff2|tree1|Base Stack|DefaultLayer|cliff2|tree1|Base
+      S
+  - first:
+      74: 8203356828568983290
+    second: track100|cliff2|cliff2|tunnel2Path|Base Stack|DefaultLayer|cliff2|tunnel
+  - first:
+      74: -3503161233569175661
+    second: track100|cliff2|cliff2|tunnelCenter|Base Stack|DefaultLayer|cliff2|tunne
+  - first:
+      74: -6756412121009863166
+    second: track100|cliff2|cliff2|tunnelCliff|Base Stack|DefaultLayer|cliff2|tunnel
+  - first:
+      74: 5212130954174433060
+    second: track100|cliff2|cliff2|tunnelHolder|Base Stack|DefaultLayer|cliff2|tunne
+  - first:
+      74: 6947938917271052460
+    second: track100|cliff2|cliff2|tunnelLeft|Base Stack|DefaultLayer|cliff2|tunnelL
+  - first:
+      74: 6711098008447297523
+    second: track100|cliff2|cliff2|tunnelPath|Base Stack|DefaultLayer|cliff2|tunnelP
+  - first:
+      74: 5898807838092391051
+    second: track100|cliff2|cliff2|tunnelRight|Base Stack|DefaultLayer|cliff2|tunnel
+  - first:
+      74: 3290202217193702194
+    second: track100|cliff2|cliff2|woodPile|Base Stack|DefaultLayer|cliff2|woodPile|
+  - first:
+      74: 4043741007721045808
+    second: track100|cliff3|cliff3|bigBridge|Base Stack|DefaultLayer|cliff3|bigBridg
+  - first:
+      74: -8174952287336218761
+    second: track100|cliff3|cliff3|campFire|Base Stack|DefaultLayer|cliff3|campFire|
+  - first:
+      74: 8327894421556744897
+    second: track100|cliff3|cliff3|cliff0|Base Stack|DefaultLayer|cliff3|cliff0|Base
+  - first:
+      74: 9064588464452606190
+    second: track100|cliff3|cliff3|cliff1|Base Stack|DefaultLayer|cliff3|cliff1|Base
+  - first:
+      74: 347728838311422760
+    second: track100|cliff3|cliff3|cliff2|Base Stack|DefaultLayer|cliff3|cliff2|Base
+  - first:
+      74: -6530447444972477359
+    second: track100|cliff3|cliff3|cliff3|Base Stack|DefaultLayer|cliff3|cliff3|Base
+  - first:
+      74: -9055482021413666975
+    second: track100|cliff3|cliff3|hangBridge|Base Stack|DefaultLayer|cliff3|hangBri
+  - first:
+      74: 4732824385406337688
+    second: track100|cliff3|cliff3|house|Base Stack|DefaultLayer|cliff3|house|Base
+      S
+  - first:
+      74: 406827223987813100
+    second: track100|cliff3|cliff3|mountTunnel|Base Stack|DefaultLayer|cliff3|mountT
+  - first:
+      74: -3658936290736638968
+    second: track100|cliff3|cliff3|normTree1|Base Stack|DefaultLayer|cliff3|normTree
+  - first:
+      74: 3505730135296102596
+    second: track100|cliff3|cliff3|normTree2|Base Stack|DefaultLayer|cliff3|normTree
+  - first:
+      74: -876829910415624899
+    second: track100|cliff3|cliff3|normTree3|Base Stack|DefaultLayer|cliff3|normTree
+  - first:
+      74: -367022092142081318
+    second: track100|cliff3|cliff3|pineTree1|Base Stack|DefaultLayer|cliff3|pineTree
+  - first:
+      74: 3782878868175286237
+    second: track100|cliff3|cliff3|pineTree2|Base Stack|DefaultLayer|cliff3|pineTree
+  - first:
+      74: 6508575878581330944
+    second: track100|cliff3|cliff3|torch|Base Stack|DefaultLayer|cliff3|torch|Base
+      S
+  - first:
+      74: -7886492576664690957
+    second: track100|cliff3|cliff3|track100|Base Stack|DefaultLayer|cliff3|track100|
+  - first:
+      74: -4753723212140355275
+    second: track100|cliff3|cliff3|track150|Base Stack|DefaultLayer|cliff3|track150|
+  - first:
+      74: -4630286563472211517
+    second: track100|cliff3|cliff3|track50|Base Stack|DefaultLayer|cliff3|track50|Ba
+  - first:
+      74: 1791714367193663620
+    second: track100|cliff3|cliff3|trackHangBridge|Base Stack|DefaultLayer|cliff3|tr
+  - first:
+      74: -3989165607344814842
+    second: track100|cliff3|cliff3|trackOpen|Base Stack|DefaultLayer|cliff3|trackOpe
+  - first:
+      74: -8931315708894278061
+    second: track100|cliff3|cliff3|trackTree|Base Stack|DefaultLayer|cliff3|trackTre
+  - first:
+      74: -1106843977894679974
+    second: track100|cliff3|cliff3|trackTunnel|Base Stack|DefaultLayer|cliff3|trackT
+  - first:
+      74: 3526976802666562187
+    second: track100|cliff3|cliff3|tree1|Base Stack|DefaultLayer|cliff3|tree1|Base
+      S
+  - first:
+      74: 9101478495503818780
+    second: track100|cliff3|cliff3|tunnel2Path|Base Stack|DefaultLayer|cliff3|tunnel
+  - first:
+      74: -3714802030742761844
+    second: track100|cliff3|cliff3|tunnelCenter|Base Stack|DefaultLayer|cliff3|tunne
+  - first:
+      74: -8237245309141704084
+    second: track100|cliff3|cliff3|tunnelCliff|Base Stack|DefaultLayer|cliff3|tunnel
+  - first:
+      74: -8967173173994315052
+    second: track100|cliff3|cliff3|tunnelHolder|Base Stack|DefaultLayer|cliff3|tunne
+  - first:
+      74: -4954015200773264602
+    second: track100|cliff3|cliff3|tunnelLeft|Base Stack|DefaultLayer|cliff3|tunnelL
+  - first:
+      74: -602922828432445788
+    second: track100|cliff3|cliff3|tunnelPath|Base Stack|DefaultLayer|cliff3|tunnelP
+  - first:
+      74: -8459392976574257298
+    second: track100|cliff3|cliff3|tunnelRight|Base Stack|DefaultLayer|cliff3|tunnel
+  - first:
+      74: -8323696822952293783
+    second: track100|cliff3|cliff3|woodPile|Base Stack|DefaultLayer|cliff3|woodPile|
+  - first:
+      74: -8627720707707302675
+    second: track100|hangBridge|hangBridge|bigBridge|Base Stack|DefaultLayer|hangBri
+  - first:
+      74: 7702644403786430177
+    second: track100|hangBridge|hangBridge|campFire|Base Stack|DefaultLayer|hangBrid
+  - first:
+      74: -6796730367876285792
+    second: track100|hangBridge|hangBridge|cliff0|Base Stack|DefaultLayer|hangBridge
+  - first:
+      74: 8037896294234891437
+    second: track100|hangBridge|hangBridge|cliff1|Base Stack|DefaultLayer|hangBridge
+  - first:
+      74: 1296101026964335909
+    second: track100|hangBridge|hangBridge|cliff2|Base Stack|DefaultLayer|hangBridge
+  - first:
+      74: -1888379155392096962
+    second: track100|hangBridge|hangBridge|cliff3|Base Stack|DefaultLayer|hangBridge
+  - first:
+      74: 7487017586812217864
+    second: track100|hangBridge|hangBridge|hangBridge|Base Stack|DefaultLayer|hangBr
+  - first:
+      74: -6942580084726619935
+    second: track100|hangBridge|hangBridge|house|Base Stack|DefaultLayer|hangBridge|
+  - first:
+      74: 2247289985544134710
+    second: track100|hangBridge|hangBridge|mountTunnel|Base Stack|DefaultLayer|hangB
+  - first:
+      74: -3331650449945373778
+    second: track100|hangBridge|hangBridge|normTree1|Base Stack|DefaultLayer|hangBri
+  - first:
+      74: 7383298209659399947
+    second: track100|hangBridge|hangBridge|normTree2|Base Stack|DefaultLayer|hangBri
+  - first:
+      74: -7035425584421712715
+    second: track100|hangBridge|hangBridge|normTree3|Base Stack|DefaultLayer|hangBri
+  - first:
+      74: -7276456605403040840
+    second: track100|hangBridge|hangBridge|pineTree1|Base Stack|DefaultLayer|hangBri
+  - first:
+      74: -7970466292864470318
+    second: track100|hangBridge|hangBridge|pineTree2|Base Stack|DefaultLayer|hangBri
+  - first:
+      74: -6431477354040387261
+    second: track100|hangBridge|hangBridge|torch|Base Stack|DefaultLayer|hangBridge|
+  - first:
+      74: 9089595013609526121
+    second: track100|hangBridge|hangBridge|track100|Base Stack|DefaultLayer|hangBrid
+  - first:
+      74: 3784744993013500776
+    second: track100|hangBridge|hangBridge|track150|Base Stack|DefaultLayer|hangBrid
+  - first:
+      74: -7881784472515695556
+    second: track100|hangBridge|hangBridge|track50|Base Stack|DefaultLayer|hangBridg
+  - first:
+      74: -1570269578831591233
+    second: track100|hangBridge|hangBridge|trackHangBridge|Base Stack|DefaultLayer|h
+  - first:
+      74: 2786718771481251933
+    second: track100|hangBridge|hangBridge|trackOpen|Base Stack|DefaultLayer|hangBri
+  - first:
+      74: 8049859887988744923
+    second: track100|hangBridge|hangBridge|trackTree|Base Stack|DefaultLayer|hangBri
+  - first:
+      74: -9096907694176168252
+    second: track100|hangBridge|hangBridge|trackTunnel|Base Stack|DefaultLayer|hangB
+  - first:
+      74: -4588856292356221898
+    second: track100|hangBridge|hangBridge|tree1|Base Stack|DefaultLayer|hangBridge|
+  - first:
+      74: -6823527049547000354
+    second: track100|hangBridge|hangBridge|tunnel2Path|Base Stack|DefaultLayer|hangB
+  - first:
+      74: -4671210744749615568
+    second: track100|hangBridge|hangBridge|tunnelCenter|Base Stack|DefaultLayer|hang
+  - first:
+      74: -6919158528568587742
+    second: track100|hangBridge|hangBridge|tunnelCliff|Base Stack|DefaultLayer|hangB
+  - first:
+      74: -5895969941323571190
+    second: track100|hangBridge|hangBridge|tunnelHolder|Base Stack|DefaultLayer|hang
+  - first:
+      74: -1978552003436805939
+    second: track100|hangBridge|hangBridge|tunnelLeft|Base Stack|DefaultLayer|hangBr
+  - first:
+      74: 2706751911462492826
+    second: track100|hangBridge|hangBridge|tunnelPath|Base Stack|DefaultLayer|hangBr
+  - first:
+      74: 5210418758807853116
+    second: track100|hangBridge|hangBridge|tunnelRight|Base Stack|DefaultLayer|hangB
+  - first:
+      74: -493953946796214265
+    second: track100|hangBridge|hangBridge|woodPile|Base Stack|DefaultLayer|hangBrid
+  - first:
+      74: 8206117160231085399
+    second: track100|house|house|bigBridge|Base Stack|DefaultLayer|house|bigBridge|B
+  - first:
+      74: 1723939479465746312
+    second: track100|house|house|campFire|Base Stack|DefaultLayer|house|campFire|Bas
+  - first:
+      74: -7795714941560141828
+    second: track100|house|house|cliff0|Base Stack|DefaultLayer|house|cliff0|Base
+      St
+  - first:
+      74: -7405223320432547000
+    second: track100|house|house|cliff1|Base Stack|DefaultLayer|house|cliff1|Base
+      St
+  - first:
+      74: -4774751681971874348
+    second: track100|house|house|cliff2|Base Stack|DefaultLayer|house|cliff2|Base
+      St
+  - first:
+      74: 4555411988835162728
+    second: track100|house|house|cliff3|Base Stack|DefaultLayer|house|cliff3|Base
+      St
+  - first:
+      74: 4225323327936987222
+    second: track100|house|house|hangBridge|Base Stack|DefaultLayer|house|hangBridge
+  - first:
+      74: 4185231844364558895
+    second: track100|house|house|house|Base Stack|DefaultLayer|house|house|Base Stac
+  - first:
+      74: -845142097738518397
+    second: track100|house|house|mountTunnel|Base Stack|DefaultLayer|house|mountTunn
+  - first:
+      74: 5102958262092321273
+    second: track100|house|house|normTree1|Base Stack|DefaultLayer|house|normTree1|B
+  - first:
+      74: 7966765978712194765
+    second: track100|house|house|normTree2|Base Stack|DefaultLayer|house|normTree2|B
+  - first:
+      74: 7036320005502929598
+    second: track100|house|house|normTree3|Base Stack|DefaultLayer|house|normTree3|B
+  - first:
+      74: -896727586870334761
+    second: track100|house|house|pineTree1|Base Stack|DefaultLayer|house|pineTree1|B
+  - first:
+      74: -1079812251641055399
+    second: track100|house|house|pineTree2|Base Stack|DefaultLayer|house|pineTree2|B
+  - first:
+      74: -1867053359879537422
+    second: track100|house|house|torch|Base Stack|DefaultLayer|house|torch|Base Stac
+  - first:
+      74: -3698899039926906926
+    second: track100|house|house|track100|Base Stack|DefaultLayer|house|track100|Bas
+  - first:
+      74: -340634475046060924
+    second: track100|house|house|track150|Base Stack|DefaultLayer|house|track150|Bas
+  - first:
+      74: -3349689795603208814
+    second: 'track100|house|house|track50|Base Stack|DefaultLayer|house|track50|Base '
+  - first:
+      74: 8148842724205612833
+    second: track100|house|house|trackHangBridge|Base Stack|DefaultLayer|house|track
+  - first:
+      74: 1282850999071443090
+    second: track100|house|house|trackOpen|Base Stack|DefaultLayer|house|trackOpen|B
+  - first:
+      74: 2263592224360681336
+    second: track100|house|house|trackTree|Base Stack|DefaultLayer|house|trackTree|B
+  - first:
+      74: 5664836609299184551
+    second: track100|house|house|trackTunnel|Base Stack|DefaultLayer|house|trackTunn
+  - first:
+      74: -6652777872702632813
+    second: track100|house|house|tree1|Base Stack|DefaultLayer|house|tree1|Base Stac
+  - first:
+      74: 2555079327837072596
+    second: track100|house|house|tunnel2Path|Base Stack|DefaultLayer|house|tunnel2Pa
+  - first:
+      74: -1750368469526033232
+    second: track100|house|house|tunnelCenter|Base Stack|DefaultLayer|house|tunnelCe
+  - first:
+      74: -8805455612502395149
+    second: track100|house|house|tunnelCliff|Base Stack|DefaultLayer|house|tunnelCli
+  - first:
+      74: 4250976947832944792
+    second: track100|house|house|tunnelHolder|Base Stack|DefaultLayer|house|tunnelHo
+  - first:
+      74: -5907663126056047856
+    second: track100|house|house|tunnelLeft|Base Stack|DefaultLayer|house|tunnelLeft
+  - first:
+      74: -6776477839828787668
+    second: track100|house|house|tunnelPath|Base Stack|DefaultLayer|house|tunnelPath
+  - first:
+      74: -1076490528944913517
+    second: track100|house|house|tunnelRight|Base Stack|DefaultLayer|house|tunnelRig
+  - first:
+      74: 7312298197873365295
+    second: track100|house|house|woodPile|Base Stack|DefaultLayer|house|woodPile|Bas
+  - first:
+      74: -1685748340316245551
+    second: track100|mountTunnel|mountTunnel|bigBridge|Base Stack|DefaultLayer|mount
+  - first:
+      74: -3139202854939526687
+    second: track100|mountTunnel|mountTunnel|campFire|Base Stack|DefaultLayer|mountT
+  - first:
+      74: -2007060902844035743
+    second: track100|mountTunnel|mountTunnel|cliff0|Base Stack|DefaultLayer|mountTun
+  - first:
+      74: -4105465290965018715
+    second: track100|mountTunnel|mountTunnel|cliff1|Base Stack|DefaultLayer|mountTun
+  - first:
+      74: -7784520659392063199
+    second: track100|mountTunnel|mountTunnel|cliff2|Base Stack|DefaultLayer|mountTun
+  - first:
+      74: -5537479034435057221
+    second: track100|mountTunnel|mountTunnel|cliff3|Base Stack|DefaultLayer|mountTun
+  - first:
+      74: -3542970914907560668
+    second: track100|mountTunnel|mountTunnel|hangBridge|Base Stack|DefaultLayer|moun
+  - first:
+      74: -3192642734095850032
+    second: track100|mountTunnel|mountTunnel|house|Base Stack|DefaultLayer|mountTunn
+  - first:
+      74: 5724878815236055148
+    second: track100|mountTunnel|mountTunnel|mountTunnel|Base Stack|DefaultLayer|mou
+  - first:
+      74: -8566821153775540268
+    second: track100|mountTunnel|mountTunnel|normTree1|Base Stack|DefaultLayer|mount
+  - first:
+      74: -7223549294593720157
+    second: track100|mountTunnel|mountTunnel|normTree2|Base Stack|DefaultLayer|mount
+  - first:
+      74: 3130193357324517224
+    second: track100|mountTunnel|mountTunnel|normTree3|Base Stack|DefaultLayer|mount
+  - first:
+      74: 4036017448760096551
+    second: track100|mountTunnel|mountTunnel|pineTree1|Base Stack|DefaultLayer|mount
+  - first:
+      74: 307772404072843537
+    second: track100|mountTunnel|mountTunnel|pineTree2|Base Stack|DefaultLayer|mount
+  - first:
+      74: -520107175144866097
+    second: track100|mountTunnel|mountTunnel|torch|Base Stack|DefaultLayer|mountTunn
+  - first:
+      74: 7318974662785687300
+    second: track100|mountTunnel|mountTunnel|track100|Base Stack|DefaultLayer|mountT
+  - first:
+      74: 8816747831087661584
+    second: track100|mountTunnel|mountTunnel|track150|Base Stack|DefaultLayer|mountT
+  - first:
+      74: -6294146167234047785
+    second: track100|mountTunnel|mountTunnel|track50|Base Stack|DefaultLayer|mountTu
+  - first:
+      74: -828254601926884317
+    second: track100|mountTunnel|mountTunnel|trackHangBridge|Base Stack|DefaultLayer
+  - first:
+      74: -7783028027081645171
+    second: track100|mountTunnel|mountTunnel|trackOpen|Base Stack|DefaultLayer|mount
+  - first:
+      74: -8790013880359154383
+    second: track100|mountTunnel|mountTunnel|trackTree|Base Stack|DefaultLayer|mount
+  - first:
+      74: -7998219209522288532
+    second: track100|mountTunnel|mountTunnel|trackTunnel|Base Stack|DefaultLayer|mou
+  - first:
+      74: 6115578849540803672
+    second: track100|mountTunnel|mountTunnel|tree1|Base Stack|DefaultLayer|mountTunn
+  - first:
+      74: -7963317197955807193
+    second: track100|mountTunnel|mountTunnel|tunnel2Path|Base Stack|DefaultLayer|mou
+  - first:
+      74: 3388441002586011175
+    second: track100|mountTunnel|mountTunnel|tunnelCenter|Base Stack|DefaultLayer|mo
+  - first:
+      74: 8312987411157681164
+    second: track100|mountTunnel|mountTunnel|tunnelCliff|Base Stack|DefaultLayer|mou
+  - first:
+      74: 8860930087714212879
+    second: track100|mountTunnel|mountTunnel|tunnelHolder|Base Stack|DefaultLayer|mo
+  - first:
+      74: -7217363826491277915
+    second: track100|mountTunnel|mountTunnel|tunnelLeft|Base Stack|DefaultLayer|moun
+  - first:
+      74: -431285330646771992
+    second: track100|mountTunnel|mountTunnel|tunnelPath|Base Stack|DefaultLayer|moun
+  - first:
+      74: 9014136430462127006
+    second: track100|mountTunnel|mountTunnel|tunnelRight|Base Stack|DefaultLayer|mou
+  - first:
+      74: -7052220010972842217
+    second: track100|mountTunnel|mountTunnel|woodPile|Base Stack|DefaultLayer|mountT
+  - first:
+      74: 2526313549818710854
+    second: track100|normTree1|normTree1|bigBridge|Base Stack|DefaultLayer|normTree1
+  - first:
+      74: 531520223738081759
+    second: track100|normTree1|normTree1|campFire|Base Stack|DefaultLayer|normTree1|
+  - first:
+      74: 3987982683425655803
+    second: track100|normTree1|normTree1|cliff0|Base Stack|DefaultLayer|normTree1|cl
+  - first:
+      74: -5887503828904529194
+    second: track100|normTree1|normTree1|cliff1|Base Stack|DefaultLayer|normTree1|cl
+  - first:
+      74: -9022893645352758456
+    second: track100|normTree1|normTree1|cliff2|Base Stack|DefaultLayer|normTree1|cl
+  - first:
+      74: -7096603312973833746
+    second: track100|normTree1|normTree1|cliff3|Base Stack|DefaultLayer|normTree1|cl
+  - first:
+      74: 5594701429016976401
+    second: track100|normTree1|normTree1|hangBridge|Base Stack|DefaultLayer|normTree
+  - first:
+      74: 2233812239469099271
+    second: track100|normTree1|normTree1|house|Base Stack|DefaultLayer|normTree1|hou
+  - first:
+      74: 6878748559956769297
+    second: track100|normTree1|normTree1|mountTunnel|Base Stack|DefaultLayer|normTre
+  - first:
+      74: 8986814185238469708
+    second: track100|normTree1|normTree1|normTree1|Base Stack|DefaultLayer|normTree1
+  - first:
+      74: -5161192850380745601
+    second: track100|normTree1|normTree1|normTree2|Base Stack|DefaultLayer|normTree1
+  - first:
+      74: -6028170656114332102
+    second: track100|normTree1|normTree1|normTree3|Base Stack|DefaultLayer|normTree1
+  - first:
+      74: -5178682711085739684
+    second: track100|normTree1|normTree1|pineTree1|Base Stack|DefaultLayer|normTree1
+  - first:
+      74: -3217958297756978883
+    second: track100|normTree1|normTree1|pineTree2|Base Stack|DefaultLayer|normTree1
+  - first:
+      74: 6506149014077722019
+    second: track100|normTree1|normTree1|torch|Base Stack|DefaultLayer|normTree1|tor
+  - first:
+      74: 4285545249212128715
+    second: track100|normTree1|normTree1|track100|Base Stack|DefaultLayer|normTree1|
+  - first:
+      74: 6651410793340258941
+    second: track100|normTree1|normTree1|track150|Base Stack|DefaultLayer|normTree1|
+  - first:
+      74: -556248596379319746
+    second: track100|normTree1|normTree1|track50|Base Stack|DefaultLayer|normTree1|t
+  - first:
+      74: 2875380695225240121
+    second: track100|normTree1|normTree1|trackHangBridge|Base Stack|DefaultLayer|nor
+  - first:
+      74: -154377806043021579
+    second: track100|normTree1|normTree1|trackOpen|Base Stack|DefaultLayer|normTree1
+  - first:
+      74: -225254489062004925
+    second: track100|normTree1|normTree1|trackTree|Base Stack|DefaultLayer|normTree1
+  - first:
+      74: 1162644311448328814
+    second: track100|normTree1|normTree1|trackTunnel|Base Stack|DefaultLayer|normTre
+  - first:
+      74: -2756117726343069747
+    second: track100|normTree1|normTree1|tree1|Base Stack|DefaultLayer|normTree1|tre
+  - first:
+      74: 6209090568955633738
+    second: track100|normTree1|normTree1|tunnel2Path|Base Stack|DefaultLayer|normTre
+  - first:
+      74: 4505229657980594862
+    second: track100|normTree1|normTree1|tunnelCenter|Base Stack|DefaultLayer|normTr
+  - first:
+      74: 4332674135545548973
+    second: track100|normTree1|normTree1|tunnelCliff|Base Stack|DefaultLayer|normTre
+  - first:
+      74: -7373581130248341334
+    second: track100|normTree1|normTree1|tunnelHolder|Base Stack|DefaultLayer|normTr
+  - first:
+      74: -7482793834180172552
+    second: track100|normTree1|normTree1|tunnelLeft|Base Stack|DefaultLayer|normTree
+  - first:
+      74: -7062949908247003650
+    second: track100|normTree1|normTree1|tunnelPath|Base Stack|DefaultLayer|normTree
+  - first:
+      74: -7971158155773338514
+    second: track100|normTree1|normTree1|tunnelRight|Base Stack|DefaultLayer|normTre
+  - first:
+      74: -7633797204619511775
+    second: track100|normTree1|normTree1|woodPile|Base Stack|DefaultLayer|normTree1|
+  - first:
+      74: 2156242280982823097
+    second: track100|normTree2|normTree2|bigBridge|Base Stack|DefaultLayer|normTree2
+  - first:
+      74: 3093045104004617594
+    second: track100|normTree2|normTree2|campFire|Base Stack|DefaultLayer|normTree2|
+  - first:
+      74: 8921229629479808821
+    second: track100|normTree2|normTree2|cliff0|Base Stack|DefaultLayer|normTree2|cl
+  - first:
+      74: 2040332766040944870
+    second: track100|normTree2|normTree2|cliff1|Base Stack|DefaultLayer|normTree2|cl
+  - first:
+      74: 4695682175614630119
+    second: track100|normTree2|normTree2|cliff2|Base Stack|DefaultLayer|normTree2|cl
+  - first:
+      74: -2407401891204638238
+    second: track100|normTree2|normTree2|cliff3|Base Stack|DefaultLayer|normTree2|cl
+  - first:
+      74: -4488238582019180880
+    second: track100|normTree2|normTree2|hangBridge|Base Stack|DefaultLayer|normTree
+  - first:
+      74: -1078769160934385843
+    second: track100|normTree2|normTree2|house|Base Stack|DefaultLayer|normTree2|hou
+  - first:
+      74: -2603404752976131095
+    second: track100|normTree2|normTree2|mountTunnel|Base Stack|DefaultLayer|normTre
+  - first:
+      74: -3418097630557578306
+    second: track100|normTree2|normTree2|normTree1|Base Stack|DefaultLayer|normTree2
+  - first:
+      74: 2386649371371112283
+    second: track100|normTree2|normTree2|normTree2|Base Stack|DefaultLayer|normTree2
+  - first:
+      74: 4026915653537978587
+    second: track100|normTree2|normTree2|normTree3|Base Stack|DefaultLayer|normTree2
+  - first:
+      74: -6572657043202845849
+    second: track100|normTree2|normTree2|pineTree1|Base Stack|DefaultLayer|normTree2
+  - first:
+      74: -7390170299640864071
+    second: track100|normTree2|normTree2|pineTree2|Base Stack|DefaultLayer|normTree2
+  - first:
+      74: -2656240420250878994
+    second: track100|normTree2|normTree2|torch|Base Stack|DefaultLayer|normTree2|tor
+  - first:
+      74: -1233927711333590040
+    second: track100|normTree2|normTree2|track100|Base Stack|DefaultLayer|normTree2|
+  - first:
+      74: 6034134502373525504
+    second: track100|normTree2|normTree2|track150|Base Stack|DefaultLayer|normTree2|
+  - first:
+      74: 138136536902715886
+    second: track100|normTree2|normTree2|track50|Base Stack|DefaultLayer|normTree2|t
+  - first:
+      74: -5269501676450516894
+    second: track100|normTree2|normTree2|trackHangBridge|Base Stack|DefaultLayer|nor
+  - first:
+      74: 6729604028565804888
+    second: track100|normTree2|normTree2|trackOpen|Base Stack|DefaultLayer|normTree2
+  - first:
+      74: -8423678114307649012
+    second: track100|normTree2|normTree2|trackTree|Base Stack|DefaultLayer|normTree2
+  - first:
+      74: 2581878192518758932
+    second: track100|normTree2|normTree2|trackTunnel|Base Stack|DefaultLayer|normTre
+  - first:
+      74: 780157121719068733
+    second: track100|normTree2|normTree2|tree1|Base Stack|DefaultLayer|normTree2|tre
+  - first:
+      74: -2763049912110280475
+    second: track100|normTree2|normTree2|tunnel2Path|Base Stack|DefaultLayer|normTre
+  - first:
+      74: 1181183767126502698
+    second: track100|normTree2|normTree2|tunnelCenter|Base Stack|DefaultLayer|normTr
+  - first:
+      74: 2845522994608480603
+    second: track100|normTree2|normTree2|tunnelCliff|Base Stack|DefaultLayer|normTre
+  - first:
+      74: 4589138219263459110
+    second: track100|normTree2|normTree2|tunnelHolder|Base Stack|DefaultLayer|normTr
+  - first:
+      74: -636283491383978126
+    second: track100|normTree2|normTree2|tunnelLeft|Base Stack|DefaultLayer|normTree
+  - first:
+      74: -450123233523489671
+    second: track100|normTree2|normTree2|tunnelPath|Base Stack|DefaultLayer|normTree
+  - first:
+      74: 9217930178428011512
+    second: track100|normTree2|normTree2|tunnelRight|Base Stack|DefaultLayer|normTre
+  - first:
+      74: -8458927426184924902
+    second: track100|normTree2|normTree2|woodPile|Base Stack|DefaultLayer|normTree2|
+  - first:
+      74: -3910748196426205182
+    second: track100|normTree3|normTree3|bigBridge|Base Stack|DefaultLayer|normTree3
+  - first:
+      74: 3609469277640189090
+    second: track100|normTree3|normTree3|campFire|Base Stack|DefaultLayer|normTree3|
+  - first:
+      74: 8427349429946329085
+    second: track100|normTree3|normTree3|cliff0|Base Stack|DefaultLayer|normTree3|cl
+  - first:
+      74: -1939248843431345805
+    second: track100|normTree3|normTree3|cliff1|Base Stack|DefaultLayer|normTree3|cl
+  - first:
+      74: -7476013637843943242
+    second: track100|normTree3|normTree3|cliff2|Base Stack|DefaultLayer|normTree3|cl
+  - first:
+      74: -2803984556077704469
+    second: track100|normTree3|normTree3|cliff3|Base Stack|DefaultLayer|normTree3|cl
+  - first:
+      74: -8807607597802100132
+    second: track100|normTree3|normTree3|hangBridge|Base Stack|DefaultLayer|normTree
+  - first:
+      74: 2818754134771341268
+    second: track100|normTree3|normTree3|house|Base Stack|DefaultLayer|normTree3|hou
+  - first:
+      74: -2202475997659348281
+    second: track100|normTree3|normTree3|mountTunnel|Base Stack|DefaultLayer|normTre
+  - first:
+      74: 6675787836627004419
+    second: track100|normTree3|normTree3|normTree1|Base Stack|DefaultLayer|normTree3
+  - first:
+      74: 3082539093989758587
+    second: track100|normTree3|normTree3|normTree2|Base Stack|DefaultLayer|normTree3
+  - first:
+      74: -6080484200088877563
+    second: track100|normTree3|normTree3|normTree3|Base Stack|DefaultLayer|normTree3
+  - first:
+      74: -7606086080269596903
+    second: track100|normTree3|normTree3|pineTree1|Base Stack|DefaultLayer|normTree3
+  - first:
+      74: -6158886013308643823
+    second: track100|normTree3|normTree3|pineTree2|Base Stack|DefaultLayer|normTree3
+  - first:
+      74: -5987195031599346986
+    second: track100|normTree3|normTree3|torch|Base Stack|DefaultLayer|normTree3|tor
+  - first:
+      74: -3357861589983975950
+    second: track100|normTree3|normTree3|track100|Base Stack|DefaultLayer|normTree3|
+  - first:
+      74: 8784594877769089786
+    second: track100|normTree3|normTree3|track150|Base Stack|DefaultLayer|normTree3|
+  - first:
+      74: -5533297918481611179
+    second: track100|normTree3|normTree3|track50|Base Stack|DefaultLayer|normTree3|t
+  - first:
+      74: -188915313087250749
+    second: track100|normTree3|normTree3|trackHangBridge|Base Stack|DefaultLayer|nor
+  - first:
+      74: 3124091798947438170
+    second: track100|normTree3|normTree3|trackOpen|Base Stack|DefaultLayer|normTree3
+  - first:
+      74: 7643092259128441701
+    second: track100|normTree3|normTree3|trackTree|Base Stack|DefaultLayer|normTree3
+  - first:
+      74: 7827535001165448901
+    second: track100|normTree3|normTree3|trackTunnel|Base Stack|DefaultLayer|normTre
+  - first:
+      74: -2711263870091188217
+    second: track100|normTree3|normTree3|tree1|Base Stack|DefaultLayer|normTree3|tre
+  - first:
+      74: 8953157062809823529
+    second: track100|normTree3|normTree3|tunnel2Path|Base Stack|DefaultLayer|normTre
+  - first:
+      74: 2915227055313878893
+    second: track100|normTree3|normTree3|tunnelCenter|Base Stack|DefaultLayer|normTr
+  - first:
+      74: 1849394457465799697
+    second: track100|normTree3|normTree3|tunnelCliff|Base Stack|DefaultLayer|normTre
+  - first:
+      74: -1885302563168534882
+    second: track100|normTree3|normTree3|tunnelHolder|Base Stack|DefaultLayer|normTr
+  - first:
+      74: 5176483737517168838
+    second: track100|normTree3|normTree3|tunnelLeft|Base Stack|DefaultLayer|normTree
+  - first:
+      74: -263353908864631187
+    second: track100|normTree3|normTree3|tunnelPath|Base Stack|DefaultLayer|normTree
+  - first:
+      74: -5172032567144105160
+    second: track100|normTree3|normTree3|tunnelRight|Base Stack|DefaultLayer|normTre
+  - first:
+      74: 4123667048144822576
+    second: track100|normTree3|normTree3|woodPile|Base Stack|DefaultLayer|normTree3|
+  - first:
+      74: -5068111507236869106
+    second: track100|pineTree1|pineTree1|bigBridge|Base Stack|DefaultLayer|pineTree1
+  - first:
+      74: -7039566908768458846
+    second: track100|pineTree1|pineTree1|campFire|Base Stack|DefaultLayer|pineTree1|
+  - first:
+      74: 8172257917467173637
+    second: track100|pineTree1|pineTree1|cliff0|Base Stack|DefaultLayer|pineTree1|cl
+  - first:
+      74: -8804164947121995785
+    second: track100|pineTree1|pineTree1|cliff1|Base Stack|DefaultLayer|pineTree1|cl
+  - first:
+      74: 8706322536755081329
+    second: track100|pineTree1|pineTree1|cliff2|Base Stack|DefaultLayer|pineTree1|cl
+  - first:
+      74: 5413798879048504302
+    second: track100|pineTree1|pineTree1|cliff3|Base Stack|DefaultLayer|pineTree1|cl
+  - first:
+      74: 7231861418954092686
+    second: track100|pineTree1|pineTree1|hangBridge|Base Stack|DefaultLayer|pineTree
+  - first:
+      74: 4636253673372996408
+    second: track100|pineTree1|pineTree1|house|Base Stack|DefaultLayer|pineTree1|hou
+  - first:
+      74: 7379463542974453442
+    second: track100|pineTree1|pineTree1|mountTunnel|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: 3620243449642521899
+    second: track100|pineTree1|pineTree1|normTree1|Base Stack|DefaultLayer|pineTree1
+  - first:
+      74: -6215362434334655904
+    second: track100|pineTree1|pineTree1|normTree2|Base Stack|DefaultLayer|pineTree1
+  - first:
+      74: -5606987923842313457
+    second: track100|pineTree1|pineTree1|normTree3|Base Stack|DefaultLayer|pineTree1
+  - first:
+      74: -3673809936980039380
+    second: track100|pineTree1|pineTree1|pineTree1|Base Stack|DefaultLayer|pineTree1
+  - first:
+      74: -3770608936829114603
+    second: track100|pineTree1|pineTree1|pineTree2|Base Stack|DefaultLayer|pineTree1
+  - first:
+      74: 7973711829354858861
+    second: track100|pineTree1|pineTree1|torch|Base Stack|DefaultLayer|pineTree1|tor
+  - first:
+      74: 1595058926435665176
+    second: track100|pineTree1|pineTree1|track100|Base Stack|DefaultLayer|pineTree1|
+  - first:
+      74: -6689806839983176569
+    second: track100|pineTree1|pineTree1|track150|Base Stack|DefaultLayer|pineTree1|
+  - first:
+      74: 8237525514341487952
+    second: track100|pineTree1|pineTree1|track50|Base Stack|DefaultLayer|pineTree1|t
+  - first:
+      74: 4805577265100108232
+    second: track100|pineTree1|pineTree1|trackHangBridge|Base Stack|DefaultLayer|pin
+  - first:
+      74: 2542386728412487853
+    second: track100|pineTree1|pineTree1|trackOpen|Base Stack|DefaultLayer|pineTree1
+  - first:
+      74: -2572318936782807182
+    second: track100|pineTree1|pineTree1|trackTree|Base Stack|DefaultLayer|pineTree1
+  - first:
+      74: 8371580501187482681
+    second: track100|pineTree1|pineTree1|trackTunnel|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: 7046613723725619260
+    second: track100|pineTree1|pineTree1|tree1|Base Stack|DefaultLayer|pineTree1|tre
+  - first:
+      74: -1755456305146826664
+    second: track100|pineTree1|pineTree1|tunnel2Path|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: -6141128100642504659
+    second: track100|pineTree1|pineTree1|tunnelCenter|Base Stack|DefaultLayer|pineTr
+  - first:
+      74: -6444843724780793019
+    second: track100|pineTree1|pineTree1|tunnelCliff|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: 9125871967483740264
+    second: track100|pineTree1|pineTree1|tunnelHolder|Base Stack|DefaultLayer|pineTr
+  - first:
+      74: 274668893904415473
+    second: track100|pineTree1|pineTree1|tunnelLeft|Base Stack|DefaultLayer|pineTree
+  - first:
+      74: -1377371687733336646
+    second: track100|pineTree1|pineTree1|tunnelPath|Base Stack|DefaultLayer|pineTree
+  - first:
+      74: -7173989416591781955
+    second: track100|pineTree1|pineTree1|tunnelRight|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: -8329927254587412476
+    second: track100|pineTree1|pineTree1|woodPile|Base Stack|DefaultLayer|pineTree1|
+  - first:
+      74: 1703334409426900589
+    second: track100|pineTree2|pineTree2|bigBridge|Base Stack|DefaultLayer|pineTree2
+  - first:
+      74: -2074427888350455663
+    second: track100|pineTree2|pineTree2|campFire|Base Stack|DefaultLayer|pineTree2|
+  - first:
+      74: 3601908786456145774
+    second: track100|pineTree2|pineTree2|cliff0|Base Stack|DefaultLayer|pineTree2|cl
+  - first:
+      74: -5552376202895827583
+    second: track100|pineTree2|pineTree2|cliff1|Base Stack|DefaultLayer|pineTree2|cl
+  - first:
+      74: 3547822597828044812
+    second: track100|pineTree2|pineTree2|cliff2|Base Stack|DefaultLayer|pineTree2|cl
+  - first:
+      74: -8723135225494579638
+    second: track100|pineTree2|pineTree2|cliff3|Base Stack|DefaultLayer|pineTree2|cl
+  - first:
+      74: 5753585415586847591
+    second: track100|pineTree2|pineTree2|hangBridge|Base Stack|DefaultLayer|pineTree
+  - first:
+      74: -4751026749667810858
+    second: track100|pineTree2|pineTree2|house|Base Stack|DefaultLayer|pineTree2|hou
+  - first:
+      74: 8043891966646536951
+    second: track100|pineTree2|pineTree2|mountTunnel|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: -178577328833094649
+    second: track100|pineTree2|pineTree2|normTree1|Base Stack|DefaultLayer|pineTree2
+  - first:
+      74: -894651623408418643
+    second: track100|pineTree2|pineTree2|normTree2|Base Stack|DefaultLayer|pineTree2
+  - first:
+      74: 2135237219748724934
+    second: track100|pineTree2|pineTree2|normTree3|Base Stack|DefaultLayer|pineTree2
+  - first:
+      74: 7176776758732394485
+    second: track100|pineTree2|pineTree2|pineTree1|Base Stack|DefaultLayer|pineTree2
+  - first:
+      74: -9133719305960801200
+    second: track100|pineTree2|pineTree2|pineTree2|Base Stack|DefaultLayer|pineTree2
+  - first:
+      74: -7597479062763924256
+    second: track100|pineTree2|pineTree2|torch|Base Stack|DefaultLayer|pineTree2|tor
+  - first:
+      74: -8714638393038040730
+    second: track100|pineTree2|pineTree2|track100|Base Stack|DefaultLayer|pineTree2|
+  - first:
+      74: -5097595770436119273
+    second: track100|pineTree2|pineTree2|track150|Base Stack|DefaultLayer|pineTree2|
+  - first:
+      74: 135457915729565995
+    second: track100|pineTree2|pineTree2|track50|Base Stack|DefaultLayer|pineTree2|t
+  - first:
+      74: -3221991721295149380
+    second: track100|pineTree2|pineTree2|trackHangBridge|Base Stack|DefaultLayer|pin
+  - first:
+      74: 5988192198706170460
+    second: track100|pineTree2|pineTree2|trackOpen|Base Stack|DefaultLayer|pineTree2
+  - first:
+      74: -4085330438788802119
+    second: track100|pineTree2|pineTree2|trackTree|Base Stack|DefaultLayer|pineTree2
+  - first:
+      74: 1543892906803182731
+    second: track100|pineTree2|pineTree2|trackTunnel|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: -1741594710223554834
+    second: track100|pineTree2|pineTree2|tree1|Base Stack|DefaultLayer|pineTree2|tre
+  - first:
+      74: 7751012665014867909
+    second: track100|pineTree2|pineTree2|tunnel2Path|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: 3270336195162501880
+    second: track100|pineTree2|pineTree2|tunnelCenter|Base Stack|DefaultLayer|pineTr
+  - first:
+      74: -6811998125281311526
+    second: track100|pineTree2|pineTree2|tunnelCliff|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: -4375292837184720718
+    second: track100|pineTree2|pineTree2|tunnelHolder|Base Stack|DefaultLayer|pineTr
+  - first:
+      74: 1702539075632046443
+    second: track100|pineTree2|pineTree2|tunnelLeft|Base Stack|DefaultLayer|pineTree
+  - first:
+      74: -5589958403942449297
+    second: track100|pineTree2|pineTree2|tunnelPath|Base Stack|DefaultLayer|pineTree
+  - first:
+      74: 3126434313545194221
+    second: track100|pineTree2|pineTree2|tunnelRight|Base Stack|DefaultLayer|pineTre
+  - first:
+      74: 7466824869307136396
+    second: track100|pineTree2|pineTree2|woodPile|Base Stack|DefaultLayer|pineTree2|
+  - first:
+      74: 4666934743914192419
+    second: track100|torch|torch|bigBridge|Base Stack|DefaultLayer|torch|bigBridge|B
+  - first:
+      74: 1781578395192769956
+    second: track100|torch|torch|campFire|Base Stack|DefaultLayer|torch|campFire|Bas
+  - first:
+      74: -8109766406083963445
+    second: track100|torch|torch|cliff0|Base Stack|DefaultLayer|torch|cliff0|Base
+      St
+  - first:
+      74: 3906375315937674851
+    second: track100|torch|torch|cliff1|Base Stack|DefaultLayer|torch|cliff1|Base
+      St
+  - first:
+      74: 4812436259223816578
+    second: track100|torch|torch|cliff2|Base Stack|DefaultLayer|torch|cliff2|Base
+      St
+  - first:
+      74: 5563980337442049801
+    second: track100|torch|torch|cliff3|Base Stack|DefaultLayer|torch|cliff3|Base
+      St
+  - first:
+      74: -7208689323835658182
+    second: track100|torch|torch|hangBridge|Base Stack|DefaultLayer|torch|hangBridge
+  - first:
+      74: 3242157946233789261
+    second: track100|torch|torch|house|Base Stack|DefaultLayer|torch|house|Base Stac
+  - first:
+      74: 7068182714095665564
+    second: track100|torch|torch|mountTunnel|Base Stack|DefaultLayer|torch|mountTunn
+  - first:
+      74: 1930853116349862620
+    second: track100|torch|torch|normTree1|Base Stack|DefaultLayer|torch|normTree1|B
+  - first:
+      74: -6923847746734649294
+    second: track100|torch|torch|normTree2|Base Stack|DefaultLayer|torch|normTree2|B
+  - first:
+      74: -1732560250556050261
+    second: track100|torch|torch|normTree3|Base Stack|DefaultLayer|torch|normTree3|B
+  - first:
+      74: -2252372263801021041
+    second: track100|torch|torch|pineTree1|Base Stack|DefaultLayer|torch|pineTree1|B
+  - first:
+      74: -7471775903926668517
+    second: track100|torch|torch|pineTree2|Base Stack|DefaultLayer|torch|pineTree2|B
+  - first:
+      74: -8330365349935305797
+    second: track100|torch|torch|torch|Base Stack|DefaultLayer|torch|torch|Base Stac
+  - first:
+      74: 4095905556637795038
+    second: track100|torch|torch|track100|Base Stack|DefaultLayer|torch|track100|Bas
+  - first:
+      74: 7470134855146497741
+    second: track100|torch|torch|track150|Base Stack|DefaultLayer|torch|track150|Bas
+  - first:
+      74: -3452774004819219924
+    second: 'track100|torch|torch|track50|Base Stack|DefaultLayer|torch|track50|Base '
+  - first:
+      74: -2708720863712428538
+    second: track100|torch|torch|trackHangBridge|Base Stack|DefaultLayer|torch|track
+  - first:
+      74: 6114411581957886714
+    second: track100|torch|torch|trackOpen|Base Stack|DefaultLayer|torch|trackOpen|B
+  - first:
+      74: -5929120809249210763
+    second: track100|torch|torch|trackTree|Base Stack|DefaultLayer|torch|trackTree|B
+  - first:
+      74: 7951331628722508959
+    second: track100|torch|torch|trackTunnel|Base Stack|DefaultLayer|torch|trackTunn
+  - first:
+      74: -5556288277870601310
+    second: track100|torch|torch|tree1|Base Stack|DefaultLayer|torch|tree1|Base Stac
+  - first:
+      74: -7074147797032057942
+    second: track100|torch|torch|tunnel2Path|Base Stack|DefaultLayer|torch|tunnel2Pa
+  - first:
+      74: -3340485135807729709
+    second: track100|torch|torch|tunnelCenter|Base Stack|DefaultLayer|torch|tunnelCe
+  - first:
+      74: 9114509715844940184
+    second: track100|torch|torch|tunnelCliff|Base Stack|DefaultLayer|torch|tunnelCli
+  - first:
+      74: -8977010915552224832
+    second: track100|torch|torch|tunnelHolder|Base Stack|DefaultLayer|torch|tunnelHo
+  - first:
+      74: -1498294574756971744
+    second: track100|torch|torch|tunnelLeft|Base Stack|DefaultLayer|torch|tunnelLeft
+  - first:
+      74: -1383506289114035335
+    second: track100|torch|torch|tunnelPath|Base Stack|DefaultLayer|torch|tunnelPath
+  - first:
+      74: 8486395379408842121
+    second: track100|torch|torch|tunnelRight|Base Stack|DefaultLayer|torch|tunnelRig
+  - first:
+      74: 293967937978216163
+    second: track100|torch|torch|woodPile|Base Stack|DefaultLayer|torch|woodPile|Bas
+  - first:
+      74: 2591940462536902484
+    second: track100|track100|track100|bigBridge|Base Stack|DefaultLayer|track100|bi
+  - first:
+      74: 8982527374118104314
+    second: track100|track100|track100|campFire|Base Stack|DefaultLayer|track100|cam
+  - first:
+      74: 5217641484907113889
+    second: track100|track100|track100|cliff0|Base Stack|DefaultLayer|track100|cliff
+  - first:
+      74: -2332297106347957361
+    second: track100|track100|track100|cliff1|Base Stack|DefaultLayer|track100|cliff
+  - first:
+      74: 4170172929365145418
+    second: track100|track100|track100|cliff2|Base Stack|DefaultLayer|track100|cliff
+  - first:
+      74: -4682692592462998122
+    second: track100|track100|track100|cliff3|Base Stack|DefaultLayer|track100|cliff
+  - first:
+      74: 1553233937653708041
+    second: track100|track100|track100|hangBridge|Base Stack|DefaultLayer|track100|h
+  - first:
+      74: -4159466002946882161
+    second: track100|track100|track100|house|Base Stack|DefaultLayer|track100|house|
+  - first:
+      74: -3831122182670543552
+    second: track100|track100|track100|mountTunnel|Base Stack|DefaultLayer|track100|
+  - first:
+      74: -8048179981638129556
+    second: track100|track100|track100|normTree1|Base Stack|DefaultLayer|track100|no
+  - first:
+      74: 3521093809482171437
+    second: track100|track100|track100|normTree2|Base Stack|DefaultLayer|track100|no
+  - first:
+      74: 2548903809573948115
+    second: track100|track100|track100|normTree3|Base Stack|DefaultLayer|track100|no
+  - first:
+      74: 3821570837745640593
+    second: track100|track100|track100|pineTree1|Base Stack|DefaultLayer|track100|pi
+  - first:
+      74: -2272864308112081344
+    second: track100|track100|track100|pineTree2|Base Stack|DefaultLayer|track100|pi
+  - first:
+      74: 6737629991793772600
+    second: track100|track100|track100|torch|Base Stack|DefaultLayer|track100|torch|
+  - first:
+      74: -8646693437921687960
+    second: track100|track100|track100|track100|Base Stack|DefaultLayer|track100|tra
+  - first:
+      74: -2979268408872461875
+    second: track100|track100|track100|track150|Base Stack|DefaultLayer|track100|tra
+  - first:
+      74: 4744391306753698598
+    second: track100|track100|track100|track50|Base Stack|DefaultLayer|track100|trac
+  - first:
+      74: -2873738457423567761
+    second: track100|track100|track100|trackHangBridge|Base Stack|DefaultLayer|track
+  - first:
+      74: 6928571162647181526
+    second: track100|track100|track100|trackOpen|Base Stack|DefaultLayer|track100|tr
+  - first:
+      74: -5175736089064460910
+    second: track100|track100|track100|trackTree|Base Stack|DefaultLayer|track100|tr
+  - first:
+      74: 8150218445423915712
+    second: track100|track100|track100|trackTunnel|Base Stack|DefaultLayer|track100|
+  - first:
+      74: 3521038096153173612
+    second: track100|track100|track100|tree1|Base Stack|DefaultLayer|track100|tree1|
+  - first:
+      74: 4762010455099502781
+    second: track100|track100|track100|tunnel2Path|Base Stack|DefaultLayer|track100|
+  - first:
+      74: -3696764515716084143
+    second: track100|track100|track100|tunnelCenter|Base Stack|DefaultLayer|track100
+  - first:
+      74: -6053892986856287552
+    second: track100|track100|track100|tunnelCliff|Base Stack|DefaultLayer|track100|
+  - first:
+      74: -2738403609091371339
+    second: track100|track100|track100|tunnelHolder|Base Stack|DefaultLayer|track100
+  - first:
+      74: 2227569441660203885
+    second: track100|track100|track100|tunnelLeft|Base Stack|DefaultLayer|track100|t
+  - first:
+      74: -6969124911062262134
+    second: track100|track100|track100|tunnelPath|Base Stack|DefaultLayer|track100|t
+  - first:
+      74: -8596448727575068915
+    second: track100|track100|track100|tunnelRight|Base Stack|DefaultLayer|track100|
+  - first:
+      74: -9082470227009233277
+    second: track100|track100|track100|woodPile|Base Stack|DefaultLayer|track100|woo
+  - first:
+      74: 5051713115299051649
+    second: track100|track150|track150|bigBridge|Base Stack|DefaultLayer|track150|bi
+  - first:
+      74: 505812330765608282
+    second: track100|track150|track150|campFire|Base Stack|DefaultLayer|track150|cam
+  - first:
+      74: 3812772085500999500
+    second: track100|track150|track150|cliff0|Base Stack|DefaultLayer|track150|cliff
+  - first:
+      74: 2672031271948822638
+    second: track100|track150|track150|cliff1|Base Stack|DefaultLayer|track150|cliff
+  - first:
+      74: -911229580259449690
+    second: track100|track150|track150|cliff2|Base Stack|DefaultLayer|track150|cliff
+  - first:
+      74: 3709683646417906766
+    second: track100|track150|track150|cliff3|Base Stack|DefaultLayer|track150|cliff
+  - first:
+      74: 2766307000454350653
+    second: track100|track150|track150|hangBridge|Base Stack|DefaultLayer|track150|h
+  - first:
+      74: -9126812877550198180
+    second: track100|track150|track150|house|Base Stack|DefaultLayer|track150|house|
+  - first:
+      74: 1196358900764184301
+    second: track100|track150|track150|mountTunnel|Base Stack|DefaultLayer|track150|
+  - first:
+      74: 6797359421695928706
+    second: track100|track150|track150|normTree1|Base Stack|DefaultLayer|track150|no
+  - first:
+      74: -392089987721488295
+    second: track100|track150|track150|normTree2|Base Stack|DefaultLayer|track150|no
+  - first:
+      74: -885732852361441017
+    second: track100|track150|track150|normTree3|Base Stack|DefaultLayer|track150|no
+  - first:
+      74: -8262256500228774347
+    second: track100|track150|track150|pineTree1|Base Stack|DefaultLayer|track150|pi
+  - first:
+      74: 5424877839955526652
+    second: track100|track150|track150|pineTree2|Base Stack|DefaultLayer|track150|pi
+  - first:
+      74: 1815295930083704625
+    second: track100|track150|track150|torch|Base Stack|DefaultLayer|track150|torch|
+  - first:
+      74: -3896914074067154914
+    second: track100|track150|track150|track100|Base Stack|DefaultLayer|track150|tra
+  - first:
+      74: 438731663388059833
+    second: track100|track150|track150|track150|Base Stack|DefaultLayer|track150|tra
+  - first:
+      74: -7920002566162933309
+    second: track100|track150|track150|track50|Base Stack|DefaultLayer|track150|trac
+  - first:
+      74: 8503242779898789282
+    second: track100|track150|track150|trackHangBridge|Base Stack|DefaultLayer|track
+  - first:
+      74: 419302872241877811
+    second: track100|track150|track150|trackOpen|Base Stack|DefaultLayer|track150|tr
+  - first:
+      74: 4612302138015893326
+    second: track100|track150|track150|trackTree|Base Stack|DefaultLayer|track150|tr
+  - first:
+      74: -8592712204380992653
+    second: track100|track150|track150|trackTunnel|Base Stack|DefaultLayer|track150|
+  - first:
+      74: 4091333301383977415
+    second: track100|track150|track150|tree1|Base Stack|DefaultLayer|track150|tree1|
+  - first:
+      74: 5482131089494936387
+    second: track100|track150|track150|tunnel2Path|Base Stack|DefaultLayer|track150|
+  - first:
+      74: 1022706876260344691
+    second: track100|track150|track150|tunnelCenter|Base Stack|DefaultLayer|track150
+  - first:
+      74: 4556953055626570077
+    second: track100|track150|track150|tunnelCliff|Base Stack|DefaultLayer|track150|
+  - first:
+      74: 4406584674620443678
+    second: track100|track150|track150|tunnelHolder|Base Stack|DefaultLayer|track150
+  - first:
+      74: 208026018452119165
+    second: track100|track150|track150|tunnelLeft|Base Stack|DefaultLayer|track150|t
+  - first:
+      74: -833099536384420112
+    second: track100|track150|track150|tunnelPath|Base Stack|DefaultLayer|track150|t
+  - first:
+      74: -5307972180923948884
+    second: track100|track150|track150|tunnelRight|Base Stack|DefaultLayer|track150|
+  - first:
+      74: 7423207345887555706
+    second: track100|track150|track150|woodPile|Base Stack|DefaultLayer|track150|woo
+  - first:
+      74: 4357767428981539122
+    second: track100|track50|track50|bigBridge|Base Stack|DefaultLayer|track50|bigBr
+  - first:
+      74: 1853338618916869934
+    second: track100|track50|track50|campFire|Base Stack|DefaultLayer|track50|campFi
+  - first:
+      74: 619284752645292952
+    second: track100|track50|track50|cliff0|Base Stack|DefaultLayer|track50|cliff0|B
+  - first:
+      74: -2300862523311285995
+    second: track100|track50|track50|cliff1|Base Stack|DefaultLayer|track50|cliff1|B
+  - first:
+      74: -6807684254976676533
+    second: track100|track50|track50|cliff2|Base Stack|DefaultLayer|track50|cliff2|B
+  - first:
+      74: -2337957526364948089
+    second: track100|track50|track50|cliff3|Base Stack|DefaultLayer|track50|cliff3|B
+  - first:
+      74: 9132471510510834112
+    second: track100|track50|track50|hangBridge|Base Stack|DefaultLayer|track50|hang
+  - first:
+      74: -5771321145917656603
+    second: track100|track50|track50|house|Base Stack|DefaultLayer|track50|house|Bas
+  - first:
+      74: -7492190548476532845
+    second: track100|track50|track50|mountTunnel|Base Stack|DefaultLayer|track50|mou
+  - first:
+      74: -3489144859130232492
+    second: track100|track50|track50|normTree1|Base Stack|DefaultLayer|track50|normT
+  - first:
+      74: 8276083989227844392
+    second: track100|track50|track50|normTree2|Base Stack|DefaultLayer|track50|normT
+  - first:
+      74: 505869764716699994
+    second: track100|track50|track50|normTree3|Base Stack|DefaultLayer|track50|normT
+  - first:
+      74: -8602093737123082167
+    second: track100|track50|track50|pineTree1|Base Stack|DefaultLayer|track50|pineT
+  - first:
+      74: 2124147209621696084
+    second: track100|track50|track50|pineTree2|Base Stack|DefaultLayer|track50|pineT
+  - first:
+      74: 4614627883266308557
+    second: track100|track50|track50|torch|Base Stack|DefaultLayer|track50|torch|Bas
+  - first:
+      74: -8843109346173690485
+    second: track100|track50|track50|track100|Base Stack|DefaultLayer|track50|track1
+  - first:
+      74: 5216398104577081257
+    second: track100|track50|track50|track150|Base Stack|DefaultLayer|track50|track1
+  - first:
+      74: 5288419818321069899
+    second: track100|track50|track50|track50|Base Stack|DefaultLayer|track50|track50
+  - first:
+      74: -1759526345358883381
+    second: track100|track50|track50|trackHangBridge|Base Stack|DefaultLayer|track50
+  - first:
+      74: -4166066749674418283
+    second: track100|track50|track50|trackOpen|Base Stack|DefaultLayer|track50|track
+  - first:
+      74: 3446130877428302051
+    second: track100|track50|track50|trackTree|Base Stack|DefaultLayer|track50|track
+  - first:
+      74: 6678590589399852685
+    second: track100|track50|track50|trackTunnel|Base Stack|DefaultLayer|track50|tra
+  - first:
+      74: 4519059952491171267
+    second: track100|track50|track50|tree1|Base Stack|DefaultLayer|track50|tree1|Bas
+  - first:
+      74: 1419289890836989459
+    second: track100|track50|track50|tunnel2Path|Base Stack|DefaultLayer|track50|tun
+  - first:
+      74: -391339396012384262
+    second: track100|track50|track50|tunnelCenter|Base Stack|DefaultLayer|track50|tu
+  - first:
+      74: -605953625072632858
+    second: track100|track50|track50|tunnelCliff|Base Stack|DefaultLayer|track50|tun
+  - first:
+      74: 5863805326997380662
+    second: track100|track50|track50|tunnelHolder|Base Stack|DefaultLayer|track50|tu
+  - first:
+      74: 8889882887166918988
+    second: track100|track50|track50|tunnelLeft|Base Stack|DefaultLayer|track50|tunn
+  - first:
+      74: -1785738009911336260
+    second: track100|track50|track50|tunnelPath|Base Stack|DefaultLayer|track50|tunn
+  - first:
+      74: 1448824460922523276
+    second: track100|track50|track50|tunnelRight|Base Stack|DefaultLayer|track50|tun
+  - first:
+      74: -3787682043662854783
+    second: track100|track50|track50|woodPile|Base Stack|DefaultLayer|track50|woodPi
+  - first:
+      74: 6238010437076851529
+    second: track100|trackHangBridge|trackHangBridge|bigBridge|Base Stack|DefaultLay
+  - first:
+      74: 5249432972786460912
+    second: track100|trackHangBridge|trackHangBridge|campFire|Base Stack|DefaultLaye
+  - first:
+      74: -7372737895660017718
+    second: track100|trackHangBridge|trackHangBridge|cliff0|Base Stack|DefaultLayer|
+  - first:
+      74: 1296508040449061195
+    second: track100|trackHangBridge|trackHangBridge|cliff1|Base Stack|DefaultLayer|
+  - first:
+      74: 3265477642287429715
+    second: track100|trackHangBridge|trackHangBridge|cliff2|Base Stack|DefaultLayer|
+  - first:
+      74: 2715322492696881899
+    second: track100|trackHangBridge|trackHangBridge|cliff3|Base Stack|DefaultLayer|
+  - first:
+      74: -3484316103616610832
+    second: track100|trackHangBridge|trackHangBridge|hangBridge|Base Stack|DefaultLa
+  - first:
+      74: 6580580988373914245
+    second: track100|trackHangBridge|trackHangBridge|house|Base Stack|DefaultLayer|t
+  - first:
+      74: 6984949386319262915
+    second: track100|trackHangBridge|trackHangBridge|mountTunnel|Base Stack|DefaultL
+  - first:
+      74: -5841853347299131437
+    second: track100|trackHangBridge|trackHangBridge|normTree1|Base Stack|DefaultLay
+  - first:
+      74: -1548925653699357458
+    second: track100|trackHangBridge|trackHangBridge|normTree2|Base Stack|DefaultLay
+  - first:
+      74: -8844547333368118747
+    second: track100|trackHangBridge|trackHangBridge|normTree3|Base Stack|DefaultLay
+  - first:
+      74: -7608932891938360662
+    second: track100|trackHangBridge|trackHangBridge|pineTree1|Base Stack|DefaultLay
+  - first:
+      74: -2034184197404886721
+    second: track100|trackHangBridge|trackHangBridge|pineTree2|Base Stack|DefaultLay
+  - first:
+      74: -7427461713194434946
+    second: track100|trackHangBridge|trackHangBridge|torch|Base Stack|DefaultLayer|t
+  - first:
+      74: -3735744513869607041
+    second: track100|trackHangBridge|trackHangBridge|track100|Base Stack|DefaultLaye
+  - first:
+      74: 460725095697504194
+    second: track100|trackHangBridge|trackHangBridge|track150|Base Stack|DefaultLaye
+  - first:
+      74: 10606173290853739
+    second: track100|trackHangBridge|trackHangBridge|track50|Base Stack|DefaultLayer
+  - first:
+      74: 7910453183702708599
+    second: track100|trackHangBridge|trackHangBridge|trackHangBridge|Base Stack|Defa
+  - first:
+      74: -2061696261959503407
+    second: track100|trackHangBridge|trackHangBridge|trackOpen|Base Stack|DefaultLay
+  - first:
+      74: 53206759766660686
+    second: track100|trackHangBridge|trackHangBridge|trackTree|Base Stack|DefaultLay
+  - first:
+      74: 8876746952971088831
+    second: track100|trackHangBridge|trackHangBridge|trackTunnel|Base Stack|DefaultL
+  - first:
+      74: 1240559618909497187
+    second: track100|trackHangBridge|trackHangBridge|tree1|Base Stack|DefaultLayer|t
+  - first:
+      74: -9010513296968754008
+    second: track100|trackHangBridge|trackHangBridge|tunnel2Path|Base Stack|DefaultL
+  - first:
+      74: -4275414757569979730
+    second: track100|trackHangBridge|trackHangBridge|tunnelCenter|Base Stack|Default
+  - first:
+      74: -7963485646704461900
+    second: track100|trackHangBridge|trackHangBridge|tunnelCliff|Base Stack|DefaultL
+  - first:
+      74: -4972210039379534093
+    second: track100|trackHangBridge|trackHangBridge|tunnelHolder|Base Stack|Default
+  - first:
+      74: 4305858599878414716
+    second: track100|trackHangBridge|trackHangBridge|tunnelLeft|Base Stack|DefaultLa
+  - first:
+      74: -2982100554162454758
+    second: track100|trackHangBridge|trackHangBridge|tunnelPath|Base Stack|DefaultLa
+  - first:
+      74: 5263589554671979377
+    second: track100|trackHangBridge|trackHangBridge|tunnelRight|Base Stack|DefaultL
+  - first:
+      74: 8688697157480472377
+    second: track100|trackHangBridge|trackHangBridge|woodPile|Base Stack|DefaultLaye
+  - first:
+      74: 375710093180094195
+    second: track100|trackOpen|trackOpen|bigBridge|Base Stack|DefaultLayer|trackOpen
+  - first:
+      74: -5540563423673305801
+    second: track100|trackOpen|trackOpen|campFire|Base Stack|DefaultLayer|trackOpen|
+  - first:
+      74: 6213135121624603908
+    second: track100|trackOpen|trackOpen|cliff0|Base Stack|DefaultLayer|trackOpen|cl
+  - first:
+      74: -6353011406203591175
+    second: track100|trackOpen|trackOpen|cliff1|Base Stack|DefaultLayer|trackOpen|cl
+  - first:
+      74: -4018764511473027378
+    second: track100|trackOpen|trackOpen|cliff2|Base Stack|DefaultLayer|trackOpen|cl
+  - first:
+      74: -5067274310784158826
+    second: track100|trackOpen|trackOpen|cliff3|Base Stack|DefaultLayer|trackOpen|cl
+  - first:
+      74: -8776408305819712084
+    second: track100|trackOpen|trackOpen|hangBridge|Base Stack|DefaultLayer|trackOpe
+  - first:
+      74: -2838461635287193953
+    second: track100|trackOpen|trackOpen|house|Base Stack|DefaultLayer|trackOpen|hou
+  - first:
+      74: -5899433776619271652
+    second: track100|trackOpen|trackOpen|mountTunnel|Base Stack|DefaultLayer|trackOp
+  - first:
+      74: -2368494731013277481
+    second: track100|trackOpen|trackOpen|normTree1|Base Stack|DefaultLayer|trackOpen
+  - first:
+      74: -1234029844027205808
+    second: track100|trackOpen|trackOpen|normTree2|Base Stack|DefaultLayer|trackOpen
+  - first:
+      74: 6654012726824856414
+    second: track100|trackOpen|trackOpen|normTree3|Base Stack|DefaultLayer|trackOpen
+  - first:
+      74: -7629644084572034037
+    second: track100|trackOpen|trackOpen|pineTree1|Base Stack|DefaultLayer|trackOpen
+  - first:
+      74: -6824088415442800480
+    second: track100|trackOpen|trackOpen|pineTree2|Base Stack|DefaultLayer|trackOpen
+  - first:
+      74: 8744229887198631954
+    second: track100|trackOpen|trackOpen|torch|Base Stack|DefaultLayer|trackOpen|tor
+  - first:
+      74: 7846143383018823678
+    second: track100|trackOpen|trackOpen|track100|Base Stack|DefaultLayer|trackOpen|
+  - first:
+      74: -4053824038331127786
+    second: track100|trackOpen|trackOpen|track150|Base Stack|DefaultLayer|trackOpen|
+  - first:
+      74: -5801853422900534893
+    second: track100|trackOpen|trackOpen|track50|Base Stack|DefaultLayer|trackOpen|t
+  - first:
+      74: 7877745258156202492
+    second: track100|trackOpen|trackOpen|trackHangBridge|Base Stack|DefaultLayer|tra
+  - first:
+      74: -3285813167257795131
+    second: track100|trackOpen|trackOpen|trackOpen|Base Stack|DefaultLayer|trackOpen
+  - first:
+      74: -7329903174257061595
+    second: track100|trackOpen|trackOpen|trackTree|Base Stack|DefaultLayer|trackOpen
+  - first:
+      74: 8348337078517456014
+    second: track100|trackOpen|trackOpen|trackTunnel|Base Stack|DefaultLayer|trackOp
+  - first:
+      74: -4995391451495125601
+    second: track100|trackOpen|trackOpen|tree1|Base Stack|DefaultLayer|trackOpen|tre
+  - first:
+      74: -7346972971830413328
+    second: track100|trackOpen|trackOpen|tunnel2Path|Base Stack|DefaultLayer|trackOp
+  - first:
+      74: -3921461584776375021
+    second: track100|trackOpen|trackOpen|tunnelCenter|Base Stack|DefaultLayer|trackO
+  - first:
+      74: 3745135006842816472
+    second: track100|trackOpen|trackOpen|tunnelCliff|Base Stack|DefaultLayer|trackOp
+  - first:
+      74: -245211043292602647
+    second: track100|trackOpen|trackOpen|tunnelHolder|Base Stack|DefaultLayer|trackO
+  - first:
+      74: -8543500771599810759
+    second: track100|trackOpen|trackOpen|tunnelLeft|Base Stack|DefaultLayer|trackOpe
+  - first:
+      74: -7774983421647626686
+    second: track100|trackOpen|trackOpen|tunnelPath|Base Stack|DefaultLayer|trackOpe
+  - first:
+      74: 2945684015313874478
+    second: track100|trackOpen|trackOpen|tunnelRight|Base Stack|DefaultLayer|trackOp
+  - first:
+      74: -915266814007519114
+    second: track100|trackOpen|trackOpen|woodPile|Base Stack|DefaultLayer|trackOpen|
+  - first:
+      74: 4641761446409967440
+    second: track100|trackTree|trackTree|bigBridge|Base Stack|DefaultLayer|trackTree
+  - first:
+      74: 211907379590562218
+    second: track100|trackTree|trackTree|campFire|Base Stack|DefaultLayer|trackTree|
+  - first:
+      74: -4872793505832637648
+    second: track100|trackTree|trackTree|cliff0|Base Stack|DefaultLayer|trackTree|cl
+  - first:
+      74: 651612329870324569
+    second: track100|trackTree|trackTree|cliff1|Base Stack|DefaultLayer|trackTree|cl
+  - first:
+      74: 3749735457161555144
+    second: track100|trackTree|trackTree|cliff2|Base Stack|DefaultLayer|trackTree|cl
+  - first:
+      74: -7263801048548649556
+    second: track100|trackTree|trackTree|cliff3|Base Stack|DefaultLayer|trackTree|cl
+  - first:
+      74: -3116871806784774124
+    second: track100|trackTree|trackTree|hangBridge|Base Stack|DefaultLayer|trackTre
+  - first:
+      74: 7027690902417642873
+    second: track100|trackTree|trackTree|house|Base Stack|DefaultLayer|trackTree|hou
+  - first:
+      74: -7580142164565746259
+    second: track100|trackTree|trackTree|mountTunnel|Base Stack|DefaultLayer|trackTr
+  - first:
+      74: 5623263148301954315
+    second: track100|trackTree|trackTree|normTree1|Base Stack|DefaultLayer|trackTree
+  - first:
+      74: -566306800743845934
+    second: track100|trackTree|trackTree|normTree2|Base Stack|DefaultLayer|trackTree
+  - first:
+      74: -2576146831079651250
+    second: track100|trackTree|trackTree|normTree3|Base Stack|DefaultLayer|trackTree
+  - first:
+      74: -7477436038935711978
+    second: track100|trackTree|trackTree|pineTree1|Base Stack|DefaultLayer|trackTree
+  - first:
+      74: 4645549423254531027
+    second: track100|trackTree|trackTree|pineTree2|Base Stack|DefaultLayer|trackTree
+  - first:
+      74: 4287291707739382033
+    second: track100|trackTree|trackTree|torch|Base Stack|DefaultLayer|trackTree|tor
+  - first:
+      74: -8324805058116800979
+    second: track100|trackTree|trackTree|track100|Base Stack|DefaultLayer|trackTree|
+  - first:
+      74: 8973132740139851932
+    second: track100|trackTree|trackTree|track150|Base Stack|DefaultLayer|trackTree|
+  - first:
+      74: 3478833468414461489
+    second: track100|trackTree|trackTree|track50|Base Stack|DefaultLayer|trackTree|t
+  - first:
+      74: 466909746768872631
+    second: track100|trackTree|trackTree|trackHangBridge|Base Stack|DefaultLayer|tra
+  - first:
+      74: -3639641525492001450
+    second: track100|trackTree|trackTree|trackOpen|Base Stack|DefaultLayer|trackTree
+  - first:
+      74: 4823470557902536103
+    second: track100|trackTree|trackTree|trackTree|Base Stack|DefaultLayer|trackTree
+  - first:
+      74: 6411801963267297617
+    second: track100|trackTree|trackTree|trackTunnel|Base Stack|DefaultLayer|trackTr
+  - first:
+      74: -5491437762155989762
+    second: track100|trackTree|trackTree|tree1|Base Stack|DefaultLayer|trackTree|tre
+  - first:
+      74: 8181606612094480942
+    second: track100|trackTree|trackTree|tunnel2Path|Base Stack|DefaultLayer|trackTr
+  - first:
+      74: -4057892158263040381
+    second: track100|trackTree|trackTree|tunnelCenter|Base Stack|DefaultLayer|trackT
+  - first:
+      74: -6284187404543510801
+    second: track100|trackTree|trackTree|tunnelCliff|Base Stack|DefaultLayer|trackTr
+  - first:
+      74: 7060766085947262004
+    second: track100|trackTree|trackTree|tunnelHolder|Base Stack|DefaultLayer|trackT
+  - first:
+      74: 7065230369899402211
+    second: track100|trackTree|trackTree|tunnelLeft|Base Stack|DefaultLayer|trackTre
+  - first:
+      74: -6391243044043631816
+    second: track100|trackTree|trackTree|tunnelPath|Base Stack|DefaultLayer|trackTre
+  - first:
+      74: -1303407856999044081
+    second: track100|trackTree|trackTree|tunnelRight|Base Stack|DefaultLayer|trackTr
+  - first:
+      74: -5106047271678659015
+    second: track100|trackTree|trackTree|woodPile|Base Stack|DefaultLayer|trackTree|
+  - first:
+      74: -7496948744480435027
+    second: track100|trackTunnel|trackTunnel|bigBridge|Base Stack|DefaultLayer|track
+  - first:
+      74: 1140060279953398611
+    second: track100|trackTunnel|trackTunnel|campFire|Base Stack|DefaultLayer|trackT
+  - first:
+      74: 6545182790511247598
+    second: track100|trackTunnel|trackTunnel|cliff0|Base Stack|DefaultLayer|trackTun
+  - first:
+      74: 4242203142692132369
+    second: track100|trackTunnel|trackTunnel|cliff1|Base Stack|DefaultLayer|trackTun
+  - first:
+      74: 5345527909743941426
+    second: track100|trackTunnel|trackTunnel|cliff2|Base Stack|DefaultLayer|trackTun
+  - first:
+      74: -1950658585277948457
+    second: track100|trackTunnel|trackTunnel|cliff3|Base Stack|DefaultLayer|trackTun
+  - first:
+      74: 2518599515645549688
+    second: track100|trackTunnel|trackTunnel|hangBridge|Base Stack|DefaultLayer|trac
+  - first:
+      74: -6042544058109189402
+    second: track100|trackTunnel|trackTunnel|house|Base Stack|DefaultLayer|trackTunn
+  - first:
+      74: -5652252111629030957
+    second: track100|trackTunnel|trackTunnel|mountTunnel|Base Stack|DefaultLayer|tra
+  - first:
+      74: 8794851663430261073
+    second: track100|trackTunnel|trackTunnel|normTree1|Base Stack|DefaultLayer|track
+  - first:
+      74: -947066239507003377
+    second: track100|trackTunnel|trackTunnel|normTree2|Base Stack|DefaultLayer|track
+  - first:
+      74: -3418111605651328679
+    second: track100|trackTunnel|trackTunnel|normTree3|Base Stack|DefaultLayer|track
+  - first:
+      74: 7460385978796118896
+    second: track100|trackTunnel|trackTunnel|pineTree1|Base Stack|DefaultLayer|track
+  - first:
+      74: -4603295366057561217
+    second: track100|trackTunnel|trackTunnel|pineTree2|Base Stack|DefaultLayer|track
+  - first:
+      74: -3894792615822197387
+    second: track100|trackTunnel|trackTunnel|torch|Base Stack|DefaultLayer|trackTunn
+  - first:
+      74: 5333516966952588174
+    second: track100|trackTunnel|trackTunnel|track100|Base Stack|DefaultLayer|trackT
+  - first:
+      74: -1449165847548311581
+    second: track100|trackTunnel|trackTunnel|track150|Base Stack|DefaultLayer|trackT
+  - first:
+      74: -1490420325371684652
+    second: track100|trackTunnel|trackTunnel|track50|Base Stack|DefaultLayer|trackTu
+  - first:
+      74: -6228306948499651222
+    second: track100|trackTunnel|trackTunnel|trackHangBridge|Base Stack|DefaultLayer
+  - first:
+      74: 5199909171863801912
+    second: track100|trackTunnel|trackTunnel|trackOpen|Base Stack|DefaultLayer|track
+  - first:
+      74: -5671766196009528575
+    second: track100|trackTunnel|trackTunnel|trackTree|Base Stack|DefaultLayer|track
+  - first:
+      74: 3952341532332734799
+    second: track100|trackTunnel|trackTunnel|trackTunnel|Base Stack|DefaultLayer|tra
+  - first:
+      74: 1355572263719371815
+    second: track100|trackTunnel|trackTunnel|tree1|Base Stack|DefaultLayer|trackTunn
+  - first:
+      74: -7475029246817828174
+    second: track100|trackTunnel|trackTunnel|tunnel2Path|Base Stack|DefaultLayer|tra
+  - first:
+      74: -1612952893529481101
+    second: track100|trackTunnel|trackTunnel|tunnelCenter|Base Stack|DefaultLayer|tr
+  - first:
+      74: 6877943678725235768
+    second: track100|trackTunnel|trackTunnel|tunnelCliff|Base Stack|DefaultLayer|tra
+  - first:
+      74: -5480435440855900198
+    second: track100|trackTunnel|trackTunnel|tunnelHolder|Base Stack|DefaultLayer|tr
+  - first:
+      74: 8384157115262780888
+    second: track100|trackTunnel|trackTunnel|tunnelLeft|Base Stack|DefaultLayer|trac
+  - first:
+      74: 4978503628220557509
+    second: track100|trackTunnel|trackTunnel|tunnelPath|Base Stack|DefaultLayer|trac
+  - first:
+      74: 7915612200774396779
+    second: track100|trackTunnel|trackTunnel|tunnelRight|Base Stack|DefaultLayer|tra
+  - first:
+      74: -7768445649774770959
+    second: track100|trackTunnel|trackTunnel|woodPile|Base Stack|DefaultLayer|trackT
+  - first:
+      74: -5494697089637864661
+    second: track100|tree1|tree1|bigBridge|Base Stack|DefaultLayer|tree1|bigBridge|B
+  - first:
+      74: -7410916737744767308
+    second: track100|tree1|tree1|campFire|Base Stack|DefaultLayer|tree1|campFire|Bas
+  - first:
+      74: 6679660875428443084
+    second: track100|tree1|tree1|cliff0|Base Stack|DefaultLayer|tree1|cliff0|Base
+      St
+  - first:
+      74: -7557092793092676285
+    second: track100|tree1|tree1|cliff1|Base Stack|DefaultLayer|tree1|cliff1|Base
+      St
+  - first:
+      74: 7255799391870149866
+    second: track100|tree1|tree1|cliff2|Base Stack|DefaultLayer|tree1|cliff2|Base
+      St
+  - first:
+      74: -4733811420816138297
+    second: track100|tree1|tree1|cliff3|Base Stack|DefaultLayer|tree1|cliff3|Base
+      St
+  - first:
+      74: 3348170373075630440
+    second: track100|tree1|tree1|hangBridge|Base Stack|DefaultLayer|tree1|hangBridge
+  - first:
+      74: 5389945719552525312
+    second: track100|tree1|tree1|house|Base Stack|DefaultLayer|tree1|house|Base Stac
+  - first:
+      74: -6334874416915875112
+    second: track100|tree1|tree1|mountTunnel|Base Stack|DefaultLayer|tree1|mountTunn
+  - first:
+      74: -1843178815285526306
+    second: track100|tree1|tree1|normTree1|Base Stack|DefaultLayer|tree1|normTree1|B
+  - first:
+      74: 602315350154220119
+    second: track100|tree1|tree1|normTree2|Base Stack|DefaultLayer|tree1|normTree2|B
+  - first:
+      74: -535304198561645521
+    second: track100|tree1|tree1|normTree3|Base Stack|DefaultLayer|tree1|normTree3|B
+  - first:
+      74: -7412307276516428052
+    second: track100|tree1|tree1|pineTree1|Base Stack|DefaultLayer|tree1|pineTree1|B
+  - first:
+      74: 2696634324745804244
+    second: track100|tree1|tree1|pineTree2|Base Stack|DefaultLayer|tree1|pineTree2|B
+  - first:
+      74: 3251909265017377140
+    second: track100|tree1|tree1|torch|Base Stack|DefaultLayer|tree1|torch|Base Stac
+  - first:
+      74: -7601079915934050797
+    second: track100|tree1|tree1|track100|Base Stack|DefaultLayer|tree1|track100|Bas
+  - first:
+      74: 8020054236708750060
+    second: track100|tree1|tree1|track150|Base Stack|DefaultLayer|tree1|track150|Bas
+  - first:
+      74: 9167952942527867082
+    second: 'track100|tree1|tree1|track50|Base Stack|DefaultLayer|tree1|track50|Base '
+  - first:
+      74: -1475545008975922480
+    second: track100|tree1|tree1|trackHangBridge|Base Stack|DefaultLayer|tree1|track
+  - first:
+      74: -7509675160316753772
+    second: track100|tree1|tree1|trackOpen|Base Stack|DefaultLayer|tree1|trackOpen|B
+  - first:
+      74: 5575165689836656522
+    second: track100|tree1|tree1|trackTree|Base Stack|DefaultLayer|tree1|trackTree|B
+  - first:
+      74: -6334804178158250629
+    second: track100|tree1|tree1|trackTunnel|Base Stack|DefaultLayer|tree1|trackTunn
+  - first:
+      74: 4771499484752087822
+    second: track100|tree1|tree1|tree1|Base Stack|DefaultLayer|tree1|tree1|Base Stac
+  - first:
+      74: -2765869853762889786
+    second: track100|tree1|tree1|tunnel2Path|Base Stack|DefaultLayer|tree1|tunnel2Pa
+  - first:
+      74: 2386454905782848576
+    second: track100|tree1|tree1|tunnelCenter|Base Stack|DefaultLayer|tree1|tunnelCe
+  - first:
+      74: 1743545580912557717
+    second: track100|tree1|tree1|tunnelCliff|Base Stack|DefaultLayer|tree1|tunnelCli
+  - first:
+      74: 527484880846752377
+    second: track100|tree1|tree1|tunnelHolder|Base Stack|DefaultLayer|tree1|tunnelHo
+  - first:
+      74: 1677499854714681373
+    second: track100|tree1|tree1|tunnelLeft|Base Stack|DefaultLayer|tree1|tunnelLeft
+  - first:
+      74: -3176796797975157993
+    second: track100|tree1|tree1|tunnelPath|Base Stack|DefaultLayer|tree1|tunnelPath
+  - first:
+      74: -4168919566575256909
+    second: track100|tree1|tree1|tunnelRight|Base Stack|DefaultLayer|tree1|tunnelRig
+  - first:
+      74: 2634964866103895334
+    second: track100|tree1|tree1|woodPile|Base Stack|DefaultLayer|tree1|woodPile|Bas
+  - first:
+      74: 329254418764688262
+    second: track100|tunnel2Path|tunnel2Path|bigBridge|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -118170834505332529
+    second: track100|tunnel2Path|tunnel2Path|campFire|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 6994662237182465429
+    second: track100|tunnel2Path|tunnel2Path|cliff0|Base Stack|DefaultLayer|tunnel2P
+  - first:
+      74: 2958248204474503612
+    second: track100|tunnel2Path|tunnel2Path|cliff1|Base Stack|DefaultLayer|tunnel2P
+  - first:
+      74: 2384252564674920362
+    second: track100|tunnel2Path|tunnel2Path|cliff2|Base Stack|DefaultLayer|tunnel2P
+  - first:
+      74: -4793245211903088855
+    second: track100|tunnel2Path|tunnel2Path|cliff3|Base Stack|DefaultLayer|tunnel2P
+  - first:
+      74: -8837742263944993237
+    second: track100|tunnel2Path|tunnel2Path|hangBridge|Base Stack|DefaultLayer|tunn
+  - first:
+      74: -5481445066538800564
+    second: track100|tunnel2Path|tunnel2Path|house|Base Stack|DefaultLayer|tunnel2Pa
+  - first:
+      74: 8250382829642252565
+    second: track100|tunnel2Path|tunnel2Path|mountTunnel|Base Stack|DefaultLayer|tun
+  - first:
+      74: 4370399337741623911
+    second: track100|tunnel2Path|tunnel2Path|normTree1|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -378242979824831765
+    second: track100|tunnel2Path|tunnel2Path|normTree2|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 5083175468451517936
+    second: track100|tunnel2Path|tunnel2Path|normTree3|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -3306492560195854403
+    second: track100|tunnel2Path|tunnel2Path|pineTree1|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 5454124217539312816
+    second: track100|tunnel2Path|tunnel2Path|pineTree2|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -5484241478451222227
+    second: track100|tunnel2Path|tunnel2Path|torch|Base Stack|DefaultLayer|tunnel2Pa
+  - first:
+      74: 5961497520413404422
+    second: track100|tunnel2Path|tunnel2Path|track100|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -7801325498722425463
+    second: track100|tunnel2Path|tunnel2Path|track150|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 5570322664860128001
+    second: track100|tunnel2Path|tunnel2Path|track50|Base Stack|DefaultLayer|tunnel2
+  - first:
+      74: 5749210148384358532
+    second: track100|tunnel2Path|tunnel2Path|trackHangBridge|Base Stack|DefaultLayer
+  - first:
+      74: -1173834012205125046
+    second: track100|tunnel2Path|tunnel2Path|trackOpen|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -4891889723175543096
+    second: track100|tunnel2Path|tunnel2Path|trackTree|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -3696911800802335466
+    second: track100|tunnel2Path|tunnel2Path|trackTunnel|Base Stack|DefaultLayer|tun
+  - first:
+      74: 845800376753855012
+    second: track100|tunnel2Path|tunnel2Path|tree1|Base Stack|DefaultLayer|tunnel2Pa
+  - first:
+      74: -1861763994980414084
+    second: track100|tunnel2Path|tunnel2Path|tunnel2Path|Base Stack|DefaultLayer|tun
+  - first:
+      74: 7270380887965788334
+    second: track100|tunnel2Path|tunnel2Path|tunnelCenter|Base Stack|DefaultLayer|tu
+  - first:
+      74: 1417004065241959944
+    second: track100|tunnel2Path|tunnel2Path|tunnelCliff|Base Stack|DefaultLayer|tun
+  - first:
+      74: -8747408595929738922
+    second: track100|tunnel2Path|tunnel2Path|tunnelHolder|Base Stack|DefaultLayer|tu
+  - first:
+      74: 357572060536924952
+    second: track100|tunnel2Path|tunnel2Path|tunnelLeft|Base Stack|DefaultLayer|tunn
+  - first:
+      74: -2703491303113414844
+    second: track100|tunnel2Path|tunnel2Path|tunnelPath|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 8044995862092459968
+    second: track100|tunnel2Path|tunnel2Path|tunnelRight|Base Stack|DefaultLayer|tun
+  - first:
+      74: 7705137964465496210
+    second: track100|tunnel2Path|tunnel2Path|woodPile|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 528759136678596232
+    second: track100|tunnelCenter|tunnelCenter|bigBridge|Base Stack|DefaultLayer|tun
+  - first:
+      74: -3461664543166816155
+    second: track100|tunnelCenter|tunnelCenter|campFire|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 552710632217924301
+    second: track100|tunnelCenter|tunnelCenter|cliff0|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 7773136863296189034
+    second: track100|tunnelCenter|tunnelCenter|cliff1|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 6763034315024761483
+    second: track100|tunnelCenter|tunnelCenter|cliff2|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -5199796965177265536
+    second: track100|tunnelCenter|tunnelCenter|cliff3|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -6601280943410755367
+    second: track100|tunnelCenter|tunnelCenter|hangBridge|Base Stack|DefaultLayer|tu
+  - first:
+      74: -900339989701671580
+    second: track100|tunnelCenter|tunnelCenter|house|Base Stack|DefaultLayer|tunnelC
+  - first:
+      74: -70847033609379234
+    second: track100|tunnelCenter|tunnelCenter|mountTunnel|Base Stack|DefaultLayer|t
+  - first:
+      74: 7691230034643440889
+    second: track100|tunnelCenter|tunnelCenter|normTree1|Base Stack|DefaultLayer|tun
+  - first:
+      74: -3516021495113163522
+    second: track100|tunnelCenter|tunnelCenter|normTree2|Base Stack|DefaultLayer|tun
+  - first:
+      74: 5097403121349984673
+    second: track100|tunnelCenter|tunnelCenter|normTree3|Base Stack|DefaultLayer|tun
+  - first:
+      74: 6888970049574159516
+    second: track100|tunnelCenter|tunnelCenter|pineTree1|Base Stack|DefaultLayer|tun
+  - first:
+      74: -9103452309224038593
+    second: track100|tunnelCenter|tunnelCenter|pineTree2|Base Stack|DefaultLayer|tun
+  - first:
+      74: -3588926542360877036
+    second: track100|tunnelCenter|tunnelCenter|torch|Base Stack|DefaultLayer|tunnelC
+  - first:
+      74: 216213973022476071
+    second: track100|tunnelCenter|tunnelCenter|track100|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 2600091346543174726
+    second: track100|tunnelCenter|tunnelCenter|track150|Base Stack|DefaultLayer|tunn
+  - first:
+      74: -7503368126824043366
+    second: track100|tunnelCenter|tunnelCenter|track50|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 8072780765319431028
+    second: track100|tunnelCenter|tunnelCenter|trackHangBridge|Base Stack|DefaultLay
+  - first:
+      74: 7354528119712039687
+    second: track100|tunnelCenter|tunnelCenter|trackOpen|Base Stack|DefaultLayer|tun
+  - first:
+      74: -285814032340490610
+    second: track100|tunnelCenter|tunnelCenter|trackTree|Base Stack|DefaultLayer|tun
+  - first:
+      74: -7751999561500909783
+    second: track100|tunnelCenter|tunnelCenter|trackTunnel|Base Stack|DefaultLayer|t
+  - first:
+      74: 6430171106182048861
+    second: track100|tunnelCenter|tunnelCenter|tree1|Base Stack|DefaultLayer|tunnelC
+  - first:
+      74: 3365457358561763119
+    second: track100|tunnelCenter|tunnelCenter|tunnel2Path|Base Stack|DefaultLayer|t
+  - first:
+      74: -5868381657096800690
+    second: track100|tunnelCenter|tunnelCenter|tunnelCenter|Base Stack|DefaultLayer|
+  - first:
+      74: 5448875371579284592
+    second: track100|tunnelCenter|tunnelCenter|tunnelCliff|Base Stack|DefaultLayer|t
+  - first:
+      74: 6054892675347917066
+    second: track100|tunnelCenter|tunnelCenter|tunnelHolder|Base Stack|DefaultLayer|
+  - first:
+      74: 5632618267241538062
+    second: track100|tunnelCenter|tunnelCenter|tunnelLeft|Base Stack|DefaultLayer|tu
+  - first:
+      74: 6539197765045165365
+    second: track100|tunnelCenter|tunnelCenter|tunnelPath|Base Stack|DefaultLayer|tu
+  - first:
+      74: -6783049928659230265
+    second: track100|tunnelCenter|tunnelCenter|tunnelRight|Base Stack|DefaultLayer|t
+  - first:
+      74: -4458118360695614215
+    second: track100|tunnelCenter|tunnelCenter|woodPile|Base Stack|DefaultLayer|tunn
+  - first:
+      74: -5496012827617624018
+    second: track100|tunnelCliff|tunnelCliff|bigBridge|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 4779585904608752999
+    second: track100|tunnelCliff|tunnelCliff|campFire|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 2186620234611515275
+    second: track100|tunnelCliff|tunnelCliff|cliff0|Base Stack|DefaultLayer|tunnelCl
+  - first:
+      74: -1912997245170007710
+    second: track100|tunnelCliff|tunnelCliff|cliff1|Base Stack|DefaultLayer|tunnelCl
+  - first:
+      74: -1555184928049447527
+    second: track100|tunnelCliff|tunnelCliff|cliff2|Base Stack|DefaultLayer|tunnelCl
+  - first:
+      74: 3962600444342395505
+    second: track100|tunnelCliff|tunnelCliff|cliff3|Base Stack|DefaultLayer|tunnelCl
+  - first:
+      74: -6641025848883489607
+    second: track100|tunnelCliff|tunnelCliff|hangBridge|Base Stack|DefaultLayer|tunn
+  - first:
+      74: -5406171132115192727
+    second: track100|tunnelCliff|tunnelCliff|house|Base Stack|DefaultLayer|tunnelCli
+  - first:
+      74: -6100671430587674706
+    second: track100|tunnelCliff|tunnelCliff|mountTunnel|Base Stack|DefaultLayer|tun
+  - first:
+      74: -6090308865057924884
+    second: track100|tunnelCliff|tunnelCliff|normTree1|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 3910376100820112965
+    second: track100|tunnelCliff|tunnelCliff|normTree2|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -2873676892873395520
+    second: track100|tunnelCliff|tunnelCliff|normTree3|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -901800064030595952
+    second: track100|tunnelCliff|tunnelCliff|pineTree1|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -635320609558101188
+    second: track100|tunnelCliff|tunnelCliff|pineTree2|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 8034180268606084387
+    second: track100|tunnelCliff|tunnelCliff|torch|Base Stack|DefaultLayer|tunnelCli
+  - first:
+      74: -8522172803562534255
+    second: track100|tunnelCliff|tunnelCliff|track100|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -6110382229107327122
+    second: track100|tunnelCliff|tunnelCliff|track150|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 7538501045130665573
+    second: track100|tunnelCliff|tunnelCliff|track50|Base Stack|DefaultLayer|tunnelC
+  - first:
+      74: -4809829053378141872
+    second: track100|tunnelCliff|tunnelCliff|trackHangBridge|Base Stack|DefaultLayer
+  - first:
+      74: 5512313002831016759
+    second: track100|tunnelCliff|tunnelCliff|trackOpen|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 4858372339813952083
+    second: track100|tunnelCliff|tunnelCliff|trackTree|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 2792489859255944148
+    second: track100|tunnelCliff|tunnelCliff|trackTunnel|Base Stack|DefaultLayer|tun
+  - first:
+      74: 7147946961876954143
+    second: track100|tunnelCliff|tunnelCliff|tree1|Base Stack|DefaultLayer|tunnelCli
+  - first:
+      74: 9034636940139555685
+    second: track100|tunnelCliff|tunnelCliff|tunnel2Path|Base Stack|DefaultLayer|tun
+  - first:
+      74: -8397438956323588422
+    second: track100|tunnelCliff|tunnelCliff|tunnelCenter|Base Stack|DefaultLayer|tu
+  - first:
+      74: 2447368969137398959
+    second: track100|tunnelCliff|tunnelCliff|tunnelCliff|Base Stack|DefaultLayer|tun
+  - first:
+      74: -2168958289887574385
+    second: track100|tunnelCliff|tunnelCliff|tunnelHolder|Base Stack|DefaultLayer|tu
+  - first:
+      74: 1005750486411066200
+    second: track100|tunnelCliff|tunnelCliff|tunnelLeft|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 8284150180044369892
+    second: track100|tunnelCliff|tunnelCliff|tunnelPath|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 8388482616478403478
+    second: track100|tunnelCliff|tunnelCliff|tunnelRight|Base Stack|DefaultLayer|tun
+  - first:
+      74: 8455583971702861652
+    second: track100|tunnelCliff|tunnelCliff|woodPile|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -4194469490391406919
+    second: track100|tunnelHolder|tunnelHolder|bigBridge|Base Stack|DefaultLayer|tun
+  - first:
+      74: -8697206102715949749
+    second: track100|tunnelHolder|tunnelHolder|campFire|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 2012217653077778697
+    second: track100|tunnelHolder|tunnelHolder|cliff0|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -9019350948434940699
+    second: track100|tunnelHolder|tunnelHolder|cliff1|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 4650745613470388770
+    second: track100|tunnelHolder|tunnelHolder|cliff2|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 8777201498925764281
+    second: track100|tunnelHolder|tunnelHolder|cliff3|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -3836276035779658645
+    second: track100|tunnelHolder|tunnelHolder|hangBridge|Base Stack|DefaultLayer|tu
+  - first:
+      74: 3803223298001132079
+    second: track100|tunnelHolder|tunnelHolder|house|Base Stack|DefaultLayer|tunnelH
+  - first:
+      74: -6513595830656019416
+    second: track100|tunnelHolder|tunnelHolder|mountTunnel|Base Stack|DefaultLayer|t
+  - first:
+      74: 2185748515548068480
+    second: track100|tunnelHolder|tunnelHolder|normTree1|Base Stack|DefaultLayer|tun
+  - first:
+      74: 7913529397970168031
+    second: track100|tunnelHolder|tunnelHolder|normTree2|Base Stack|DefaultLayer|tun
+  - first:
+      74: -373186992993888470
+    second: track100|tunnelHolder|tunnelHolder|normTree3|Base Stack|DefaultLayer|tun
+  - first:
+      74: 4638174222124969218
+    second: track100|tunnelHolder|tunnelHolder|pineTree1|Base Stack|DefaultLayer|tun
+  - first:
+      74: -6437058100153268880
+    second: track100|tunnelHolder|tunnelHolder|pineTree2|Base Stack|DefaultLayer|tun
+  - first:
+      74: 8359681037338229081
+    second: track100|tunnelHolder|tunnelHolder|torch|Base Stack|DefaultLayer|tunnelH
+  - first:
+      74: -5335248457666563415
+    second: track100|tunnelHolder|tunnelHolder|track100|Base Stack|DefaultLayer|tunn
+  - first:
+      74: -4192814368252116172
+    second: track100|tunnelHolder|tunnelHolder|track150|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 4554015886299618783
+    second: track100|tunnelHolder|tunnelHolder|track50|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 6988692038137061639
+    second: track100|tunnelHolder|tunnelHolder|trackHangBridge|Base Stack|DefaultLay
+  - first:
+      74: 6706739446036639292
+    second: track100|tunnelHolder|tunnelHolder|trackOpen|Base Stack|DefaultLayer|tun
+  - first:
+      74: 2638491238931277498
+    second: track100|tunnelHolder|tunnelHolder|trackTree|Base Stack|DefaultLayer|tun
+  - first:
+      74: -3764254135485606554
+    second: track100|tunnelHolder|tunnelHolder|trackTunnel|Base Stack|DefaultLayer|t
+  - first:
+      74: 9218728534783519267
+    second: track100|tunnelHolder|tunnelHolder|tree1|Base Stack|DefaultLayer|tunnelH
+  - first:
+      74: 1334020395892403481
+    second: track100|tunnelHolder|tunnelHolder|tunnel2Path|Base Stack|DefaultLayer|t
+  - first:
+      74: 7863387732301831718
+    second: track100|tunnelHolder|tunnelHolder|tunnelCenter|Base Stack|DefaultLayer|
+  - first:
+      74: -7085728415091066384
+    second: track100|tunnelHolder|tunnelHolder|tunnelCliff|Base Stack|DefaultLayer|t
+  - first:
+      74: -4852899356521393207
+    second: track100|tunnelHolder|tunnelHolder|tunnelHolder|Base Stack|DefaultLayer|
+  - first:
+      74: 3564711720229280154
+    second: track100|tunnelHolder|tunnelHolder|tunnelLeft|Base Stack|DefaultLayer|tu
+  - first:
+      74: 4947682737160079574
+    second: track100|tunnelHolder|tunnelHolder|tunnelPath|Base Stack|DefaultLayer|tu
+  - first:
+      74: -436567661887487272
+    second: track100|tunnelHolder|tunnelHolder|tunnelRight|Base Stack|DefaultLayer|t
+  - first:
+      74: 7681792422164784911
+    second: track100|tunnelHolder|tunnelHolder|woodPile|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 2847651390950848791
+    second: track100|tunnelLeft|tunnelLeft|bigBridge|Base Stack|DefaultLayer|tunnelL
+  - first:
+      74: 7458804826994800000
+    second: track100|tunnelLeft|tunnelLeft|campFire|Base Stack|DefaultLayer|tunnelLe
+  - first:
+      74: 7546301793603684320
+    second: track100|tunnelLeft|tunnelLeft|cliff0|Base Stack|DefaultLayer|tunnelLeft
+  - first:
+      74: -7939491275200422202
+    second: track100|tunnelLeft|tunnelLeft|cliff1|Base Stack|DefaultLayer|tunnelLeft
+  - first:
+      74: 5627723955751697971
+    second: track100|tunnelLeft|tunnelLeft|cliff2|Base Stack|DefaultLayer|tunnelLeft
+  - first:
+      74: -1818042933955909700
+    second: track100|tunnelLeft|tunnelLeft|cliff3|Base Stack|DefaultLayer|tunnelLeft
+  - first:
+      74: 8677406062568469311
+    second: track100|tunnelLeft|tunnelLeft|hangBridge|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -1493793013217999125
+    second: track100|tunnelLeft|tunnelLeft|house|Base Stack|DefaultLayer|tunnelLeft|
+  - first:
+      74: -5084128630945710436
+    second: track100|tunnelLeft|tunnelLeft|mountTunnel|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 8716962199260376903
+    second: track100|tunnelLeft|tunnelLeft|normTree1|Base Stack|DefaultLayer|tunnelL
+  - first:
+      74: -48593028610883847
+    second: track100|tunnelLeft|tunnelLeft|normTree2|Base Stack|DefaultLayer|tunnelL
+  - first:
+      74: 4680024688780822385
+    second: track100|tunnelLeft|tunnelLeft|normTree3|Base Stack|DefaultLayer|tunnelL
+  - first:
+      74: 7286263047762119470
+    second: track100|tunnelLeft|tunnelLeft|pineTree1|Base Stack|DefaultLayer|tunnelL
+  - first:
+      74: 5516311403415538072
+    second: track100|tunnelLeft|tunnelLeft|pineTree2|Base Stack|DefaultLayer|tunnelL
+  - first:
+      74: -7880748585764203076
+    second: track100|tunnelLeft|tunnelLeft|torch|Base Stack|DefaultLayer|tunnelLeft|
+  - first:
+      74: -6989019977006871424
+    second: track100|tunnelLeft|tunnelLeft|track100|Base Stack|DefaultLayer|tunnelLe
+  - first:
+      74: 5977395925048895811
+    second: track100|tunnelLeft|tunnelLeft|track150|Base Stack|DefaultLayer|tunnelLe
+  - first:
+      74: 7373363938863039380
+    second: track100|tunnelLeft|tunnelLeft|track50|Base Stack|DefaultLayer|tunnelLef
+  - first:
+      74: -2775256116469459429
+    second: track100|tunnelLeft|tunnelLeft|trackHangBridge|Base Stack|DefaultLayer|t
+  - first:
+      74: 2845541674535183093
+    second: track100|tunnelLeft|tunnelLeft|trackOpen|Base Stack|DefaultLayer|tunnelL
+  - first:
+      74: -805888603044831576
+    second: track100|tunnelLeft|tunnelLeft|trackTree|Base Stack|DefaultLayer|tunnelL
+  - first:
+      74: -2327226509163200079
+    second: track100|tunnelLeft|tunnelLeft|trackTunnel|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 1985514646190478945
+    second: track100|tunnelLeft|tunnelLeft|tree1|Base Stack|DefaultLayer|tunnelLeft|
+  - first:
+      74: -166332122439335923
+    second: track100|tunnelLeft|tunnelLeft|tunnel2Path|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 4776241516004258541
+    second: track100|tunnelLeft|tunnelLeft|tunnelCenter|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 5817056658590830145
+    second: track100|tunnelLeft|tunnelLeft|tunnelCliff|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 179796398697088076
+    second: track100|tunnelLeft|tunnelLeft|tunnelHolder|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 6587482840073464340
+    second: track100|tunnelLeft|tunnelLeft|tunnelLeft|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 5189731491999436701
+    second: track100|tunnelLeft|tunnelLeft|tunnelPath|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -6959873596455487202
+    second: track100|tunnelLeft|tunnelLeft|tunnelRight|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 3489592651398792376
+    second: track100|tunnelLeft|tunnelLeft|woodPile|Base Stack|DefaultLayer|tunnelLe
+  - first:
+      74: 4954990613279098804
+    second: track100|tunnelPath|tunnelPath|bigBridge|Base Stack|DefaultLayer|tunnelP
+  - first:
+      74: 281341549850815177
+    second: track100|tunnelPath|tunnelPath|campFire|Base Stack|DefaultLayer|tunnelPa
+  - first:
+      74: 5195998947184480204
+    second: track100|tunnelPath|tunnelPath|cliff0|Base Stack|DefaultLayer|tunnelPath
+  - first:
+      74: -1314987106019747935
+    second: track100|tunnelPath|tunnelPath|cliff1|Base Stack|DefaultLayer|tunnelPath
+  - first:
+      74: 8562636411291653736
+    second: track100|tunnelPath|tunnelPath|cliff2|Base Stack|DefaultLayer|tunnelPath
+  - first:
+      74: -5146490461600144648
+    second: track100|tunnelPath|tunnelPath|cliff3|Base Stack|DefaultLayer|tunnelPath
+  - first:
+      74: -4354953670120816768
+    second: track100|tunnelPath|tunnelPath|hangBridge|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -7472034880203523905
+    second: track100|tunnelPath|tunnelPath|house|Base Stack|DefaultLayer|tunnelPath|
+  - first:
+      74: -4493271180795578157
+    second: track100|tunnelPath|tunnelPath|mountTunnel|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 7408501108375666491
+    second: track100|tunnelPath|tunnelPath|normTree1|Base Stack|DefaultLayer|tunnelP
+  - first:
+      74: 3345674544437996595
+    second: track100|tunnelPath|tunnelPath|normTree2|Base Stack|DefaultLayer|tunnelP
+  - first:
+      74: -2351975796077617005
+    second: track100|tunnelPath|tunnelPath|normTree3|Base Stack|DefaultLayer|tunnelP
+  - first:
+      74: 6312846354709012977
+    second: track100|tunnelPath|tunnelPath|pineTree1|Base Stack|DefaultLayer|tunnelP
+  - first:
+      74: 1272999331355724435
+    second: track100|tunnelPath|tunnelPath|pineTree2|Base Stack|DefaultLayer|tunnelP
+  - first:
+      74: -6515818244856148204
+    second: track100|tunnelPath|tunnelPath|torch|Base Stack|DefaultLayer|tunnelPath|
+  - first:
+      74: -1217636294036211580
+    second: track100|tunnelPath|tunnelPath|track100|Base Stack|DefaultLayer|tunnelPa
+  - first:
+      74: -9222058535864785870
+    second: track100|tunnelPath|tunnelPath|track150|Base Stack|DefaultLayer|tunnelPa
+  - first:
+      74: -6806161797652040754
+    second: track100|tunnelPath|tunnelPath|track50|Base Stack|DefaultLayer|tunnelPat
+  - first:
+      74: -3183093703967251557
+    second: track100|tunnelPath|tunnelPath|trackHangBridge|Base Stack|DefaultLayer|t
+  - first:
+      74: -4030999109165326739
+    second: track100|tunnelPath|tunnelPath|trackOpen|Base Stack|DefaultLayer|tunnelP
+  - first:
+      74: 7716835464461469220
+    second: track100|tunnelPath|tunnelPath|trackTree|Base Stack|DefaultLayer|tunnelP
+  - first:
+      74: -8863502622060101629
+    second: track100|tunnelPath|tunnelPath|trackTunnel|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 8443852326241463327
+    second: track100|tunnelPath|tunnelPath|tree1|Base Stack|DefaultLayer|tunnelPath|
+  - first:
+      74: 6851860918316947029
+    second: track100|tunnelPath|tunnelPath|tunnel2Path|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -8610380611606765997
+    second: track100|tunnelPath|tunnelPath|tunnelCenter|Base Stack|DefaultLayer|tunn
+  - first:
+      74: -480125550182934860
+    second: track100|tunnelPath|tunnelPath|tunnelCliff|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -7773633062619480981
+    second: track100|tunnelPath|tunnelPath|tunnelHolder|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 6308949782891397489
+    second: track100|tunnelPath|tunnelPath|tunnelLeft|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: -1364282378467961356
+    second: track100|tunnelPath|tunnelPath|tunnelPath|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 5275725460249282548
+    second: track100|tunnelPath|tunnelPath|tunnelRight|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -7475667358724123045
+    second: track100|tunnelPath|tunnelPath|woodPile|Base Stack|DefaultLayer|tunnelPa
+  - first:
+      74: 3474348228197554518
+    second: track100|tunnelRight|tunnelRight|bigBridge|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 6959201954173348535
+    second: track100|tunnelRight|tunnelRight|campFire|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 4534891720942165191
+    second: track100|tunnelRight|tunnelRight|cliff0|Base Stack|DefaultLayer|tunnelRi
+  - first:
+      74: -3588622204718360732
+    second: track100|tunnelRight|tunnelRight|cliff1|Base Stack|DefaultLayer|tunnelRi
+  - first:
+      74: -3121575481312906050
+    second: track100|tunnelRight|tunnelRight|cliff2|Base Stack|DefaultLayer|tunnelRi
+  - first:
+      74: 558143777669621658
+    second: track100|tunnelRight|tunnelRight|cliff3|Base Stack|DefaultLayer|tunnelRi
+  - first:
+      74: -8300531469485840962
+    second: track100|tunnelRight|tunnelRight|hangBridge|Base Stack|DefaultLayer|tunn
+  - first:
+      74: -7019310986676111093
+    second: track100|tunnelRight|tunnelRight|house|Base Stack|DefaultLayer|tunnelRig
+  - first:
+      74: 8645097554224974259
+    second: track100|tunnelRight|tunnelRight|mountTunnel|Base Stack|DefaultLayer|tun
+  - first:
+      74: 7970852101741752691
+    second: track100|tunnelRight|tunnelRight|normTree1|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 6521739695786829593
+    second: track100|tunnelRight|tunnelRight|normTree2|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 8002482194680610027
+    second: track100|tunnelRight|tunnelRight|normTree3|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 1326989891196545596
+    second: track100|tunnelRight|tunnelRight|pineTree1|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 3491414045474000821
+    second: track100|tunnelRight|tunnelRight|pineTree2|Base Stack|DefaultLayer|tunne
+  - first:
+      74: 3924893865933975674
+    second: track100|tunnelRight|tunnelRight|torch|Base Stack|DefaultLayer|tunnelRig
+  - first:
+      74: 5396470016065232612
+    second: track100|tunnelRight|tunnelRight|track100|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 9062433387548905682
+    second: track100|tunnelRight|tunnelRight|track150|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 5756869598435769219
+    second: track100|tunnelRight|tunnelRight|track50|Base Stack|DefaultLayer|tunnelR
+  - first:
+      74: 1873686997927187333
+    second: track100|tunnelRight|tunnelRight|trackHangBridge|Base Stack|DefaultLayer
+  - first:
+      74: -2219067001067112400
+    second: track100|tunnelRight|tunnelRight|trackOpen|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -4130981926418686228
+    second: track100|tunnelRight|tunnelRight|trackTree|Base Stack|DefaultLayer|tunne
+  - first:
+      74: -8044460657036578495
+    second: track100|tunnelRight|tunnelRight|trackTunnel|Base Stack|DefaultLayer|tun
+  - first:
+      74: 5057815766884383365
+    second: track100|tunnelRight|tunnelRight|tree1|Base Stack|DefaultLayer|tunnelRig
+  - first:
+      74: -436920736070952612
+    second: track100|tunnelRight|tunnelRight|tunnel2Path|Base Stack|DefaultLayer|tun
+  - first:
+      74: 1283090444990209339
+    second: track100|tunnelRight|tunnelRight|tunnelCenter|Base Stack|DefaultLayer|tu
+  - first:
+      74: 9029287958143643049
+    second: track100|tunnelRight|tunnelRight|tunnelCliff|Base Stack|DefaultLayer|tun
+  - first:
+      74: -4742169633100728612
+    second: track100|tunnelRight|tunnelRight|tunnelHolder|Base Stack|DefaultLayer|tu
+  - first:
+      74: 1773984178971856648
+    second: track100|tunnelRight|tunnelRight|tunnelLeft|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 6627370398512935002
+    second: track100|tunnelRight|tunnelRight|tunnelPath|Base Stack|DefaultLayer|tunn
+  - first:
+      74: 4819307518062935707
+    second: track100|tunnelRight|tunnelRight|tunnelRight|Base Stack|DefaultLayer|tun
+  - first:
+      74: 8288832342355603636
+    second: track100|tunnelRight|tunnelRight|woodPile|Base Stack|DefaultLayer|tunnel
+  - first:
+      74: 1114556343545659000
+    second: track100|woodPile|woodPile|bigBridge|Base Stack|DefaultLayer|woodPile|bi
+  - first:
+      74: 1731455589460102465
+    second: track100|woodPile|woodPile|campFire|Base Stack|DefaultLayer|woodPile|cam
+  - first:
+      74: 8451995927765145606
+    second: track100|woodPile|woodPile|cliff0|Base Stack|DefaultLayer|woodPile|cliff
+  - first:
+      74: 894153901396774103
+    second: track100|woodPile|woodPile|cliff1|Base Stack|DefaultLayer|woodPile|cliff
+  - first:
+      74: -4429390683053853935
+    second: track100|woodPile|woodPile|cliff2|Base Stack|DefaultLayer|woodPile|cliff
+  - first:
+      74: 4855569095650967531
+    second: track100|woodPile|woodPile|cliff3|Base Stack|DefaultLayer|woodPile|cliff
+  - first:
+      74: 6790162535100038805
+    second: track100|woodPile|woodPile|hangBridge|Base Stack|DefaultLayer|woodPile|h
+  - first:
+      74: -3941974814169797376
+    second: track100|woodPile|woodPile|house|Base Stack|DefaultLayer|woodPile|house|
+  - first:
+      74: -3472832911552300232
+    second: track100|woodPile|woodPile|mountTunnel|Base Stack|DefaultLayer|woodPile|
+  - first:
+      74: 3198314712711982656
+    second: track100|woodPile|woodPile|normTree1|Base Stack|DefaultLayer|woodPile|no
+  - first:
+      74: -885629662570760704
+    second: track100|woodPile|woodPile|normTree2|Base Stack|DefaultLayer|woodPile|no
+  - first:
+      74: -212529332545613767
+    second: track100|woodPile|woodPile|normTree3|Base Stack|DefaultLayer|woodPile|no
+  - first:
+      74: -2345095977948817241
+    second: track100|woodPile|woodPile|pineTree1|Base Stack|DefaultLayer|woodPile|pi
+  - first:
+      74: 2976022300289282560
+    second: track100|woodPile|woodPile|pineTree2|Base Stack|DefaultLayer|woodPile|pi
+  - first:
+      74: 7189478089412429773
+    second: track100|woodPile|woodPile|torch|Base Stack|DefaultLayer|woodPile|torch|
+  - first:
+      74: 3219415835860246812
+    second: track100|woodPile|woodPile|track100|Base Stack|DefaultLayer|woodPile|tra
+  - first:
+      74: -5553161013667956151
+    second: track100|woodPile|woodPile|track150|Base Stack|DefaultLayer|woodPile|tra
+  - first:
+      74: 6005676588641754413
+    second: track100|woodPile|woodPile|track50|Base Stack|DefaultLayer|woodPile|trac
+  - first:
+      74: -5695899328192478143
+    second: track100|woodPile|woodPile|trackHangBridge|Base Stack|DefaultLayer|woodP
+  - first:
+      74: -1811462042935683109
+    second: track100|woodPile|woodPile|trackOpen|Base Stack|DefaultLayer|woodPile|tr
+  - first:
+      74: 1143395237745960818
+    second: track100|woodPile|woodPile|trackTree|Base Stack|DefaultLayer|woodPile|tr
+  - first:
+      74: 7462135652329516025
+    second: track100|woodPile|woodPile|trackTunnel|Base Stack|DefaultLayer|woodPile|
+  - first:
+      74: -2824145092190858008
+    second: track100|woodPile|woodPile|tree1|Base Stack|DefaultLayer|woodPile|tree1|
+  - first:
+      74: 6111159807561698020
+    second: track100|woodPile|woodPile|tunnel2Path|Base Stack|DefaultLayer|woodPile|
+  - first:
+      74: 8173897193072724805
+    second: track100|woodPile|woodPile|tunnelCenter|Base Stack|DefaultLayer|woodPile
+  - first:
+      74: 3890047537461585631
+    second: track100|woodPile|woodPile|tunnelCliff|Base Stack|DefaultLayer|woodPile|
+  - first:
+      74: 8374867208132704944
+    second: track100|woodPile|woodPile|tunnelHolder|Base Stack|DefaultLayer|woodPile
+  - first:
+      74: 4878003290437292112
+    second: track100|woodPile|woodPile|tunnelLeft|Base Stack|DefaultLayer|woodPile|t
+  - first:
+      74: 6705359124951694134
+    second: track100|woodPile|woodPile|tunnelPath|Base Stack|DefaultLayer|woodPile|t
+  - first:
+      74: -6085779214286551335
+    second: track100|woodPile|woodPile|tunnelRight|Base Stack|DefaultLayer|woodPile|
+  - first:
+      74: 6972175119273641775
+    second: track100|woodPile|woodPile|woodPile|Base Stack|DefaultLayer|woodPile|woo
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
